@@ -273,9 +273,6 @@ requires:
   - name: seabios
     category: sys-firmware
     version: '>=0'
-  - name: seabios-bin
-    category: sys-firmware
-    version: '>=0'
   - name: sgabios
     category: sys-firmware
     version: '>=0'
