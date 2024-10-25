@@ -8,7 +8,7 @@ env:
 prelude:
 # Temporary fix until next race
 - >-
-  set -i -e 's|^KEYWORDS.*|KEYWORDS="*"|g'
+  sed -i -e 's|^KEYWORDS.*|KEYWORDS="*"|g'
   /var/git/meta-repo/kits/python-modules-kit/dev-python/pluggy/pluggy-1.5.0.ebuild
 - |
   eval 'mkdir -p /var/cache/portage/distfiles || true' && \
