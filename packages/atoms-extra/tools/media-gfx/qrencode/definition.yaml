@@ -1,5 +1,5 @@
 name: qrencode
-version: 4.1.1+1
+version: 4.0.2
 category: media-gfx
 requires:
 - name: libpng
@@ -24,4 +24,4 @@ labels:
   kit: media-kit
   original.package.name: media-gfx/qrencode
   original.package.slot: "0"
-  original.package.version: 4.1.1
+  original.package.version: 4.0.2
