@@ -264,9 +264,6 @@ requires:
   - name: edk2-ovmf
     category: sys-firmware
     version: '>=0'
-  - name: edk2-ovmf-bin
-    category: sys-firmware
-    version: '>=0'
   - name: ipxe
     category: sys-firmware
     version: '>=0'
