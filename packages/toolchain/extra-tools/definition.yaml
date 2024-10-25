@@ -261,7 +261,7 @@ requires:
   - name: kubectl
     category: sys-cluster
     version: '>=0'
-  - name: edk2-ovmf
+  - name: edk2-ovmf-bin
     category: sys-firmware
     version: '>=0'
   - name: ipxe
