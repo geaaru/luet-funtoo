@@ -1,7 +1,7 @@
 prelude:
 # temporary fix until next race
 - >-
-  set -i -e 's|^KEYWORDS.*|KEYWORDS="*"|g'
+  sed -i -e 's|^KEYWORDS.*|KEYWORDS="*"|g'
   /var/git/extra-kits/geaaru-kit/media-libs/mesa/mesa-22.3.6.ebuild
 
 - |-

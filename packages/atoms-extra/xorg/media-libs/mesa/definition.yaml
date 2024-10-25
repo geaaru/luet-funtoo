@@ -1,5 +1,5 @@
 name: mesa
-version: 22.3.6+3
+version: 22.3.6+4
 category: media-libs
 use_flags:
 - -lm-sensors
