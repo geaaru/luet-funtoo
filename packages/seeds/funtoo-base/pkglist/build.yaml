@@ -5,8 +5,6 @@ requires:
 package_dir: /{{ .Values.name }}
 steps:
 - >-
-  luet repo update &&
-  luet upgrade &&
   mkdir -p /{{ .Values.name }}/usr/share/macaroni/layers/{{ .Values.name }}/entities/ &&
   entities dump -t /{{ .Values.name }}/usr/share/macaroni/layers/{{ .Values.name }}/entities/ &&
   qlist -ICSv > /{{ .Values.name }}/usr/share/macaroni/layers/{{ .Values.name }}/pkgslist &&
