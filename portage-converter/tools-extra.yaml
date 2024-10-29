@@ -739,6 +739,7 @@ artefacts:
           name: macaroni-funtoo-race10
   packages:
     - app-misc/neofetch
+    - app-text/tree
 
 - tree: packages/atoms-extra/tools
   packages:
