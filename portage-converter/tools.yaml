@@ -459,6 +459,7 @@ artefacts:
     - app-arch/lzlib
     - app-arch/lziprecover
     - app-arch/lrzip
+    - app-text/tree
 
 
 include_layers:
