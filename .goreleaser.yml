@@ -7,31 +7,15 @@ release:
 
     A new release of Macaroni Eagle is out!
 
-    See the above list for all upgrade details.
-
-    In evidence:
-
-      * Grafana 11.2.1
-
-      * Incus 6.5
-
-      * LXD 5.21.1
-
-      * HaProxy 2.9.11
-
-      * Minio Object Store 2024.10.02.08.27.28
-
-      * NodeJS 20.18.0
-
-      * Go 1.23.1
-
-      * PHP 8.2.24, 8.1.30
+    This is a bugfix release that restore Nodejs 14 and correctly,
+    update Nodejs 20.18.0. HaProxy is been rebuild to correctly work with Systemd.
 
     Many thanks to all Macaroni OS devs and contributors that are the sap of all this.
 
     Enjoy!
 
-    Any user that wants to support our work for Macaroni could do this through the new Github [Sponsor](https://github.com/sponsors/geaaru).
+    Any user that wants to support our work for Macaroni could do this
+    through the Github [Sponsor](https://github.com/sponsors/geaaru).
 
 changelog:
   sort: asc
