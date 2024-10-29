@@ -7,59 +7,29 @@ release:
 
     A new release of Phoenix branch is out!
 
-    Macaroni Phoenix now uses M.A.R.K. stack for kits!
-
     See the above list for all upgrade details.
 
     In evidence:
 
-      * Apache 2.4.62
+      * Incus 6.5
 
-      * Nodejs 20.16.0
+      * LXD 5.21.1
 
-      * OpenSSH 9.8_p1
+      * Virtualbox 7.1.0.164728
 
-      * Rust 1.80.0
+      * PHP 8.2.3
 
-      * Backrest 1.1.0
+      * ZFS 2.2.6
 
-      * Go 1.22.5
+      * Blender 4.2.1
 
-      * XWayland 23.2.7
+      * Grafana 11.2.0
 
-      * Grafana 11.1.3
+      * Prometheus 2.54.1
 
-      * ZFS 2.2.5
+      * Firefox 130.0
 
-      * HaProxy 2.9.9
-
-      * Minio 2024.08.03.04.33.23
-
-      * OpenShot 3.2.1
-
-      * Blender 4.2.0
-
-      * Virtualbox 7.0.20.163906
-
-      * Git 2.46.0
-
-      * PHP 8.2.22, 8.1.29
-
-      * PostgreSQL 16.4
-
-      * MySQL Community 8.0.39
-
-    ### Security
-
-    In evidence:
-
-    CVE-2024-2961: glibc: the iconv() function overflow
-    CVE-2024-4577: PHP 8.1.28 and 8.2.19
-    CVE-2024-5585: PHP 8.1.28 and 8.2.19
-    CVE-2024-5458: PHP 8.1.28 and 8.2.19
-    CVE-2024-6387: openssh: allows for remote unauthenticated code execution, potentially providing attackers root privileges on affected systems.
-    CVE-2024-6409: openssh: signal handler race condition.
-    CVE-2024-40725: apache: source code disclosure with handlers configured via AddType
+      * Waydroid 1.4.3
 
     Enjoy!
 
