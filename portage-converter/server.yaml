@@ -806,6 +806,9 @@ artefacts:
     - app-emulation/docker-compose
 
 - tree: packages/atoms/server
+  mutations:
+    uses:
+      - systemd
   uses:
     enabled:
       - crypt
