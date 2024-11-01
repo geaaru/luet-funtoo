@@ -7,8 +7,9 @@ release:
 
     A new release of Macaroni Eagle is out!
 
-    This is a bugfix release that restore Nodejs 14 and correctly,
-    update Nodejs 20.18.0. HaProxy is been rebuild to correctly work with Systemd.
+    This is the second bugfix release that contains the
+    revision of the FreeRadius package with the
+    fix of the .service file.
 
     Many thanks to all Macaroni OS devs and contributors that are the sap of all this.
 
