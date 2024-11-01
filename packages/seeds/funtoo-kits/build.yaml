@@ -1,5 +1,5 @@
 requires:
-  - name: funtoo-stage3
+  - name: mark-stage3
     category: "seed"
     version: ">=0"
 env:
