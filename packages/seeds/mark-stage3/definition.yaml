@@ -3,6 +3,6 @@ version: "0.20241031"
 category: seed
 hidden: true
 labels:
-  distfiles.version: 0.20241031
+  distfiles.version: "0.20241031"
   package.version: "2024-10-31"
   release: mark
