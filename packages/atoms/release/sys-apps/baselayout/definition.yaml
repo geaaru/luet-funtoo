@@ -16,7 +16,7 @@ labels:
   IUSE: build kernel_FreeBSD kernel_linux +split-usr
   emerge.packages: sys-apps/baselayout
   kit: core-kit
-  macaroni.version: 24.10.02
+  macaroni.version: "24.11"
   original.package.name: sys-apps/baselayout
   original.package.slot: "0"
   original.package.version: "3.0"
