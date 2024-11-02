@@ -1,5 +1,5 @@
 name: os-headers
-version: "0"
+version: 0+1
 category: virtual
 use_flags:
 - -elibc_mingw
