@@ -1,10 +1,10 @@
 name: base
-version: 2+1
+version: 3
 category: virtual
 requires:
 - name: gcc
   version: '>=0'
-  category: sys-devel-11.3.0
+  category: sys-devel-12.3.0
 - name: util-linux
   version: '>=0'
   category: sys-apps
