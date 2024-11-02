@@ -1,5 +1,5 @@
 name: nspr
-version: 4.35+1
+version: "4.35"
 category: dev-libs
 annotations:
   subsets:
