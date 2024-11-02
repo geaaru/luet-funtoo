@@ -1,5 +1,5 @@
 name: pkgconf
-version: 2.2.0
+version: 2.2.0+1
 category: dev-util
 use_flags:
 - -test
