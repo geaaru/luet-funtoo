@@ -1,5 +1,5 @@
 name: libcap
-version: "2.27"
+version: 2.27+1
 category: sys-libs
 use_flags:
 - pam
