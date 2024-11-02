@@ -1,5 +1,5 @@
 name: boost
-version: 1.83.0
+version: 1.83.0+1
 category: dev-libs
 use_flags:
 - -lzma
