@@ -1,5 +1,5 @@
 name: autoconf-wrapper
-version: 13+1
+version: 13+2
 category: sys-devel
 annotations:
   subsets:
