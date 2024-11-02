@@ -1,5 +1,5 @@
 name: pambase
-version: "20190426"
+version: 20190426+1
 category: sys-auth
 use_flags:
 - -debug
