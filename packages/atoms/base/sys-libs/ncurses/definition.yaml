@@ -1,5 +1,5 @@
 name: ncurses
-version: 6.5+1
+version: 6.5+2
 category: sys-libs
 use_flags:
 - -gpm
