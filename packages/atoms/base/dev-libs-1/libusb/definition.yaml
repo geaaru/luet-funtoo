@@ -1,5 +1,5 @@
 name: libusb
-version: 1.0.27
+version: 1.0.27+1
 category: dev-libs-1
 use_flags:
 - -doc
