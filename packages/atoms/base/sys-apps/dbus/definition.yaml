@@ -1,5 +1,5 @@
 name: dbus
-version: 1.12.20
+version: 1.12.20+1
 category: sys-apps
 use_flags:
 - -X
