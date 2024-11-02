@@ -1,5 +1,5 @@
 name: libxml2
-version: 2.11.5
+version: 2.11.5+1
 category: dev-libs-2
 use_flags:
 - -python_single_target_python3_10
