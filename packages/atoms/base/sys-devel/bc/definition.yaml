@@ -1,5 +1,5 @@
 name: bc
-version: 1.07.1
+version: 1.07.1+1
 category: sys-devel
 use_flags:
 - -libedit
