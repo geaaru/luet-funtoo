@@ -16,7 +16,7 @@ labels:
   DEPEND: dev-lang/perl
   emerge.packages: sys-apps/lsb-release
   kit: core-kit
-  macaroni.version: 24.10.02
+  macaroni.version: "24.11"
   original.package.name: sys-apps/lsb-release
   original.package.slot: "0"
   original.package.version: 1.4-r4
