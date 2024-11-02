@@ -1,5 +1,5 @@
 name: install-xattr
-version: "0.7"
+version: 0.7+1
 category: sys-apps
 annotations:
   subsets:
