@@ -156,15 +156,6 @@ artefacts:
   packages:
   - dev-libs/libpcre2
 
-#- tree: packages/atoms/base
-#  uses:
-#    disabled:
-#    - debug
-#    - nios2
-#    - sh
-#  packages:
-#  - dev-libs/nspr
-
 - tree: packages/atoms/base
   mutations:
     runtime_deps:
@@ -759,7 +750,7 @@ artefacts:
     - ssp
     - stack_clash_protection
   packages:
-  - sys-devel/gcc:11.3.0
+  - sys-devel/gcc:12.3.0
 
 - tree: packages/atoms/base
   uses:
@@ -862,6 +853,7 @@ artefacts:
     - plugins
   packages:
   - sys-devel/binutils:2.40
+
 #- tree: packages/atoms/base
 #  uses:
 #    disabled:
@@ -1204,16 +1196,6 @@ artefacts:
 #  packages:
 #  - dev-libs/libusb:1
 
-- tree: packages/atoms/base
-  uses:
-    disabled:
-    - cacert
-    - nios2
-    - sh
-    enabled:
-    - utils
-  packages:
-  - dev-libs/nss
 
 - tree: packages/atoms/base
   uses:
