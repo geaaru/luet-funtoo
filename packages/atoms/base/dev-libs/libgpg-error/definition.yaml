@@ -1,5 +1,5 @@
 name: libgpg-error
-version: "1.46"
+version: 1.46+1
 category: dev-libs
 use_flags:
 - nls
