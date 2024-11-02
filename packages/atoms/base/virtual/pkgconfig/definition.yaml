@@ -1,5 +1,5 @@
 name: pkgconfig
-version: "2"
+version: 2+1
 category: virtual
 requires:
 - name: pkgconf
