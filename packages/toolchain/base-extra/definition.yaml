@@ -21,6 +21,12 @@ requires:
   - name: popt
     category: dev-libs
     version: '>=0'
+  - name: nspr
+    category: dev-libs
+    version: '>=0'
+  - name: nss
+    category: dev-libs
+    version: '>=0'
   - name: Authen-SASL
     category: dev-perl
     version: '>=0'
