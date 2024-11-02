@@ -1,5 +1,5 @@
 name: eselect
-version: 1.4.14+1
+version: 1.4.14+2
 category: app-admin
 use_flags:
 - -doc
