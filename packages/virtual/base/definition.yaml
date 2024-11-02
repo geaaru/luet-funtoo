@@ -1,5 +1,5 @@
 name: base
-version: 3
+version: "3"
 category: virtual
 requires:
 - name: gcc
