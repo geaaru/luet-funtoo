@@ -1,5 +1,5 @@
 name: man-pages-posix
-version: 2017a
+version: 2017a+1
 category: sys-apps
 requires:
 - name: man
