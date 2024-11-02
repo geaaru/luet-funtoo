@@ -1,5 +1,5 @@
 name: nspr
-version: "4.35"
+version: "4.36"
 category: dev-libs
 annotations:
   subsets:
@@ -13,12 +13,11 @@ uri:
 - https://www.mozilla.org/projects/nspr/
 license: '|| ( MPL-2.0 GPL-2 LGPL-2.1 )'
 labels:
-  BDEPEND: '>=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 ||
-    ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69
-    >=sys-devel/libtool-2.4'
+  BDEPEND: '>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16
+    ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4'
   IUSE: debug elibc_musl
   emerge.packages: dev-libs/nspr
   kit: dev-kit
   original.package.name: dev-libs/nspr
   original.package.slot: "0"
-  original.package.version: "4.35"
+  original.package.version: "4.36"
