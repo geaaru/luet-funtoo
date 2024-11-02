@@ -1,5 +1,5 @@
 name: autoconf
-version: 2.69+1
+version: 2.69+2
 category: sys-devel-2.69
 requires:
 - name: perl
