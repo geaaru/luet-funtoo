@@ -1,5 +1,5 @@
 name: pyelftools
-version: "0.31"
+version: 0.31+1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
