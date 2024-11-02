@@ -150,12 +150,6 @@ requires:
   - name: npth
     category: dev-libs
     version: '>=0'
-  - name: nspr
-    category: dev-libs
-    version: '>=0'
-  - name: nss
-    category: dev-libs
-    version: '>=0'
   - name: openssl
     category: dev-libs
     version: '>=0'
