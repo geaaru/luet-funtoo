@@ -1,5 +1,5 @@
 name: portage
-version: 3.0.14+2
+version: 3.0.14+3
 category: sys-apps
 use_flags:
 - -apidoc
