@@ -1,26 +1,26 @@
-category: "virtual"
-name: "base"
-version: "2"
-description: "Virtual package for setup a base system"
-labels:
-  gcc_version: "11.3.0"
-  gcc_arch: "x86_64"
+name: base
+version: 2+1
+category: virtual
 requires:
 - name: gcc
-  category: "sys-devel-11.3.0"
-  version: ">=0"
+  version: '>=0'
+  category: sys-devel-11.3.0
 - name: util-linux
-  category: "sys-apps"
-  version: ">=0"
-- name: glibc
-  category: "sys-libs-2.2"
-  version: ">=0"
-- name: sh
-  category: "virtual"
-  version: ">=0"
-- name: entities
-  category: system
-  version: ">=0"
-- name: shadow
+  version: '>=0'
   category: sys-apps
-  version: ">=0"
+- name: glibc
+  version: '>=0'
+  category: sys-libs-2.2
+- name: sh
+  version: '>=0'
+  category: virtual
+- name: entities
+  version: '>=0'
+  category: system
+- name: shadow
+  version: '>=0'
+  category: sys-apps
+description: Virtual package for setup a base system
+labels:
+  gcc_arch: x86_64
+  gcc_version: 12.3.0
