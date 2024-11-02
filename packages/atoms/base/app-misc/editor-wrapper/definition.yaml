@@ -1,5 +1,5 @@
 name: editor-wrapper
-version: "4"
+version: 4+1
 category: app-misc
 annotations:
   subsets:
