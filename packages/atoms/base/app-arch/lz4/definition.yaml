@@ -1,5 +1,5 @@
 name: lz4
-version: 1.9.3
+version: 1.9.3+1
 category: app-arch
 annotations:
   subsets:
