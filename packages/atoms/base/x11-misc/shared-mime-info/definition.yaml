@@ -1,5 +1,5 @@
 name: shared-mime-info
-version: "2.4"
+version: 2.4+1
 category: x11-misc
 requires:
 - name: glib
