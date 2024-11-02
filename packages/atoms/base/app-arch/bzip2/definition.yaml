@@ -1,5 +1,5 @@
 name: bzip2
-version: 1.0.8
+version: 1.0.8+1
 category: app-arch
 annotations:
   subsets:
