@@ -1,5 +1,5 @@
 name: binutils
-version: "2.40"
+version: 2.40+1
 category: sys-devel-2.40
 use_flags:
 - -doc
