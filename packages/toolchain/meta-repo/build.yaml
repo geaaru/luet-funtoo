@@ -6,7 +6,10 @@ env:
 - FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"
 package_dir: /{{ .Values.name }}
 steps:
+# Add ego sync --in-place to avoid error with i18n-kit.
+# I need to investigate why this happens
 - >-
+  ego sync --in-place &&
   mkdir -p /{{ .Values.name }}/var/git/ &&
   cp -rvf /var/git/meta-repo/ /{{ .Values.name }}/var/git/ &&
   mkdir -p /{{ .Values.name }}/etc/portage/repos.conf/ &&
