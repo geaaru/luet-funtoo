@@ -1,5 +1,5 @@
 name: trove-classifiers
-version: 2024.10.21.16
+version: 2024.10.21.16+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
