@@ -1,5 +1,5 @@
 name: perl-Perl-OSType
-version: 1.10.0
+version: 1.10.0+1
 category: virtual
 requires:
 - name: perl
