@@ -1,5 +1,5 @@
 name: perl-Pod-Parser
-version: 1.630.0
+version: 1.630.0+1
 category: virtual
 requires:
 - name: Pod-Parser
