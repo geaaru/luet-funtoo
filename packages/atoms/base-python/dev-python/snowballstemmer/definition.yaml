@@ -1,5 +1,5 @@
 name: snowballstemmer
-version: 2.2.0
+version: 2.2.0+1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
