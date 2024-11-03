@@ -11,7 +11,7 @@ prelude:
   chmod a+x /usr/bin/luet &&
   luet upgrade --sync-repos  &&
   luet install --force --config ./luet.yaml --sync-repos
-  repository/macaroni-funtoo-systemd-dev
+  repository/macaroni-eagle-dev
   repository/macaroni-commons-dev
   repository/mottainai-stable &&
   luet install --force --config ./luet.yaml --skip-finalizers --sync-repos
