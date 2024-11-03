@@ -1,5 +1,5 @@
 name: calver
-version: 2022.6.26
+version: 2022.6.26+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
