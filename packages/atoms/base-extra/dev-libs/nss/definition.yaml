@@ -1,5 +1,5 @@
 name: nss
-version: "3.106"
+version: 3.106+1
 category: dev-libs
 requires:
 - name: sqlite
