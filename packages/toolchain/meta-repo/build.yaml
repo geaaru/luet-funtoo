@@ -6,7 +6,10 @@ env:
 - FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"
 package_dir: /{{ .Values.name }}
 steps:
+# It seems that the i18n-kit is without the python-kit profile.
+# I need to investigate on this.
 - >-
+  sed -i -e '/i18n/d' /etc/portage/make.profile/parent &&
   mkdir -p /{{ .Values.name }}/var/git/ &&
   cp -rvf /var/git/meta-repo/ /{{ .Values.name }}/var/git/ &&
   mkdir -p /{{ .Values.name }}/etc/portage/repos.conf/ &&
