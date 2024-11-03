@@ -17,6 +17,7 @@ prelude:
   luet install system/entities --sync-repos && luet upgrade &&
   luet cleanup &&
   ego sync &&
+  ego profile build mark &&
   cd /var/git/meta-repo/kits &&
   chown root:root -R /var/git/meta-repo/kits &&
   ls -l &&
