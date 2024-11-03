@@ -1,5 +1,5 @@
 name: popt
-version: "1.16"
+version: 1.16+1
 category: dev-libs
 use_flags:
 - nls
