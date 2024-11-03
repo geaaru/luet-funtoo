@@ -1,5 +1,5 @@
 name: pygments
-version: 2.18.0
+version: 2.18.0+1
 category: dev-python
 use_flags:
 - -python_targets_python2_7
