@@ -1,5 +1,5 @@
 name: eselect-rust
-version: "20200419"
+version: 20200419+1
 category: app-eselect
 requires:
 - name: eselect
