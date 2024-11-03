@@ -40,6 +40,8 @@ steps:
 # by gcc-config/binutils-config.
 # steps:
 # sed -e 's|\[\[ \! -w ${EROOT}.*|# Check dropped for error with docker|g' -i /usr/bin/gcc-config &&
+# We need ego sync --in-place until i will fix
+# meta-repo
 - >-
   cat /etc/luet/luet.yaml &&
   luet install virtual/base --nodeps &&
@@ -53,6 +55,7 @@ steps:
   macaronictl env-update &&
   eval 'locale-gen || true' &&
   cd / && rm -rf /luetbuild &&
+  ego sync --in-place &&
   mkdir /layer
 
 package_dir: /layer
