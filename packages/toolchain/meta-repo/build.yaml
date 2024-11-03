@@ -12,6 +12,6 @@ steps:
   mkdir -p /{{ .Values.name }}/etc/portage/repos.conf/ &&
   mkdir -p /{{ .Values.name }}/etc/portage/make.profile/ &&
   cp -rvf /etc/portage/repos.conf/* /{{ .Values.name }}/etc/portage/repos.conf/ &&
-  cp -rvf /etc/portage/make.profile/* /{{ .Values.name }}/etc/portage/make.profile/
+  cp -rvf /etc/portage/make.profile/* /{{ .Values.name }}/etc/portage/make.profile/ &&
   rm /{{ .Values.name }}/etc/portage/repos.conf/geaaru-kit
 
