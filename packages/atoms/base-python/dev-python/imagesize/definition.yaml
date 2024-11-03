@@ -1,5 +1,5 @@
 name: imagesize
-version: 1.4.1
+version: 1.4.1+1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
