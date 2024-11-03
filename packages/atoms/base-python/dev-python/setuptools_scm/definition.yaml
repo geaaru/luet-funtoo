@@ -1,5 +1,5 @@
 name: setuptools_scm
-version: 8.1.0
+version: 8.1.0+1
 category: dev-python
 use_flags:
 - -python_targets_python2_7
