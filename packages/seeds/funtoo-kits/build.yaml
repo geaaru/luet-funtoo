@@ -10,6 +10,7 @@ env:
 - LUET_NOLOCK=true
 prelude:
 - >-
+  anise rm repository/macaroni-terragon -y &&
   mv kits-versions / &&
   curl https://raw.githubusercontent.com/geaaru/luet/geaaru/contrib/config/get_luet_root.sh | sh &&
   luet install --sync-repos
