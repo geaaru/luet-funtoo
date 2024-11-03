@@ -1,5 +1,5 @@
 name: pycparser
-version: "2.22"
+version: 2.22+1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
