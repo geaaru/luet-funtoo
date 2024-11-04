@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: macaroni-funtoo-race2
+- name: docbook-xsl-ns-stylesheets
   version: '>=0'
-  category: seed
+  category: app-text
