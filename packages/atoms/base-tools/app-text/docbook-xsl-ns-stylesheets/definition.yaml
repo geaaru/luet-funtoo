@@ -1,0 +1,28 @@
+name: docbook-xsl-ns-stylesheets
+version: 1.78.0
+category: app-text
+use_flags:
+- -ruby
+requires:
+- name: build-docbook-catalog
+  version: '>=0'
+  category: app-text
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: XSL Stylesheets for Docbook
+uri:
+- https://github.com/docbook/wiki/wiki
+license: BSD
+labels:
+  IUSE: ruby
+  RDEPEND: '>=app-text/build-docbook-catalog-1.4 ruby? ( dev-lang/ruby )'
+  emerge.packages: app-text/docbook-xsl-ns-stylesheets
+  kit: text-kit
+  original.package.name: app-text/docbook-xsl-ns-stylesheets
+  original.package.slot: "0"
+  original.package.version: 1.78.0
