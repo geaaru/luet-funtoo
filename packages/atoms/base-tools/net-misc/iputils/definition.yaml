@@ -1,5 +1,5 @@
 name: iputils
-version: "20210722"
+version: "20240905"
 category: net-misc
 use_flags:
 - -idn
@@ -28,18 +28,16 @@ uri:
 - https://wiki.linuxfoundation.org/networking/iputils
 license: BSD GPL-2+ rdisc
 labels:
-  BDEPEND: virtual/pkgconfig test? ( sys-apps/iproute2 ) nls? ( sys-devel/gettext
-    ) >=dev-util/meson-0.48.2 >=dev-util/ninja-1.7.2 virtual/pkgconfig
-  DEPEND: traceroute6? ( !net-analyzer/traceroute ) !static? ( caps? ( sys-libs/libcap
-    ) idn? ( net-dns/libidn2:= ) nls? ( virtual/libintl ) ) virtual/os-headers static?
-    ( caps? ( sys-libs/libcap[static-libs(+)] ) idn? ( net-dns/libidn2:=[static-libs(+)]
-    ) nls? ( virtual/libintl[static-libs(+)] ) ) filecaps? ( sys-libs/libcap )
-  IUSE: +arping caps clockdiff doc gcrypt idn ipv6 nettle nls rarpd rdisc ssl static
-    test tftpd tracepath traceroute6 +filecaps
-  RDEPEND: traceroute6? ( !net-analyzer/traceroute ) !static? ( caps? ( sys-libs/libcap
-    ) idn? ( net-dns/libidn2:= ) nls? ( virtual/libintl ) )
+  BDEPEND: app-text/docbook-xml-dtd:4.2 app-text/docbook-xml-dtd:4.5 app-text/docbook-xsl-ns-stylesheets
+    app-text/docbook-xsl-stylesheets dev-libs/libxslt virtual/pkgconfig test? ( sys-apps/iproute2
+    ) nls? ( sys-devel/gettext ) >=dev-util/meson-0.48.2 >=dev-util/ninja-1.7.2
+  DEPEND: caps? ( sys-libs/libcap ) idn? ( net-dns/libidn2:= ) nls? ( virtual/libintl
+    ) virtual/os-headers filecaps? ( sys-libs/libcap )
+  IUSE: +arping caps clockdiff doc idn nls test tracepath +filecaps
+  RDEPEND: caps? ( sys-libs/libcap ) idn? ( net-dns/libidn2:= ) nls? ( virtual/libintl
+    )
   emerge.packages: net-misc/iputils
   kit: core-kit
   original.package.name: net-misc/iputils
   original.package.slot: "0"
-  original.package.version: "20210722"
+  original.package.version: "20240905"
