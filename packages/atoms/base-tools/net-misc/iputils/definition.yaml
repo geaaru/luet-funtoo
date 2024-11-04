@@ -1,11 +1,9 @@
 name: iputils
-version: "20240905"
+version: 20240905+1
 category: net-misc
 use_flags:
 - -idn
-- -static
 - -test
-- -traceroute6
 - caps
 - filecaps
 - nls
@@ -26,7 +24,7 @@ annotations:
 description: Network monitoring tools including ping and ping6
 uri:
 - https://wiki.linuxfoundation.org/networking/iputils
-license: BSD GPL-2+ rdisc
+license: BSD arping? ( GPL-2+ ) clockdiff? ( BSD ) tracepath? ( GPL-2+ )
 labels:
   BDEPEND: app-text/docbook-xml-dtd:4.2 app-text/docbook-xml-dtd:4.5 app-text/docbook-xsl-ns-stylesheets
     app-text/docbook-xsl-stylesheets dev-libs/libxslt virtual/pkgconfig test? ( sys-apps/iproute2
