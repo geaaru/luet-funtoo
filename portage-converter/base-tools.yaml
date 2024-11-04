@@ -326,6 +326,7 @@ artefacts:
     - sh
   packages:
   - app-text/docbook-xsl-stylesheets
+  - app-text/docbook-xsl-ns-stylesheets
   - dev-util/b2
 
 - tree: packages/atoms/base-tools
