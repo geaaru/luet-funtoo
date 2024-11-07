@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: opensp
+- name: Unicode-LineBreak
   version: '>=0'
-  category: app-text
+  category: dev-perl

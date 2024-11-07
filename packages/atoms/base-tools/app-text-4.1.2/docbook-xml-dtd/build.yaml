@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: YAML-Tiny
+- name: libxslt
   version: '>=0'
-  category: dev-perl
+  category: dev-libs

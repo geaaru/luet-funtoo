@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: sgml-common
+- name: SGMLSpm
   version: '>=0'
-  category: app-text
+  category: dev-perl

@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: docbook-xml-dtd
+- name: sgml-common
   version: '>=0'
-  category: app-text-4.2
+  category: app-text

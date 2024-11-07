@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: SGMLSpm
+- name: opensp
   version: '>=0'
-  category: dev-perl
+  category: app-text

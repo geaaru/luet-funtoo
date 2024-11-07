@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: Text-WrapI18N
+- name: docbook-xml-dtd
   version: '>=0'
-  category: dev-perl
+  category: app-text-4.1.2

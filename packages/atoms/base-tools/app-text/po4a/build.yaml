@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: Unicode-LineBreak
+- name: YAML-Tiny
   version: '>=0'
   category: dev-perl

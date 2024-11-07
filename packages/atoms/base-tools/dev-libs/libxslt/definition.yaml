@@ -1,5 +1,5 @@
 name: libxslt
-version: 1.1.38+1
+version: 1.1.38
 category: dev-libs
 use_flags:
 - -python_single_target_python3_10
@@ -35,23 +35,23 @@ license: MIT
 labels:
   BDEPEND: '>=virtual/pkgconfig-1 app-arch/xz-utils >=app-portage/elt-patches-20170815'
   DEPEND: ~dev-libs/libxml2-2.11.5:2 crypt? ( >=dev-libs/libgcrypt-1.5.3:0= ) python?
-    ( python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
+    ( python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10]
+    ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
     ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9]
     ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8]
-    ) python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10]
-    ) ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
+    ) ) python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10]
+    ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
     ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9]
     ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8]
-    ) python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10]
     )
-  IUSE: crypt debug examples python static-libs python_single_target_python3_7 python_single_target_python3_9
-    python_single_target_python3_8 python_single_target_python3_10 python_targets_python3_7
-    python_targets_python3_9 python_targets_python3_8 python_targets_python3_10
+  IUSE: crypt debug examples python static-libs python_single_target_python3_10 python_single_target_python3_7
+    python_single_target_python3_9 python_single_target_python3_8 python_targets_python3_10
+    python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
   RDEPEND: ~dev-libs/libxml2-2.11.5:2 crypt? ( >=dev-libs/libgcrypt-1.5.3:0= ) python?
-    ( python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
+    ( python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10]
+    ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
     ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9]
     ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8]
-    ) python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10]
     ) )
   emerge.packages: dev-libs/libxslt
   kit: core-kit
