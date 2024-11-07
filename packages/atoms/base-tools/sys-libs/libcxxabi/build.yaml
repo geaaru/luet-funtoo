@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: macaroni-funtoo-race4
+- name: llvm
   version: '>=0'
-  category: seed
+  category: sys-devel-16

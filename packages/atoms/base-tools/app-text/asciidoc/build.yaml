@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: libunwind
+- name: lvm2
   version: '>=0'
-  category: sys-libs
+  category: sys-fs

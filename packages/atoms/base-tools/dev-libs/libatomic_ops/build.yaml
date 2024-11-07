@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: llvm
+- name: cmake
   version: '>=0'
-  category: sys-devel-13
+  category: dev-util

@@ -20,10 +20,10 @@ uri:
 - https://libcxxabi.llvm.org/
 license: Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT )
 labels:
-  BDEPEND: test? ( >=sys-devel/clang-3.9.0 || ( ( dev-lang/python:3.10 dev-python/lit[python_targets_python3_10(-),python_single_target_python3_10(+)]
-    ) ( dev-lang/python:3.8 dev-python/lit[python_targets_python3_8(-),python_single_target_python3_8(+)]
+  BDEPEND: test? ( >=sys-devel/clang-3.9.0 || ( ( dev-lang/python:3.8 dev-python/lit[python_targets_python3_8(-),python_single_target_python3_8(+)]
     ) ( dev-lang/python:3.9 dev-python/lit[python_targets_python3_9(-),python_single_target_python3_9(+)]
     ) ( dev-lang/python:3.7 dev-python/lit[python_targets_python3_7(-),python_single_target_python3_7(+)]
+    ) ( dev-lang/python:3.10 dev-python/lit[python_targets_python3_10(-),python_single_target_python3_10(+)]
     ) ) ) dev-util/ninja dev-util/cmake
   DEPEND: libunwind? ( || ( >=sys-libs/libunwind-1.0.1-r1[static-libs?,-mgorny(-)]
     >=sys-libs/llvm-libunwind-3.9.0-r1[static-libs?,-mgorny(-)] ) ) >=sys-devel/llvm-6

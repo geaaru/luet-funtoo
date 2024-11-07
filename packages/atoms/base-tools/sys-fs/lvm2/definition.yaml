@@ -2,19 +2,18 @@ name: lvm2
 version: 2.03.27
 category: sys-fs
 use_flags:
-- -clvm
-- -cman
-- -corosync
-- -lvm2create_initrd
-- -openais
-- -sanlock
 - -selinux
 - -static
-- -systemd
+- -valgrind
+- lvm
 - readline
+- sanlock
 - thin
 - udev
 requires:
+- name: libaio
+  version: '>=0'
+  category: dev-libs
 - name: baselayout
   version: '>=0'
   category: sys-apps
@@ -27,6 +26,9 @@ requires:
 - name: libudev
   version: '>=0'
   category: virtual
+- name: tmpfiles
+  version: '>=0'
+  category: virtual
 annotations:
   subsets:
     rules:
@@ -34,7 +36,7 @@ annotations:
       - ^/usr/include/
       portage:
       - ^/var/db/pkg/
-description: User-land utilities for LVM2 (device-mapper) software
+description: test
 uri:
 - https://sourceware.org/lvm2/
 license: GPL-2

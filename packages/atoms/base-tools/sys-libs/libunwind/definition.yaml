@@ -24,9 +24,8 @@ uri:
 - https://savannah.nongnu.org/projects/libunwind
 license: MIT
 labels:
-  BDEPEND: '>=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 ||
-    ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69
-    >=sys-devel/libtool-2.4'
+  BDEPEND: '>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16
+    ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4'
   DEPEND: lzma? ( app-arch/xz-utils[static-libs?] ) zlib? ( sys-libs/zlib[static-libs?]
     ) !sys-libs/libunwind:7 libatomic? ( dev-libs/libatomic_ops )
   IUSE: debug debug-frame doc libatomic lzma static-libs zlib

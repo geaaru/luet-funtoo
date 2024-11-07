@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: macaroni-funtoo-race3
+- name: macaroni-funtoo-race2
   version: '>=0'
   category: seed
