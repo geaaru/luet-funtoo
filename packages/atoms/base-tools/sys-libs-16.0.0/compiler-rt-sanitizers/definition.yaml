@@ -1,0 +1,36 @@
+name: compiler-rt-sanitizers
+version: 16.0.0
+category: sys-libs-16.0.0
+use_flags:
+- -test
+- clang
+- elibc_glibc
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Compiler runtime libraries for clang (sanitizers & xray)
+uri:
+- https://llvm.org/
+license: Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT )
+labels:
+  BDEPEND: '>=dev-util/cmake-3.16 clang? ( sys-devel/clang ) elibc_glibc? ( net-libs/libtirpc
+    ) test? ( !<sys-apps/sandbox-2.13 || ( ( dev-lang/python:3.8 >=dev-python/lit-15[python_targets_python3_8(-),python_single_target_python3_8(+)]
+    ) ( dev-lang/python:3.9 >=dev-python/lit-15[python_targets_python3_9(-),python_single_target_python3_9(+)]
+    ) ( dev-lang/python:3.7 >=dev-python/lit-15[python_targets_python3_7(-),python_single_target_python3_7(+)]
+    ) ( dev-lang/python:3.10 >=dev-python/lit-15[python_targets_python3_10(-),python_single_target_python3_10(+)]
+    ) ) =sys-devel/clang-16.0.0*:16 sys-libs/compiler-rt:16.0.0 ) || ( dev-lang/python:3.8
+    dev-lang/python:3.9 dev-lang/python:3.7 dev-lang/python:3.10 ) dev-util/ninja
+    dev-util/cmake'
+  DEPEND: '>=sys-devel/llvm-6 !!sys-devel/llvm:0'
+  IUSE: +clang debug test elibc_glibc +libfuzzer +memprof +orc +profile +xray +asan
+    +dfsan +lsan +msan +hwasan +tsan +ubsan +safestack +cfi +scudo +shadowcallstack
+    +gwp-asan test
+  emerge.packages: sys-libs/compiler-rt-sanitizers:16.0.0
+  kit: llvm-kit
+  original.package.name: sys-libs/compiler-rt-sanitizers
+  original.package.slot: 16.0.0
+  original.package.version: 16.0.0
