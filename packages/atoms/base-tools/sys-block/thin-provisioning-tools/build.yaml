@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: libaio
+- name: clang
   version: '>=0'
-  category: dev-libs
+  category: sys-devel-16
