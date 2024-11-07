@@ -57,9 +57,6 @@ requires:
   - name: swig
     category: dev-lang
     version: '>=0'
-  - name: iniparser
-    category: dev-libs-4
-    version: '>=0'
   - name: libaio
     category: dev-libs
     version: '>=0'
