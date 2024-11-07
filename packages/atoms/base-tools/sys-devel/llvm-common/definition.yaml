@@ -1,0 +1,21 @@
+name: llvm-common
+version: 13.0.0
+category: sys-devel
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Common files shared between multiple slots of LLVM
+uri:
+- https://llvm.org/
+license: Apache-2.0-with-LLVM-exceptions UoI-NCSA
+labels:
+  RDEPEND: '!sys-devel/llvm:0'
+  emerge.packages: sys-devel/llvm-common
+  kit: llvm-kit
+  original.package.name: sys-devel/llvm-common
+  original.package.slot: "0"
+  original.package.version: 13.0.0
