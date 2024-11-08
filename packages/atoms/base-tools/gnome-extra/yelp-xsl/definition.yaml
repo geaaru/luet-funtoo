@@ -1,5 +1,5 @@
 name: yelp-xsl
-version: 3.36.0
+version: 3.36.0+1
 category: gnome-extra
 requires:
 - name: libxslt
