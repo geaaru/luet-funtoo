@@ -1,32 +1,20 @@
 name: lvm2
-version: 2.03.27
+version: 2.03.27+1
 category: sys-fs
 use_flags:
+- -lvm
+- -sanlock
 - -selinux
 - -static
 - -valgrind
-- lvm
 - readline
-- sanlock
 - thin
 - udev
 requires:
-- name: libaio
-  version: '>=0'
-  category: dev-libs
 - name: baselayout
   version: '>=0'
   category: sys-apps
-- name: util-linux
-  version: '>=0'
-  category: sys-apps
-- name: thin-provisioning-tools
-  version: '>=0'
-  category: sys-block
 - name: libudev
-  version: '>=0'
-  category: virtual
-- name: tmpfiles
   version: '>=0'
   category: virtual
 annotations:
