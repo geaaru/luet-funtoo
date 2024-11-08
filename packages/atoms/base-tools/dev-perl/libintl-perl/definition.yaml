@@ -1,5 +1,5 @@
 name: libintl-perl
-version: 1.280.0
+version: 1.280.0+1
 category: dev-perl
 requires:
 - name: perl
