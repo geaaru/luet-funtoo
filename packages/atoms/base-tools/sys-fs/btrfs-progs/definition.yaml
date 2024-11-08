@@ -1,5 +1,5 @@
 name: btrfs-progs
-version: "6.11"
+version: 6.11+1
 category: sys-fs
 use_flags:
 - -doc
