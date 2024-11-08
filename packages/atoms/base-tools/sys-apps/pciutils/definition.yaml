@@ -1,5 +1,5 @@
 name: pciutils
-version: 3.13.0
+version: 3.13.0+1
 category: sys-apps
 use_flags:
 - -static-libs
