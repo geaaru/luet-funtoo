@@ -1,5 +1,5 @@
 name: dhcpcd
-version: 10.0.4
+version: 10.0.4+1
 category: net-misc
 use_flags:
 - udev
