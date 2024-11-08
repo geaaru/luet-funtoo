@@ -1,5 +1,5 @@
 name: guile
-version: 2.2.4
+version: 2.2.4+1
 category: dev-scheme-12
 requires:
 - name: boehm-gc
