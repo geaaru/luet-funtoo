@@ -1,5 +1,5 @@
 name: bridge-utils
-version: 1.7.1
+version: 1.7.1+1
 category: net-misc
 use_flags:
 - -selinux
