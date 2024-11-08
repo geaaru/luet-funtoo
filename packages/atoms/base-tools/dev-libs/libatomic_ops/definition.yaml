@@ -1,5 +1,5 @@
 name: libatomic_ops
-version: 7.6.6
+version: 7.6.6+1
 category: dev-libs
 annotations:
   subsets:
