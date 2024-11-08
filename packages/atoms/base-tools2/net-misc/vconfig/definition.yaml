@@ -1,5 +1,5 @@
 name: vconfig
-version: "1.9"
+version: 1.9+1
 category: net-misc
 annotations:
   subsets:
