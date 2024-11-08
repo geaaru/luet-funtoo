@@ -1,5 +1,5 @@
 name: mpc
-version: 1.1.0
+version: 1.1.0+1
 category: dev-libs
 requires:
 - name: mpfr
