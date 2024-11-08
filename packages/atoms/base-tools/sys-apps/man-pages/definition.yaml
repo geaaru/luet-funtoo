@@ -1,5 +1,5 @@
 name: man-pages
-version: "5.13"
+version: 5.13+1
 category: sys-apps
 requires:
 - name: man
