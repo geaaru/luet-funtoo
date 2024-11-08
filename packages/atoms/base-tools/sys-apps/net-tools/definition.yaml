@@ -1,5 +1,5 @@
 name: net-tools
-version: "2.10"
+version: 2.10+1
 category: sys-apps
 use_flags:
 - -nis
