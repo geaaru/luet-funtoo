@@ -1,5 +1,5 @@
 name: git
-version: 2.47.0
+version: 2.47.0+1
 category: dev-vcs
 use_flags:
 - -cgi
