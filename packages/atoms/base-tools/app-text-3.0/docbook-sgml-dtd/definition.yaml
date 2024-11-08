@@ -1,5 +1,5 @@
 name: docbook-sgml-dtd
-version: "3.0"
+version: 3.0+1
 category: app-text-3.0
 requires:
 - name: sgml-common
