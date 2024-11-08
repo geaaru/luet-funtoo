@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: asciidoc
+- name: libaio
   version: '>=0'
-  category: app-text
+  category: dev-libs
