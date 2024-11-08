@@ -1,5 +1,5 @@
 name: docbook-dsssl-stylesheets
-version: "1.79"
+version: 1.79+1
 category: app-text
 requires:
 - name: docbook-sgml-dtd
