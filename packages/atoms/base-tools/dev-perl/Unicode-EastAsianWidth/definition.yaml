@@ -1,5 +1,5 @@
 name: Unicode-EastAsianWidth
-version: 1.330.0
+version: 1.330.0+1
 category: dev-perl
 requires:
 - name: perl-File-Spec
