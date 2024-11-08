@@ -1,5 +1,5 @@
 name: libuv
-version: 1.40.0
+version: 1.40.0+1
 category: dev-libs
 annotations:
   subsets:
