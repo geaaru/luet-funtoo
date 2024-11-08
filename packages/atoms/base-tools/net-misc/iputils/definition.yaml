@@ -1,5 +1,5 @@
 name: iputils
-version: 20240905+1
+version: 20240905+2
 category: net-misc
 use_flags:
 - -idn
