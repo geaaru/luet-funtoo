@@ -21,7 +21,8 @@ annotations:
       - ^/var/db/pkg/
 description: Standard informational utilities and process-handling tools
 uri:
-- https://procps-ng.sourceforge.net https://gitlab.com/procps-ng/
+- https://procps-ng.sourceforge.net
+- https://gitlab.com/procps-ng/
 license: GPL-2
 labels:
   BDEPEND: elogind? ( virtual/pkgconfig ) ncurses? ( virtual/pkgconfig ) systemd?
