@@ -1,5 +1,5 @@
 name: boehm-gc
-version: 7.6.8
+version: 7.6.8+1
 category: dev-libs
 requires:
 - name: libatomic_ops
