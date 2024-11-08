@@ -541,6 +541,7 @@ artefacts:
     - zlib
   packages:
   - sys-apps/pciutils
+
 - tree: packages/atoms/base-tools
   uses:
     disabled:
@@ -699,7 +700,6 @@ artefacts:
     - udev
   packages:
   - sys-fs/lvm2
-
 
 - tree: packages/atoms/base-tools
   uses:
