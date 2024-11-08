@@ -1,5 +1,5 @@
 name: build-docbook-catalog
-version: "1.21"
+version: 1.21+1
 category: app-text
 requires:
 - name: libxml2
