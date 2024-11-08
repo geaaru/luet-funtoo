@@ -17,7 +17,8 @@ annotations:
       - ^/var/db/pkg/
 description: High-Level Interface to Uniforum Message Translation
 uri:
-- http://guido-flohr.net/projects/libintl-perl https://metacpan.org/release/libintl-perl
+- http://guido-flohr.net/projects/libintl-perl
+- https://metacpan.org/release/libintl-perl
 license: GPL-3
 labels:
   DEPEND: virtual/libintl virtual/perl-ExtUtils-MakeMaker dev-lang/perl:=
