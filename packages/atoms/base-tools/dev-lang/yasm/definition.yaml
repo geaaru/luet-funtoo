@@ -1,5 +1,5 @@
 name: yasm
-version: 1.3.0
+version: 1.3.0+1
 category: dev-lang
 use_flags:
 - nls
