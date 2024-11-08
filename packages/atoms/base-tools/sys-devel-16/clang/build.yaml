@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: asciidoc
+- name: lvm2
   version: '>=0'
-  category: app-text
+  category: sys-fs

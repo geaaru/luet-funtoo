@@ -26,6 +26,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: lvm2
+- name: llvm
   version: '>=0'
-  category: sys-fs
+  category: sys-devel-16
