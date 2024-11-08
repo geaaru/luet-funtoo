@@ -681,7 +681,6 @@ artefacts:
     - cman
     - corosync
     - device-mapper-only
-    - lvm1
     - lvm2create_initrd
     - nios2
     - openais
@@ -690,10 +689,13 @@ artefacts:
     - sh
     - static-libs
     - static
+    # Disable this because thin-provisioning-tools
+    # depends on sys-fs/lvm2 too.
+    - thin
     enabled:
+    - lvm
     - systemd
     - readline
-    - thin
     - udev
   packages:
   - sys-fs/lvm2
@@ -706,6 +708,8 @@ artefacts:
     - sh
     - static
     - test
+    # Broken atm
+    - io-uring
   packages:
   - sys-block/thin-provisioning-tools
 
