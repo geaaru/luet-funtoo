@@ -1,5 +1,5 @@
 name: tbb
-version: 2022.0.0
+version: 2022.0.0+1
 category: dev-cpp
 use_flags:
 - -hwloc
