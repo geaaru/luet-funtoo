@@ -1,5 +1,5 @@
 name: docbook-sgml-dtd
-version: "4.5"
+version: 4.5+1
 category: app-text-4.5
 requires:
 - name: sgml-common
