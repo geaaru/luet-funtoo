@@ -1,5 +1,5 @@
 name: wireguard-tools
-version: 1.0.20210914
+version: 1.0.20210914+1
 category: net-vpn
 use_flags:
 - -selinux
