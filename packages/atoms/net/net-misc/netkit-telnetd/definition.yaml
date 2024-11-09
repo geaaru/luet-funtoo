@@ -1,5 +1,5 @@
 name: netkit-telnetd
-version: "0.17"
+version: 0.17+1
 category: net-misc
 requires:
 - name: ncurses
