@@ -1,5 +1,5 @@
 name: xmlrpc-c
-version: 1.39.11
+version: 1.39.11+1
 category: dev-libs
 use_flags:
 - -curl
