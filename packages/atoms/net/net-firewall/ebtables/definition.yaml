@@ -1,5 +1,5 @@
 name: ebtables
-version: 2.0.10.4
+version: 2.0.10.4+1
 category: net-firewall
 use_flags:
 - perl
