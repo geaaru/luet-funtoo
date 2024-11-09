@@ -1,5 +1,5 @@
 name: ftpbase
-version: "0.01"
+version: 0.01+1
 category: net-ftp
 use_flags:
 - pam
