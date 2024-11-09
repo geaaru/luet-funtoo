@@ -1,5 +1,5 @@
 name: rtorrent
-version: 0.9.7
+version: 0.9.7+1
 category: net-p2p
 use_flags:
 - -selinux
