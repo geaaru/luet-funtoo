@@ -1,5 +1,5 @@
 name: openbsd-netcat
-version: "1.190"
+version: 1.190+1
 category: net-analyzer
 use_flags:
 - -elibc_Darwin
