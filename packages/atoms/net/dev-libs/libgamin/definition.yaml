@@ -1,5 +1,5 @@
 name: libgamin
-version: 0.1.10
+version: 0.1.10+1
 category: dev-libs
 use_flags:
 - -python
