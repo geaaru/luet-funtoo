@@ -1,5 +1,5 @@
 name: XML-SAX-Base
-version: 1.90.0
+version: 1.90.0+1
 category: dev-perl
 use_flags:
 - -test
