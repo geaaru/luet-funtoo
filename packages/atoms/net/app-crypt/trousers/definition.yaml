@@ -1,5 +1,5 @@
 name: trousers
-version: 0.3.14
+version: 0.3.14+1
 category: app-crypt
 use_flags:
 - -libressl
