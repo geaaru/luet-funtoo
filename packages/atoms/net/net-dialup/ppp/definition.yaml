@@ -1,5 +1,5 @@
 name: ppp
-version: 2.4.7
+version: 2.4.7+1
 category: net-dialup
 use_flags:
 - -activefilter
