@@ -1,5 +1,5 @@
 name: XML-SAX
-version: 1.0.0
+version: 1.0.0+1
 category: dev-perl
 requires:
 - name: libxml2
