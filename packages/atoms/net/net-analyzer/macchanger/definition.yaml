@@ -1,5 +1,5 @@
 name: macchanger
-version: 1.7.0
+version: 1.7.0+1
 category: net-analyzer
 annotations:
   subsets:
