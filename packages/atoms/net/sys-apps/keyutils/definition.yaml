@@ -1,5 +1,5 @@
 name: keyutils
-version: 1.6.3
+version: 1.6.3+1
 category: sys-apps
 use_flags:
 - -prefix
