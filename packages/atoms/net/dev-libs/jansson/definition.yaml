@@ -1,5 +1,5 @@
 name: jansson
-version: "2.12"
+version: 2.12+1
 category: dev-libs
 use_flags:
 - -doc
