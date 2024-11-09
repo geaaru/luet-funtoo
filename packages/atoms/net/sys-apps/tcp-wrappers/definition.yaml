@@ -1,5 +1,5 @@
 name: tcp-wrappers
-version: 7.6.32
+version: 7.6.32+1
 category: sys-apps
 use_flags:
 - -netgroups
