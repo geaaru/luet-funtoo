@@ -1,5 +1,5 @@
 name: openfortivpn
-version: 1.22.1
+version: 1.22.1+1
 category: net-vpn
 requires:
 - name: ppp
