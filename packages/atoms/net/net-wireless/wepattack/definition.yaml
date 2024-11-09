@@ -1,5 +1,5 @@
 name: wepattack
-version: 0.1.3
+version: 0.1.3+1
 category: net-wireless
 use_flags:
 - -john
