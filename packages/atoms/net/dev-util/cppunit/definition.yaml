@@ -1,5 +1,5 @@
 name: cppunit
-version: 1.14.0
+version: 1.14.0+1
 category: dev-util
 use_flags:
 - -doc
