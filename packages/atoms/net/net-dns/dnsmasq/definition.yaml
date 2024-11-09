@@ -1,5 +1,5 @@
 name: dnsmasq
-version: "2.90"
+version: 2.90+1
 category: net-dns
 use_flags:
 - -conntrack
