@@ -1,5 +1,5 @@
 name: cronbase
-version: 0.3.7
+version: 0.3.7+1
 category: sys-process
 annotations:
   subsets:
