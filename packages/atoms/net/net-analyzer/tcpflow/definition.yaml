@@ -1,5 +1,5 @@
 name: tcpflow
-version: 1.5.2
+version: 1.5.2+1
 category: net-analyzer
 use_flags:
 - -cairo
