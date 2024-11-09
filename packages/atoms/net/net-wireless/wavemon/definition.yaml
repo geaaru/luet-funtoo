@@ -1,5 +1,5 @@
 name: wavemon
-version: 0.8.0
+version: 0.8.0+1
 category: net-wireless
 use_flags:
 - caps
