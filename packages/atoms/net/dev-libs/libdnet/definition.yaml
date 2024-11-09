@@ -1,5 +1,5 @@
 name: libdnet
-version: 1.18.0
+version: 1.18.0+1
 category: dev-libs
 use_flags:
 - -python_targets_python3_10
