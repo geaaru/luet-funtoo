@@ -1,5 +1,5 @@
 name: openvpn
-version: 2.6.12
+version: 2.6.12+1
 category: net-vpn
 use_flags:
 - -kernel_linux
