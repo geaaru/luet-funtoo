@@ -1,5 +1,5 @@
 name: geoip
-version: 1.6.12
+version: 1.6.12+1
 category: dev-libs
 requires:
 - name: wget
