@@ -1,5 +1,5 @@
 name: vpnc
-version: 0.5.3
+version: 0.5.3+1
 category: net-vpn
 use_flags:
 - -resolvconf
