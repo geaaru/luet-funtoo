@@ -1,5 +1,5 @@
 name: libnftnl
-version: 1.2.8
+version: 1.2.8+1
 category: net-libs
 requires:
 - name: libmnl
