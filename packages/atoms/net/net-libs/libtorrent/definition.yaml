@@ -1,5 +1,5 @@
 name: libtorrent
-version: 0.13.7
+version: 0.13.7+1
 category: net-libs
 use_flags:
 - -libressl
