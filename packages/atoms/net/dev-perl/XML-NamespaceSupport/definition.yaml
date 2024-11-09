@@ -1,5 +1,5 @@
 name: XML-NamespaceSupport
-version: 1.120.0
+version: 1.120.0+1
 category: dev-perl
 use_flags:
 - -test
