@@ -21,7 +21,8 @@ prelude:
 # to handle with portage.
 - >-
   anise subsets enable devel portage &&
-  anise repo disable macaroni-terragon-testing macaroni-commons-testing &&
+  anise repo list &&
+  anise repo disable macaroni-terragon macaroni-commons &&
   anise upgrade --sync-repos &&
   anise cleanup --purge-repos &&
   rm -rf /etc/passwd /etc/group /etc/passwd /etc/shadow &&
