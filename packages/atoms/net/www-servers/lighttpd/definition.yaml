@@ -1,5 +1,5 @@
 name: lighttpd
-version: 1.4.76
+version: 1.4.76+1
 category: www-servers
 use_flags:
 - -dbi
