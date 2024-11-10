@@ -1,5 +1,5 @@
 name: luasocket
-version: "3.0"
+version: 3.0+1
 category: dev-lua
 requires:
 - name: lua
