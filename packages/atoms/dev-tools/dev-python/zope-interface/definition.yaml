@@ -1,5 +1,5 @@
 name: zope-interface
-version: 7.1.1
+version: 7.1.1+1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
