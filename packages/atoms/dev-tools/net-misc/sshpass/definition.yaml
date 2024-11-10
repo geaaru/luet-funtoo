@@ -1,5 +1,5 @@
 name: sshpass
-version: "1.06"
+version: 1.06+1
 category: net-misc
 requires:
 - name: openssh
