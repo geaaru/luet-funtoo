@@ -1,5 +1,5 @@
 name: curio
-version: "1.6"
+version: 1.6+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
