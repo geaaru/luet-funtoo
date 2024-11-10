@@ -1,5 +1,5 @@
 name: colorama
-version: 0.4.6
+version: 0.4.6+1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
