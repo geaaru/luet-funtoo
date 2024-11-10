@@ -1,5 +1,5 @@
 name: baselayout
-version: 2.6.1+19
+version: "3.0"
 category: sys-apps
 annotations:
   subsets:
@@ -20,4 +20,4 @@ labels:
   macaroni.version: "24.10"
   original.package.name: sys-apps/baselayout
   original.package.slot: "0"
-  original.package.version: 2.6.1-r5
+  original.package.version: "3.0"
