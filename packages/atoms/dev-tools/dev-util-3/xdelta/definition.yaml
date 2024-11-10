@@ -1,5 +1,5 @@
 name: xdelta
-version: 3.0.11
+version: 3.0.11+1
 category: dev-util-3
 use_flags:
 - lzma
