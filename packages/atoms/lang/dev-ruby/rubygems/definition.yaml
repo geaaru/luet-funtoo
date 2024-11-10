@@ -1,5 +1,5 @@
 name: rubygems
-version: 3.5.22
+version: 3.5.22+1
 category: dev-ruby
 use_flags:
 - -ruby_targets_ruby27
