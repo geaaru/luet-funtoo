@@ -1,5 +1,5 @@
 name: automat
-version: 24.8.1+1
+version: 24.8.1+2
 category: dev-python
 use_flags:
 - -python_targets_pypy3
