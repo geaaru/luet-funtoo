@@ -1,5 +1,5 @@
 name: trove-classifiers
-version: 2024.9.12+1
+version: 2024.10.21.16
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -39,4 +39,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/trove-classifiers
   original.package.slot: "0"
-  original.package.version: 2024.9.12
+  original.package.version: 2024.10.21.16
