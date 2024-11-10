@@ -1,5 +1,5 @@
 name: did_you_mean
-version: 1.6.3
+version: 1.6.3+1
 category: dev-ruby-2.6
 use_flags:
 - -ruby_targets_ruby27
