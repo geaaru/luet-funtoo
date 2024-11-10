@@ -1,5 +1,5 @@
 name: rdoc
-version: 6.7.0
+version: 6.7.0+1
 category: dev-ruby
 use_flags:
 - -ruby_targets_ruby27
