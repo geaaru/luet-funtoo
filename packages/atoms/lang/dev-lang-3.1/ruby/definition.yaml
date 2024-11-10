@@ -1,5 +1,5 @@
 name: ruby
-version: 3.1.5
+version: 3.1.5+1
 category: dev-lang-3.1
 use_flags:
 - -jemalloc
