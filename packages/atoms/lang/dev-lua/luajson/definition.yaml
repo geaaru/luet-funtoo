@@ -1,5 +1,5 @@
 name: luajson
-version: 1.3.3
+version: 1.3.3+1
 category: dev-lua
 use_flags:
 - -test
