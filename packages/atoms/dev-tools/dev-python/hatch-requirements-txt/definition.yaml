@@ -1,5 +1,5 @@
 name: hatch-requirements-txt
-version: 0.4.1
+version: 0.4.1+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
