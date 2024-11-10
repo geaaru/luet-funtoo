@@ -1,5 +1,5 @@
 name: libburn
-version: 1.5.0
+version: 1.5.0+1
 category: dev-libs
 annotations:
   subsets:
