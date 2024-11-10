@@ -1,5 +1,5 @@
 name: ipcalc
-version: "0.41"
+version: 0.41+1
 category: net-misc
 requires:
 - name: perl
