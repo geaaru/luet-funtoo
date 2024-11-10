@@ -1,5 +1,5 @@
 name: eselect-ctags
-version: "1.18"
+version: 1.18+1
 category: app-eselect
 requires:
 - name: eselect
