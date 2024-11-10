@@ -1,5 +1,5 @@
 name: rake
-version: 13.2.1
+version: 13.2.1+1
 category: dev-ruby
 use_flags:
 - -doc
