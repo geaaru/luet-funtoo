@@ -1,5 +1,5 @@
 name: mistune
-version: 0.8.4
+version: 0.8.4+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
