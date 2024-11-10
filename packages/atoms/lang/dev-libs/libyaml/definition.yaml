@@ -1,5 +1,5 @@
 name: libyaml
-version: 0.2.5
+version: 0.2.5+1
 category: dev-libs
 use_flags:
 - -doc
