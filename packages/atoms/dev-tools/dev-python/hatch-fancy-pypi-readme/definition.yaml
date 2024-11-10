@@ -1,5 +1,5 @@
 name: hatch-fancy-pypi-readme
-version: 23.1.0
+version: 23.1.0+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
