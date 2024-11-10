@@ -1,5 +1,5 @@
 name: ragel
-version: 7.0.0.12
+version: 7.0.0.12+1
 category: dev-util
 requires:
 - name: colm
