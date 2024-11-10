@@ -1,5 +1,5 @@
 name: pbr
-version: 6.1.0
+version: 6.1.0+1
 category: dev-python
 use_flags:
 - -python_targets_python2_7
