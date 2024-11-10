@@ -1,5 +1,5 @@
 name: test-unit
-version: 3.6.2
+version: 3.6.2+1
 category: dev-ruby-2
 use_flags:
 - -doc
