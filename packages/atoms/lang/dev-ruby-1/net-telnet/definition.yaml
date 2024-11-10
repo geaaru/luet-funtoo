@@ -1,5 +1,5 @@
 name: net-telnet
-version: 0.2.0
+version: 0.2.0+1
 category: dev-ruby-1
 use_flags:
 - -doc
