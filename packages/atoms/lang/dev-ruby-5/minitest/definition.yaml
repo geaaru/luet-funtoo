@@ -1,5 +1,5 @@
 name: minitest
-version: 5.22.3
+version: 5.22.3+1
 category: dev-ruby-5
 use_flags:
 - -doc
