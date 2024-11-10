@@ -1,5 +1,5 @@
 name: brotli
-version: 1.1.0
+version: 1.1.0+1
 category: app-arch
 annotations:
   subsets:
