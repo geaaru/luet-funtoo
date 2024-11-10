@@ -1,5 +1,5 @@
 name: stringio
-version: 3.0.8
+version: 3.0.8+1
 category: dev-ruby
 use_flags:
 - -doc
