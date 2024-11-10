@@ -1,5 +1,5 @@
 name: python-cffi
-version: "0"
+version: 0+1
 category: virtual
 use_flags:
 - -python_targets_python2_7
