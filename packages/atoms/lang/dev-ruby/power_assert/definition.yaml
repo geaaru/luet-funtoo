@@ -1,5 +1,5 @@
 name: power_assert
-version: 2.0.4
+version: 2.0.4+1
 category: dev-ruby
 use_flags:
 - -doc
