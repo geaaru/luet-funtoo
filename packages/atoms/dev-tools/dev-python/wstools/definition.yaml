@@ -1,5 +1,5 @@
 name: wstools
-version: 0.4.8
+version: 0.4.8+1
 category: dev-python
 use_flags:
 - -python_targets_python2_7
