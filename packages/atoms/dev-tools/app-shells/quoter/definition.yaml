@@ -1,5 +1,5 @@
 name: quoter
-version: "3.0"
+version: 3.0+1
 category: app-shells
 annotations:
   subsets:
