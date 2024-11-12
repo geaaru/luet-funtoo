@@ -1,5 +1,5 @@
 name: freeradius
-version: 3.0.20+2
+version: 3.0.20+3
 category: net-dialup
 use_flags:
 - -firebird
