@@ -1,5 +1,5 @@
 name: glib-utils
-version: 2.72.0
+version: 2.72.0+1
 category: dev-util
 requires:
 - name: glib
