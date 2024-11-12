@@ -1,5 +1,5 @@
 name: gobject-introspection-common
-version: 1.72.0
+version: 1.72.0+1
 category: dev-libs
 annotations:
   subsets:
