@@ -1,5 +1,5 @@
 name: eselect-postgresql
-version: "2.4"
+version: 2.4+1
 category: app-eselect
 requires:
 - name: eselect
