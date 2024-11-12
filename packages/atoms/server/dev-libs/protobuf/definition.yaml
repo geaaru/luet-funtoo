@@ -1,5 +1,5 @@
 name: protobuf
-version: "21.12"
+version: 21.12+1
 category: dev-libs
 use_flags:
 - -emacs
