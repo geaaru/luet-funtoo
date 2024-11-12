@@ -1,5 +1,5 @@
 name: docker-buildx
-version: 0.11.2
+version: 0.11.2+1
 category: app-emulation-2
 requires:
 - name: docker-cli
