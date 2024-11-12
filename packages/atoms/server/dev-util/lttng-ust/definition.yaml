@@ -1,5 +1,5 @@
 name: lttng-ust
-version: 2.13.8
+version: 2.13.8+1
 category: dev-util
 use_flags:
 - numa
