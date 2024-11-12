@@ -1,5 +1,5 @@
 name: criu
-version: "4.0"
+version: 4.0+1
 category: sys-process
 use_flags:
 - -doc
