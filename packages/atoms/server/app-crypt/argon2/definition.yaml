@@ -1,5 +1,5 @@
 name: argon2
-version: "20171227"
+version: 20171227+1
 category: app-crypt
 annotations:
   subsets:
