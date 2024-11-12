@@ -1,5 +1,5 @@
 name: cloud-init
-version: "24.4"
+version: 24.4+1
 category: app-admin
 use_flags:
 - -python_targets_python3_10
