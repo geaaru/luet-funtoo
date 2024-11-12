@@ -1,5 +1,5 @@
 name: mongo-c-driver
-version: 1.28.1
+version: 1.28.1+1
 category: dev-libs
 use_flags:
 - -icu
