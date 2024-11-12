@@ -1,5 +1,5 @@
 name: oauthlib
-version: 3.2.2
+version: 3.2.2+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
