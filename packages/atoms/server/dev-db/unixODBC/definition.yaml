@@ -1,5 +1,5 @@
 name: unixODBC
-version: 2.3.7
+version: 2.3.7+1
 category: dev-db
 requires:
 - name: libltdl
