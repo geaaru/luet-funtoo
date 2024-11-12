@@ -1,5 +1,5 @@
 name: jsonpatch
-version: "1.33"
+version: 1.33+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
