@@ -1,5 +1,5 @@
 name: libiodbc
-version: 3.52.12
+version: 3.52.12+1
 category: dev-db
 use_flags:
 - -gtk
