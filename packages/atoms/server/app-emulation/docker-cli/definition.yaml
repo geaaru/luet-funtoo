@@ -1,5 +1,5 @@
 name: docker-cli
-version: 24.0.6
+version: 24.0.6+1
 category: app-emulation
 annotations:
   subsets:
