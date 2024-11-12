@@ -1,5 +1,5 @@
 name: pyrsistent
-version: 0.20.0
+version: 0.20.0+1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
