@@ -1,5 +1,5 @@
 name: nullmailer
-version: "2.2"
+version: 2.2+1
 category: mail-mta
 use_flags:
 - -test
