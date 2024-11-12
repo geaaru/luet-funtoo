@@ -1,5 +1,5 @@
 name: metalog
-version: 20200113+1
+version: 20200113+2
 category: app-admin
 requires:
 - name: libpcre
