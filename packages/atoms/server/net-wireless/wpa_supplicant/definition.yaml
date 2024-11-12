@@ -1,5 +1,5 @@
 name: wpa_supplicant
-version: "2.11"
+version: 2.11+1
 category: net-wireless
 use_flags:
 - -eap-sim
