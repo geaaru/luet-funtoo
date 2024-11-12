@@ -1,5 +1,5 @@
 name: lxd
-version: 5.21.1
+version: 5.21.1+1
 category: app-emulation
 use_flags:
 - nls
