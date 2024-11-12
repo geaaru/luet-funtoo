@@ -1,5 +1,5 @@
 name: docker-compose
-version: 2.21.0
+version: 2.21.0+1
 category: app-emulation-2
 requires:
 - name: docker-cli
