@@ -1,5 +1,5 @@
 name: blinker
-version: 1.7.0
+version: 1.7.0+1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
