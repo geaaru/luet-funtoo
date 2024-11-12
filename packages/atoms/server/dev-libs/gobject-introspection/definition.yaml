@@ -1,5 +1,5 @@
 name: gobject-introspection
-version: 1.72.0
+version: 1.72.0+1
 category: dev-libs
 use_flags:
 - -doc
