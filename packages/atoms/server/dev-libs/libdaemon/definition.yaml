@@ -1,5 +1,5 @@
 name: libdaemon
-version: "0.14"
+version: 0.14+1
 category: dev-libs
 use_flags:
 - -doc
