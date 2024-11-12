@@ -1,5 +1,5 @@
 name: mysql-connector-c
-version: 8.0.16
+version: 8.0.16+1
 category: dev-db
 use_flags:
 - -ldap
