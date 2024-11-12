@@ -1,5 +1,5 @@
 name: go-md2man
-version: 1.0.8
+version: 1.0.8+1
 category: dev-go
 annotations:
   subsets:
