@@ -1,5 +1,5 @@
 name: ossp-uuid
-version: 1.6.2
+version: 1.6.2+1
 category: dev-libs
 use_flags:
 - -perl
