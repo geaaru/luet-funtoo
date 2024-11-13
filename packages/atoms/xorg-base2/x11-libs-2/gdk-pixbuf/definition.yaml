@@ -1,5 +1,5 @@
 name: gdk-pixbuf
-version: 2.40.0
+version: 2.40.0+1
 category: x11-libs-2
 use_flags:
 - X
