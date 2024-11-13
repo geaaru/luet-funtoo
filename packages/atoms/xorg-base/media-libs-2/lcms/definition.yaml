@@ -1,5 +1,5 @@
 name: lcms
-version: "2.11"
+version: 2.11+1
 category: media-libs-2
 use_flags:
 - -jpeg
