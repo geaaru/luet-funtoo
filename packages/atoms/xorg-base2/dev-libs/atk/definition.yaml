@@ -1,5 +1,5 @@
 name: atk
-version: 2.35.1
+version: 2.35.1+1
 category: dev-libs
 use_flags:
 - introspection
