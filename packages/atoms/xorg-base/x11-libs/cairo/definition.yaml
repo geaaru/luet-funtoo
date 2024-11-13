@@ -1,5 +1,5 @@
 name: cairo
-version: 1.16.0
+version: 1.16.0+1
 category: x11-libs
 use_flags:
 - -gles2
