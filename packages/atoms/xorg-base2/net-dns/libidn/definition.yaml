@@ -1,5 +1,5 @@
 name: libidn
-version: "1.35"
+version: 1.35+1
 category: net-dns
 use_flags:
 - -emacs
