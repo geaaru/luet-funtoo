@@ -1,5 +1,5 @@
 name: w3m
-version: 0.5.3
+version: 0.5.3+1
 category: www-client
 use_flags:
 - -imlib
