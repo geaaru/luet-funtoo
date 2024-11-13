@@ -1,5 +1,5 @@
 name: mkfontdir
-version: 1.2.0
+version: 1.2.0+1
 category: x11-apps
 requires:
 - name: mkfontscale
