@@ -1,5 +1,5 @@
 name: libglvnd
-version: 1.7.0
+version: 1.7.0+1
 category: media-libs
 use_flags:
 - X
