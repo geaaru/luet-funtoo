@@ -1,5 +1,5 @@
 name: pixman
-version: 0.43.4
+version: 0.43.4+1
 category: x11-libs
 use_flags:
 - -ppc-aix
