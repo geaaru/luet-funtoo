@@ -1,5 +1,5 @@
 name: xcb-proto
-version: 1.17.0
+version: 1.17.0+1
 category: x11-base
 use_flags:
 - -ppc-aix
