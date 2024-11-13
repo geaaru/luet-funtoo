@@ -1,5 +1,5 @@
 name: File-DesktopEntry
-version: 0.220.0
+version: 0.220.0+1
 category: dev-perl
 use_flags:
 - -test
