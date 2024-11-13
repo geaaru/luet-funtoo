@@ -1,5 +1,5 @@
 name: fontconfig
-version: 2.13.0
+version: 2.13.0+1
 category: media-libs-1.0
 use_flags:
 - -doc
