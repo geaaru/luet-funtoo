@@ -1,5 +1,5 @@
 name: compose-tables
-version: 1.8.1
+version: 1.8.1+1
 category: x11-misc
 use_flags:
 - -ppc-aix
