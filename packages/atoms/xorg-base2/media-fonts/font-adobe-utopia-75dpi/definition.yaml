@@ -1,5 +1,5 @@
 name: font-adobe-utopia-75dpi
-version: 1.0.4
+version: 1.0.4+1
 category: media-fonts
 use_flags:
 - -ppc-aix
