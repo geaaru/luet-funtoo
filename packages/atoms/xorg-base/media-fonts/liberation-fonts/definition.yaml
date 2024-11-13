@@ -1,5 +1,5 @@
 name: liberation-fonts
-version: 2.1.0
+version: 2.1.0+1
 category: media-fonts
 use_flags:
 - -fontforge
