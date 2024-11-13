@@ -1,5 +1,5 @@
 name: URI
-version: 1.730.0
+version: 1.730.0+1
 category: dev-perl
 use_flags:
 - -test
