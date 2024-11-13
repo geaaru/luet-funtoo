@@ -1,5 +1,5 @@
 name: libXrandr
-version: 1.5.2
+version: 1.5.2+1
 category: x11-libs
 use_flags:
 - -ppc-aix
