@@ -1,5 +1,5 @@
 name: libXdamage
-version: 1.1.5
+version: 1.1.5+1
 category: x11-libs
 use_flags:
 - -ppc-aix
