@@ -1,5 +1,5 @@
 name: poppler
-version: 24.04.0
+version: 24.04.0+1
 category: app-text
 use_flags:
 - -cairo
