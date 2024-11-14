@@ -1,5 +1,5 @@
 name: latexmk
-version: "456"
+version: 456+1
 category: dev-tex
 requires:
 - name: perl
