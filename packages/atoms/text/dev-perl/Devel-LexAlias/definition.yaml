@@ -1,5 +1,5 @@
 name: Devel-LexAlias
-version: 0.50.0
+version: 0.50.0+1
 category: dev-perl
 requires:
 - name: Devel-Caller
