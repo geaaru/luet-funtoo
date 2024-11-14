@@ -1,5 +1,5 @@
 name: qpdf
-version: 8.4.2+1
+version: 8.4.2+2
 category: app-text
 use_flags:
 - -test
