@@ -1,5 +1,5 @@
 name: Sub-Install
-version: 0.928.0
+version: 0.928.0+1
 category: dev-perl
 use_flags:
 - -test
