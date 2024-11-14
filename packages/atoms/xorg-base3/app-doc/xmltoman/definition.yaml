@@ -1,5 +1,5 @@
 name: xmltoman
-version: "0.4"
+version: 0.4+1
 category: app-doc
 requires:
 - name: XML-Parser
