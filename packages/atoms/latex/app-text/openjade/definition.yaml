@@ -1,5 +1,5 @@
 name: openjade
-version: 1.3.2
+version: 1.3.2+1
 category: app-text
 requires:
 - name: opensp
