@@ -1,5 +1,5 @@
 name: php
-version: 8.2.25
+version: 8.2.25+1
 category: dev-lang-8.2
 use_flags:
 - -apparmor
