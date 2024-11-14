@@ -1,5 +1,5 @@
 name: Jcode
-version: 2.70.0
+version: 2.70.0+1
 category: dev-perl
 requires:
 - name: perl-MIME-Base64
