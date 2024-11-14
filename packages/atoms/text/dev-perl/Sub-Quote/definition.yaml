@@ -1,5 +1,5 @@
 name: Sub-Quote
-version: 2.4.0
+version: 2.4.0+1
 category: dev-perl
 use_flags:
 - -minimal
