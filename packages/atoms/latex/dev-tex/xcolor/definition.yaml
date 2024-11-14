@@ -1,5 +1,5 @@
 name: xcolor
-version: "2.12"
+version: 2.12+1
 category: dev-tex
 use_flags:
 - -doc
