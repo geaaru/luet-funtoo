@@ -1,5 +1,5 @@
 name: doxygen
-version: 1.9.6
+version: 1.9.6+1
 category: app-doc
 use_flags:
 - -clang
