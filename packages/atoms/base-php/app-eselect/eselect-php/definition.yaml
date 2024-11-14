@@ -1,5 +1,5 @@
 name: eselect-php
-version: 0.9.8
+version: 0.9.8+1
 category: app-eselect
 use_flags:
 - apache2
