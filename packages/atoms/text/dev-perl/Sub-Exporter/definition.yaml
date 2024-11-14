@@ -1,5 +1,5 @@
 name: Sub-Exporter
-version: 0.987.0
+version: 0.987.0+1
 category: dev-perl
 requires:
 - name: Data-OptList
