@@ -1,5 +1,5 @@
 name: Try-Tiny
-version: 0.300.0
+version: 0.300.0+1
 category: dev-perl
 use_flags:
 - -minimal
