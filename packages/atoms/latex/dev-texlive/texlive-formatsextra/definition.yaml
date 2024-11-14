@@ -1,5 +1,5 @@
 name: texlive-formatsextra
-version: 2020+2
+version: 2020+3
 category: dev-texlive
 requires:
 - name: texlive-latex
