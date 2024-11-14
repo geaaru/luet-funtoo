@@ -1,5 +1,5 @@
 name: zziplib
-version: 0.13.78
+version: 0.13.78+1
 category: dev-libs
 use_flags:
 - -sdl
