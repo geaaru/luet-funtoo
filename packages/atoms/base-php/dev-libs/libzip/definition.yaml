@@ -1,5 +1,5 @@
 name: libzip
-version: 1.5.2
+version: 1.5.2+1
 category: dev-libs
 use_flags:
 - -libressl
