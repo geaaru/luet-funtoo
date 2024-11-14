@@ -1,5 +1,5 @@
 name: xdg-user-dirs
-version: "0.16"
+version: 0.16+1
 category: x11-misc
 annotations:
   subsets:
