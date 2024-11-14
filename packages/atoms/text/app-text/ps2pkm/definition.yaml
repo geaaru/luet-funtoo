@@ -1,5 +1,5 @@
 name: ps2pkm
-version: "1.8"
+version: 1.8+1
 category: app-text
 requires:
 - name: kpathsea
