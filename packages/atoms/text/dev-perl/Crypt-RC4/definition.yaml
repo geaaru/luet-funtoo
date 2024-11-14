@@ -1,5 +1,5 @@
 name: Crypt-RC4
-version: 2.020.0
+version: 2.020.0+1
 category: dev-perl
 requires:
 - name: perl
