@@ -1,5 +1,5 @@
 name: Text-CSV_XS
-version: 1.340.0
+version: 1.340.0+1
 category: dev-perl
 use_flags:
 - -test
