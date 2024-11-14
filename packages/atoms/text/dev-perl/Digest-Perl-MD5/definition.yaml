@@ -1,5 +1,5 @@
 name: Digest-Perl-MD5
-version: 1.900.0
+version: 1.900.0+1
 category: dev-perl
 requires:
 - name: perl-Exporter
