@@ -1,5 +1,5 @@
 name: openjpeg
-version: 2.3.1
+version: 2.3.1+1
 category: media-libs-2
 use_flags:
 - -doc
