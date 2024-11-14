@@ -1,5 +1,5 @@
 name: latex-base
-version: "1.0"
+version: 1.0+1
 category: virtual
 requires:
 - name: texlive-fontsrecommended
