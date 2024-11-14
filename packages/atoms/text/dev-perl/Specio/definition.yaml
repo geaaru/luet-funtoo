@@ -1,5 +1,5 @@
 name: Specio
-version: 0.420.0
+version: 0.420.0+1
 category: dev-perl
 use_flags:
 - -minimal
