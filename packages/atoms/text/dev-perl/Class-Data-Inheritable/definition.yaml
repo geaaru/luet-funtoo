@@ -1,5 +1,5 @@
 name: Class-Data-Inheritable
-version: 0.80.0
+version: 0.80.0+1
 category: dev-perl
 requires:
 - name: perl
