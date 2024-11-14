@@ -1,5 +1,5 @@
 name: Test-Fatal
-version: 0.14.0
+version: 0.14.0+1
 category: dev-perl
 use_flags:
 - -test
