@@ -1,5 +1,5 @@
 name: Spreadsheet-ParseExcel
-version: 0.650.0
+version: 0.650.0+1
 category: dev-perl
 use_flags:
 - -test
