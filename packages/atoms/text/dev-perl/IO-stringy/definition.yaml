@@ -1,5 +1,5 @@
 name: IO-stringy
-version: 2.111.0
+version: 2.111.0+1
 category: dev-perl
 requires:
 - name: perl
