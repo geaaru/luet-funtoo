@@ -1,5 +1,5 @@
 name: texlive-core
-version: 2020+1
+version: 2020+2
 category: app-text
 use_flags:
 - -X
