@@ -1,5 +1,5 @@
 name: dvipng
-version: "1.15"
+version: 1.15+1
 category: app-text
 use_flags:
 - -test
