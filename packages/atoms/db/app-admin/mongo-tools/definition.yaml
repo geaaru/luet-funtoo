@@ -1,5 +1,5 @@
 name: mongo-tools
-version: 100.10.0
+version: 100.10.0+1
 category: app-admin
 use_flags:
 - -sasl
