@@ -1,5 +1,5 @@
 name: openjdk-jre-bin
-version: 11.0.23
+version: 11.0.24
 category: dev-java-11
 use_flags:
 - -cups
@@ -45,4 +45,4 @@ labels:
   kit: java-kit
   original.package.name: dev-java/openjdk-jre-bin
   original.package.slot: "11"
-  original.package.version: 11.0.23_p9
+  original.package.version: 11.0.24_p8
