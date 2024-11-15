@@ -1,5 +1,5 @@
 name: mongodb
-version: 4.4.29+1
+version: 4.4.29+2
 category: dev-db
 use_flags:
 - -debug
