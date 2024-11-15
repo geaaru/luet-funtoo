@@ -1,5 +1,5 @@
 name: lmdb
-version: 0.9.23
+version: 0.9.23+1
 category: dev-db
 annotations:
   subsets:
