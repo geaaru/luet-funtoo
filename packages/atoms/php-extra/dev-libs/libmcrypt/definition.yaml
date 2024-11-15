@@ -1,5 +1,5 @@
 name: libmcrypt
-version: 2.5.8+1
+version: 2.5.8+2
 category: dev-libs
 annotations:
   subsets:
@@ -20,4 +20,4 @@ labels:
   kit: dev-kit
   original.package.name: dev-libs/libmcrypt
   original.package.slot: "0"
-  original.package.version: 2.5.8-r4
+  original.package.version: 2.5.8-r5

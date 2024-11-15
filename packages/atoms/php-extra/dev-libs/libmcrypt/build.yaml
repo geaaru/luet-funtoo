@@ -1,4 +1,8 @@
 prelude:
+# Temporary patch
+- >-
+  rm -rf /var/git/meta-repo/kits/dev-kit/dev-libs/libmcrypt/ &&
+  cp -rvf libmcrypt /var/git/meta-repo/kits/dev-kit/dev-libs/
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
   export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \
