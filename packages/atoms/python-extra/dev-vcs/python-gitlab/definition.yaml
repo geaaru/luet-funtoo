@@ -1,5 +1,5 @@
 name: python-gitlab
-version: 4.12.2
+version: 5.0.0
 category: dev-vcs
 use_flags:
 - -python_targets_python3_10
@@ -37,4 +37,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-vcs/python-gitlab
   original.package.slot: "0"
-  original.package.version: 4.12.2
+  original.package.version: 5.0.0
