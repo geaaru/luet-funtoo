@@ -1,5 +1,5 @@
 name: pyproject-metadata
-version: 0.8.0
+version: 0.9.0
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -42,4 +42,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/pyproject-metadata
   original.package.slot: "0"
-  original.package.version: 0.8.0
+  original.package.version: 0.9.0
