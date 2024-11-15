@@ -1,5 +1,5 @@
 name: pecl-mcrypt
-version: 1.0.7
+version: 1.0.7+1
 category: dev-php
 use_flags:
 - -php_targets_php8-0
