@@ -1,5 +1,5 @@
 name: google-perftools
-version: 2.7+1
+version: 2.7+2
 category: dev-util
 requires:
 - name: libunwind
