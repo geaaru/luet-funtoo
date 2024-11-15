@@ -1,5 +1,5 @@
 name: mailbase
-version: "1.5"
+version: 1.5+1
 category: net-mail
 use_flags:
 - pam
