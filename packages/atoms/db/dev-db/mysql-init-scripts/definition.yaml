@@ -1,5 +1,5 @@
 name: mysql-init-scripts
-version: "2.4"
+version: 2.4+1
 category: dev-db
 requires:
 - name: mysql-connector-c
