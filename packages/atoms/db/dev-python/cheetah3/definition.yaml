@@ -1,5 +1,5 @@
 name: cheetah3
-version: 3.2.6
+version: 3.2.6+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
