@@ -3,7 +3,7 @@ env:
 - LUET_YES=true
 - LUET_NOLOCK=true
 - HTTP_TIMEOUT=0
-- 'GENTOO_MIRRORS="https://distfiles.macaronios.org https://dl.macaronios.org/repos/distfiles"'
+- 'GENTOO_MIRRORS="https://distfiles.macaronios.org https://dl.macaronios.org/repos/distfiles https://dev.macaronios.org/distfiles"'
 copy:
   - package:
       category: seed
