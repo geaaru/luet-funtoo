@@ -1,5 +1,5 @@
 name: pecl-mongodb
-version: 1.16.2
+version: 1.16.2+1
 category: dev-php
 use_flags:
 - -php_targets_php8-0
