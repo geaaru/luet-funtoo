@@ -1,5 +1,5 @@
 name: snowball-stemmer
-version: "0.20140325"
+version: 0.20140325+1
 category: dev-libs
 annotations:
   subsets:
