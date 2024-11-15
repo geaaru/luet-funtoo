@@ -1,5 +1,5 @@
 name: perl-Time-HiRes
-version: 1.976.400
+version: 1.976.400+1
 category: virtual
 requires:
 - name: perl
