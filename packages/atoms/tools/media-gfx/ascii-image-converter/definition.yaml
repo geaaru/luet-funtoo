@@ -1,5 +1,5 @@
 name: ascii-image-converter
-version: 1.13.1
+version: 1.13.1+1
 category: media-gfx
 annotations:
   subsets:
