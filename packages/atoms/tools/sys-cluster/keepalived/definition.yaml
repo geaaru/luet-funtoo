@@ -1,5 +1,5 @@
 name: keepalived
-version: 2.3.1
+version: 2.3.1+1
 category: sys-cluster
 use_flags:
 - dbus
