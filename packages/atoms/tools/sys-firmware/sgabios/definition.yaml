@@ -1,5 +1,5 @@
 name: sgabios
-version: 0.1_pre8-r1
+version: 0.1_pre8-r1+1
 category: sys-firmware
 annotations:
   subsets:
