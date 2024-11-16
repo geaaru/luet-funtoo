@@ -1,5 +1,5 @@
 name: python-memcached
-version: "1.62"
+version: 1.62+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
