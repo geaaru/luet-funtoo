@@ -1,5 +1,5 @@
 name: wcwidth
-version: 0.2.13
+version: 0.2.13+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
