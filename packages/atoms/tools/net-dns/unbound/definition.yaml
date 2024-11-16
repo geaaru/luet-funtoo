@@ -1,5 +1,5 @@
 name: unbound
-version: 1.12.0
+version: 1.12.0+1
 category: net-dns
 use_flags:
 - -libressl
