@@ -1,5 +1,5 @@
 name: sqlalchemy
-version: 2.0.36
+version: 2.0.36+1
 category: dev-python
 use_flags:
 - -python_targets_python2_7
