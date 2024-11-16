@@ -1,5 +1,5 @@
 name: python-mimeparse
-version: 1.6.0
+version: 1.6.0+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
