@@ -1,5 +1,5 @@
 name: kubectl
-version: 1.31.2
+version: 1.31.2+1
 category: sys-cluster
 annotations:
   subsets:
