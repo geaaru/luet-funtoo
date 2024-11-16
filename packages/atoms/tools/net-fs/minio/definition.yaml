@@ -1,5 +1,5 @@
 name: minio
-version: 2024.10.29.16.01.48
+version: 2024.10.29.16.01.48+1
 category: net-fs
 use_flags:
 - systemd
