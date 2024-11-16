@@ -1,5 +1,5 @@
 name: iotop
-version: "1.26"
+version: 1.26+1
 category: sys-process
 use_flags:
 - filecaps
