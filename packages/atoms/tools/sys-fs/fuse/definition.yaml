@@ -1,5 +1,5 @@
 name: fuse
-version: 2.9.9+1
+version: 2.9.9+2
 category: sys-fs
 requires:
 - name: fuse-common
