@@ -1,5 +1,5 @@
 name: rsyslog
-version: 8.2410.0
+version: 8.2410.0+1
 category: app-admin
 use_flags:
 - -elibc_musl
