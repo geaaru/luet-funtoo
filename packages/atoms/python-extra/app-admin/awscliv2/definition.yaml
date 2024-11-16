@@ -1,5 +1,5 @@
 name: awscliv2
-version: 2.19.0
+version: 2.19.0+1
 category: app-admin
 use_flags:
 - -python_targets_python3_10
