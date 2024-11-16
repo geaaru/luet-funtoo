@@ -1,5 +1,5 @@
 name: pyudev
-version: 0.24.3
+version: 0.24.3+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
