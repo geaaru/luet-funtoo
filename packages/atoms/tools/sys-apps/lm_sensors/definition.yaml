@@ -1,5 +1,5 @@
 name: lm_sensors
-version: 3.6.0
+version: 3.6.0+1
 category: sys-apps
 use_flags:
 - sensord
