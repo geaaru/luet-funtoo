@@ -1,5 +1,5 @@
 name: sqlalchemy-migrate
-version: 0.12.0
+version: 0.12.0+1
 category: dev-python
 use_flags:
 - -doc
