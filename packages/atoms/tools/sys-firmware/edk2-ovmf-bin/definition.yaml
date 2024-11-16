@@ -1,5 +1,5 @@
 name: edk2-ovmf-bin
-version: "202202"
+version: 202202+1
 category: sys-firmware
 annotations:
   subsets:
