@@ -1,5 +1,5 @@
 name: syslog-ng
-version: 3.20.1+1
+version: 3.20.1+2
 category: app-admin
 use_flags:
 - -amqp
