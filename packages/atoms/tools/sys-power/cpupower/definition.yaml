@@ -1,5 +1,5 @@
 name: cpupower
-version: 6.11.6
+version: 6.11.6+1
 category: sys-power
 use_flags:
 - nls
