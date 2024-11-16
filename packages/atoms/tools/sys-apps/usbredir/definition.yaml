@@ -1,5 +1,5 @@
 name: usbredir
-version: 0.13.0
+version: 0.13.0+1
 category: sys-apps
 requires:
 - name: libusb
