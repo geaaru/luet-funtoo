@@ -1,5 +1,5 @@
 name: libesmtp
-version: 1.0.6
+version: 1.0.6+1
 category: net-libs
 use_flags:
 - -libressl
