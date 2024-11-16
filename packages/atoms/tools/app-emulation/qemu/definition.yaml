@@ -1,5 +1,5 @@
 name: qemu
-version: 7.1.0
+version: 7.1.0+1
 category: app-emulation
 use_flags:
 - -accessibility
