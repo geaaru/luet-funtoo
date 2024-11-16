@@ -1,5 +1,5 @@
 name: libssh
-version: 0.9.8
+version: 0.9.8+1
 category: net-libs
 use_flags:
 - -doc
