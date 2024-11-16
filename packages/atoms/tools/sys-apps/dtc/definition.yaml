@@ -1,5 +1,5 @@
 name: dtc
-version: 1.7.1
+version: 1.7.1+1
 category: sys-apps
 use_flags:
 - -yaml
