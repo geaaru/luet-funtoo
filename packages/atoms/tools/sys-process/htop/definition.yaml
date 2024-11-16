@@ -1,5 +1,5 @@
 name: htop
-version: 3.3.0
+version: 3.3.0+1
 category: sys-process
 use_flags:
 - -hwloc
