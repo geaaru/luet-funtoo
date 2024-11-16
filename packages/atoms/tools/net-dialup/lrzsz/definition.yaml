@@ -1,5 +1,5 @@
 name: lrzsz
-version: 0.12.20
+version: 0.12.20+1
 category: net-dialup
 use_flags:
 - nls
