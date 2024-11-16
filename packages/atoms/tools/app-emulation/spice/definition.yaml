@@ -1,5 +1,5 @@
 name: spice
-version: 0.15.2
+version: 0.15.2+1
 category: app-emulation
 use_flags:
 - -gstreamer
