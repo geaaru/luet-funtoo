@@ -1,5 +1,5 @@
 name: stunnel
-version: "5.73"
+version: 5.73+1
 category: net-misc
 use_flags:
 - -selinux
