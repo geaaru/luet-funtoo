@@ -1,5 +1,5 @@
 name: dnspython
-version: 2.7.0
+version: 2.7.0+1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
