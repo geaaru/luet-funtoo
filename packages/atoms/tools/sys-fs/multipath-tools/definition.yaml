@@ -1,5 +1,5 @@
 name: multipath-tools
-version: 0.10.0
+version: 0.10.0+1
 category: sys-fs
 requires:
 - name: json-c
