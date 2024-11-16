@@ -1,5 +1,5 @@
 name: dash
-version: 0.5.12
+version: 0.5.12+1
 category: app-shells
 use_flags:
 - -static
