@@ -1,5 +1,5 @@
 name: cpuid
-version: "20180419"
+version: 20180419+1
 category: sys-apps
 annotations:
   subsets:
