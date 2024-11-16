@@ -1,5 +1,5 @@
 name: dnssec-root
-version: "20181220"
+version: 20181220+1
 category: net-dns
 annotations:
   subsets:
