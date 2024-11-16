@@ -1,5 +1,5 @@
 name: pathlib2
-version: 2.3.7
+version: 2.3.7+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
