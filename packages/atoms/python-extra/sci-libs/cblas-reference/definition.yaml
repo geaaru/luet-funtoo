@@ -1,5 +1,5 @@
 name: cblas-reference
-version: "20161223"
+version: 20161223+1
 category: sci-libs
 requires:
 - name: eselect-cblas
