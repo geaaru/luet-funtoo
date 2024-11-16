@@ -1,5 +1,5 @@
 name: packer
-version: 1.11.2
+version: 1.11.2+1
 category: dev-util
 annotations:
   subsets:
