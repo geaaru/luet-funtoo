@@ -1,5 +1,5 @@
 name: ipxe
-version: 1.21.1+1
+version: 1.21.1+2
 category: sys-firmware
 use_flags:
 - amd64
