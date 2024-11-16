@@ -1,5 +1,5 @@
 name: ansible-base
-version: 2.10.17+1
+version: 2.10.17+2
 category: app-admin
 use_flags:
 - -python_targets_python3_10
