@@ -1,5 +1,5 @@
 name: s3cmd
-version: 2.4.0+1
+version: 2.4.0+2
 category: net-misc
 use_flags:
 - -python_targets_python2_7
