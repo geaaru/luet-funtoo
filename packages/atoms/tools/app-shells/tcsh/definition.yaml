@@ -1,5 +1,5 @@
 name: tcsh
-version: 6.24.13
+version: 6.24.13+1
 category: app-shells
 use_flags:
 - -doc
