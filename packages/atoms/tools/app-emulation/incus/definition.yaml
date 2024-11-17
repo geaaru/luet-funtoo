@@ -1,5 +1,5 @@
 name: incus
-version: "6.6"
+version: 6.6+1
 category: app-emulation
 use_flags:
 - nls
