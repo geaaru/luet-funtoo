@@ -1,5 +1,5 @@
 name: meson-python
-version: 0.16.0+2
+version: 0.17.1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -13,6 +13,9 @@ requires:
 - name: tomli
   version: '>=0'
   category: dev-python
+- name: meson
+  version: '>=0'
+  category: dev-util
 - name: patchelf
   version: '>=0'
   category: dev-util
@@ -25,16 +28,16 @@ annotations:
       - ^/var/db/pkg/
 description: Meson Python build backend (PEP 517)
 uri:
-- https://github.com/mesonbuild/meson-python https://pypi.org/project/meson-python/
+- https://pypi.org/project/meson-python/
 labels:
   BDEPEND: python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7?
     ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8?
     ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     >=dev-python/gpep517-6[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+  DEPEND: dev-util/meson
   IUSE: python_targets_python3_10 python_targets_python3_7 python_targets_python3_9
     python_targets_python3_8
-  RDEPEND: dev-util/patchelf dev-python/meson[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
-    dev-python/pyproject-metadata[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+  RDEPEND: dev-util/patchelf dev-util/meson dev-python/pyproject-metadata[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     dev-python/tomli[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7?
     ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8?
@@ -43,4 +46,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/meson-python
   original.package.slot: "0"
-  original.package.version: 0.16.0
+  original.package.version: 0.17.1
