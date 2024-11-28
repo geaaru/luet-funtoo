@@ -27,7 +27,13 @@ requires:
   - name: appi
     category: dev-python
     version: '>=0'
+  - name: boolean-py
+    category: dev-python
+    version: '>=0'
   - name: calver
+    category: dev-python
+    version: '>=0'
+  - name: cerberus
     category: dev-python
     version: '>=0'
   - name: certifi
@@ -81,7 +87,13 @@ requires:
   - name: jinja
     category: dev-python
     version: '>=0'
+  - name: license-expression
+    category: dev-python
+    version: '>=0'
   - name: markupsafe
+    category: dev-python
+    version: '>=0'
+  - name: meson-python
     category: dev-python
     version: '>=0'
   - name: mwparserfromhell
@@ -94,6 +106,9 @@ requires:
     category: dev-python
     version: '>=0'
   - name: pathspec
+    category: dev-python
+    version: '>=0'
+  - name: pdm-pep517
     category: dev-python
     version: '>=0'
   - name: pip
@@ -115,6 +130,9 @@ requires:
     category: dev-python
     version: '>=0'
   - name: pyparsing
+    category: dev-python
+    version: '>=0'
+  - name: pyproject-metadata
     category: dev-python
     version: '>=0'
   - name: pytz
@@ -171,6 +189,9 @@ requires:
   - name: tomli
     category: dev-python
     version: '>=0'
+  - name: tomli-w
+    category: dev-python
+    version: '>=0'
   - name: trove-classifiers
     category: dev-python
     version: '>=0'
@@ -185,6 +206,9 @@ requires:
     version: '>=0'
   - name: zipp
     category: dev-python
+    version: '>=0'
+  - name: patchelf
+    category: dev-util
     version: '>=0'
   - name: usbutils
     category: sys-apps
