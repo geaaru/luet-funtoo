@@ -1,5 +1,5 @@
 name: wheel
-version: 0.44.0+1
+version: 0.44.0+2
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -9,9 +9,12 @@ use_flags:
 - -python_targets_python3_8
 - python_targets_python3_9
 requires:
-- name: packaging
+- name: python
   version: '>=0'
-  category: dev-python
+  category: dev-lang-3.9
+- name: python-exec
+  version: '>=0'
+  category: dev-lang-2
 annotations:
   subsets:
     rules:
