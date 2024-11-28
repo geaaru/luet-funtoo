@@ -28,6 +28,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: calver
+- name: pluggy
   version: '>=0'
   category: dev-python
