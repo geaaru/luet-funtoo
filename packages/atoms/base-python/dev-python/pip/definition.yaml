@@ -1,8 +1,7 @@
 name: pip
-version: 24.3.1
+version: 24.3.1+1
 category: dev-python
 use_flags:
-- -python_targets_python2_7
 - -python_targets_python3_10
 - -python_targets_python3_7
 - -python_targets_python3_8
@@ -20,7 +19,7 @@ annotations:
       - ^/var/db/pkg/
 description: The PyPA recommended tool for installing Python packages.
 uri:
-- https://pip.pypa.io/ https://pypi.org/project/pip/
+- https://pypi.org/project/pip/
 license: MIT
 labels:
   BDEPEND: python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7?
