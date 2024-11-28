@@ -1,5 +1,5 @@
 name: pyproject-metadata
-version: 0.8.0+1
+version: 0.9.0
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -25,7 +25,7 @@ annotations:
       - ^/var/db/pkg/
 description: PEP 621 metadata parsing
 uri:
-- None https://pypi.org/project/pyproject-metadata/
+- https://pypi.org/project/pyproject-metadata/
 license: MIT
 labels:
   BDEPEND: python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7?
@@ -42,4 +42,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/pyproject-metadata
   original.package.slot: "0"
-  original.package.version: 0.8.0
+  original.package.version: 0.9.0
