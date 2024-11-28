@@ -1,5 +1,5 @@
 name: sphinxcontrib-serializinghtml
-version: 2.0.0+1
+version: 2.0.0+2
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -17,7 +17,7 @@ annotations:
       - ^/usr/include/
       portage:
       - ^/var/db/pkg/
-description: sphinxcontrib-serializinghtml is a sphinx extension which outputs serialized
+description: sphinxcontrib-serializinghtml is a sphinx extension which outputs 'serialized'
   HTML files (json and pickle)
 uri:
 - https://pypi.org/project/sphinxcontrib-serializinghtml/
