@@ -1,13 +1,19 @@
 name: setuptools_scm
-version: 8.1.0+1
+version: 8.1.0+2
 category: dev-python
 use_flags:
-- -python_targets_python2_7
 - -python_targets_python3_10
 - -python_targets_python3_7
 - -python_targets_python3_8
+- -test
 - python_targets_python3_9
 requires:
+- name: packaging
+  version: '>=0'
+  category: dev-python
+- name: setuptools
+  version: '>=0'
+  category: dev-python
 - name: tomli
   version: '>=0'
   category: dev-python
