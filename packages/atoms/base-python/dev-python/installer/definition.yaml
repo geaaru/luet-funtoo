@@ -1,5 +1,5 @@
 name: installer
-version: 0.5.1+2
+version: 0.5.1+3
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -24,7 +24,9 @@ annotations:
       - ^/var/db/pkg/
 description: A library for installing Python wheels
 uri:
-- https://pypi.org/project/installer/ https://github.com/pypa/installer/ https://installer.readthedocs.io/en/latest/
+- https://pypi.org/project/installer/
+- https://github.com/pypa/installer/
+- https://installer.readthedocs.io/en/latest/
 license: MIT
 labels:
   BDEPEND: app-arch/unzip test? ( >=dev-python/pytest-7.1.2[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
