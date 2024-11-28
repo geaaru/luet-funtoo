@@ -28,6 +28,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: macaroni-funtoo-race1
+- name: wheel
   version: '>=0'
-  category: seed
+  category: dev-python
