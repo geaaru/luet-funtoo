@@ -6,10 +6,6 @@ env:
 - LUET_PORTAGE_PKGFILES=1
 - FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"
 prelude:
-# Avoid dep cycle - FL-11821
-- >-
-  sed -i -e '/^DISTUTILS_USE_PEP517.*/d'
-  /var/git/meta-repo/kits/python-modules-kit/dev-python/packaging/packaging-21.3.ebuild
 - |
   eval 'mkdir -p /var/cache/portage/distfiles || true' && \
   chown portage:portage -R /var/cache/portage/ && \
@@ -32,6 +28,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: tomli
+- name: calver
   version: '>=0'
   category: dev-python
