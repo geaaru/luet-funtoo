@@ -28,6 +28,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: wheel
+- name: importlib_metadata
   version: '>=0'
   category: dev-python
