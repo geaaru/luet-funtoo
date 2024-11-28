@@ -1,10 +1,9 @@
 name: cffi
-version: 1.17.1+1
+version: 1.17.1+2
 category: dev-python
 use_flags:
 - -doc
 - -python_targets_pypy3
-- -python_targets_python2_7
 - -python_targets_python3_10
 - -python_targets_python3_7
 - -python_targets_python3_8
@@ -26,7 +25,8 @@ annotations:
       - ^/var/db/pkg/
 description: Foreign Function Interface for Python calling C code
 uri:
-- https://cffi.readthedocs.io/ https://pypi.org/project/cffi/
+- https://cffi.readthedocs.io/
+- https://pypi.org/project/cffi/
 license: MIT
 labels:
   DEPEND: virtual/libffi:= dev-python/pycparser[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
