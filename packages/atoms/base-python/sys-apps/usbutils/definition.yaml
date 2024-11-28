@@ -1,5 +1,5 @@
 name: usbutils
-version: "018"
+version: 018+1
 category: sys-apps
 use_flags:
 - -python_single_target_python3_10
@@ -32,7 +32,8 @@ annotations:
       - ^/var/db/pkg/
 description: USB enumeration utilities
 uri:
-- https://www.kernel.org/pub/linux/utils/usb/usbutils/ https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usbutils.git/
+- https://www.kernel.org/pub/linux/utils/usb/usbutils/
+- https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usbutils.git/
 license: GPL-2
 labels:
   BDEPEND: app-arch/xz-utils virtual/pkgconfig python? ( python_single_target_python3_10?
