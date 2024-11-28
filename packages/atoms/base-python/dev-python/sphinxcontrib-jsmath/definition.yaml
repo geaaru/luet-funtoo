@@ -1,5 +1,5 @@
 name: sphinxcontrib-jsmath
-version: 1.0.1+2
+version: 1.0.1+3
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -19,7 +19,8 @@ annotations:
       - ^/var/db/pkg/
 description: A sphinx extension which renders display math in HTML via JavaScript
 uri:
-- http://sphinx-doc.org/ https://pypi.org/project/sphinxcontrib-jsmath/
+- http://sphinx-doc.org/
+- https://pypi.org/project/sphinxcontrib-jsmath/
 license: BSD
 labels:
   BDEPEND: python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7?
