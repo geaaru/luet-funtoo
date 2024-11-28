@@ -1,5 +1,5 @@
 name: libusb
-version: 1.0.27+1
+version: 1.0.27+2
 category: dev-libs-1
 use_flags:
 - -doc
@@ -13,7 +13,8 @@ annotations:
       - ^/var/db/pkg/
 description: A cross-platform library to access USB devices
 uri:
-- https://libusb.info/ https://github.com/libusb/libusb
+- https://libusb.info/
+- https://github.com/libusb/libusb
 license: LGPL-2.1
 labels:
   BDEPEND: doc? ( app-doc/doxygen ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16
