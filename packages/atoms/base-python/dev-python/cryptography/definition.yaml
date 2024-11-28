@@ -1,10 +1,9 @@
 name: cryptography
-version: 42.0.8+1
+version: 42.0.8+2
 category: dev-python
 use_flags:
 - -idna
 - -libressl
-- -python_targets_python2_7
 - -python_targets_python3_10
 - -python_targets_python3_7
 - -python_targets_python3_8
@@ -53,16 +52,16 @@ labels:
     ) python_targets_python3_8? ( >=dev-python/cffi-1.11.3[python_targets_python3_10(-)?,-python_single_target_python3_10(-),python_targets_python3_7(-)?,-python_single_target_python3_7(-),python_targets_python3_9(-)?,-python_single_target_python3_9(-),python_targets_python3_8(-)?,-python_single_target_python3_8(-)]
     >=dev-python/setuptools-rust-0.12.1[python_targets_python3_10(-)?,-python_single_target_python3_10(-),python_targets_python3_7(-)?,-python_single_target_python3_7(-),python_targets_python3_9(-)?,-python_single_target_python3_9(-),python_targets_python3_8(-)?,-python_single_target_python3_8(-)]
     )
-  IUSE: cpu_flags_x86_sse2 idna libressl python_targets_python2_7 debug python_targets_python3_10
-    python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
-  RDEPEND: python_targets_python2_7? ( dev-python/cryptography-compat ) >=dev-python/six-1.4.1[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+  IUSE: cpu_flags_x86_sse2 idna libressl debug python_targets_python3_10 python_targets_python3_7
+    python_targets_python3_9 python_targets_python3_8
+  RDEPEND: '>=dev-python/six-1.4.1[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     virtual/python-enum34[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     virtual/python-ipaddress[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     >=dev-python/cffi-1.11.3[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     idna? ( >=dev-python/idna-2.1[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7?
     ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8?
-    ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+    ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]'
   emerge.packages: dev-python/cryptography
   kit: python-modules-kit
   original.package.name: dev-python/cryptography

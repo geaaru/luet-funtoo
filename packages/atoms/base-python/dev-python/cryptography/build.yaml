@@ -16,9 +16,9 @@ prelude:
   {{- end }}
 - |
   {{- if .Values.use_flags }}
-  USE="{{ join " " .Values.use_flags }}" emerge -j ${JOBS} {{ ( index .Values.labels "emerge.packages" ) }}
+  USE="{{ join " " .Values.use_flags }}" emerge -j ${JOBS} --nodeps {{ ( index .Values.labels "emerge.packages" ) }}
   {{- else }}
-  emerge -j ${JOBS} {{ ( index .Values.labels "emerge.packages" ) }}
+  emerge -j ${JOBS} --nodeps {{ ( index .Values.labels "emerge.packages" ) }}
   {{- end }}
 - eval 'rm -rf /pkgdir/ || true' && mkdir -p /pkgdir/{{ .Values.name }} && luet-portage
   --dir /pkgdir/{{ .Values.name }} {{ ( index .Values.labels "emerge.packages" ) }}
