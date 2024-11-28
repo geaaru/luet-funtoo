@@ -6,10 +6,6 @@ env:
 - LUET_PORTAGE_PKGFILES=1
 - FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"
 prelude:
-# Temporary fix until next race
-- >-
-  sed -i -e 's|^KEYWORDS.*|KEYWORDS="*"|g'
-  /var/git/meta-repo/kits/python-modules-kit/dev-python/pluggy/pluggy-1.5.0.ebuild
 - |
   eval 'mkdir -p /var/cache/portage/distfiles || true' && \
   chown portage:portage -R /var/cache/portage/ && \
@@ -32,6 +28,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: pathspec
+- name: pip
   version: '>=0'
   category: dev-python
