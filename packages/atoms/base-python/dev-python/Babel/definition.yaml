@@ -1,8 +1,7 @@
 name: Babel
-version: 2.16.0+1
+version: 2.16.0+2
 category: dev-python
 use_flags:
-- -python_targets_python2_7
 - -python_targets_python3_10
 - -python_targets_python3_7
 - -python_targets_python3_8
@@ -20,7 +19,8 @@ annotations:
       - ^/var/db/pkg/
 description: Internationalization utilities
 uri:
-- https://babel.pocoo.org/ https://pypi.org/project/Babel/
+- https://babel.pocoo.org/
+- https://pypi.org/project/babel/
 license: BSD
 labels:
   BDEPEND: python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7?
