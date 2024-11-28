@@ -39,6 +39,9 @@ requires:
   - name: docbook-dsssl-stylesheets
     category: app-text
     version: '>=0'
+  - name: docbook-xsl-ns-stylesheets
+    category: app-text
+    version: '>=0'
   - name: docbook-xsl-stylesheets
     category: app-text
     version: '>=0'
