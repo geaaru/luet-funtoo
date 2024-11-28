@@ -1,8 +1,7 @@
 name: idna
-version: 3.10+1
+version: 3.10+2
 category: dev-python
 use_flags:
-- -python_targets_python2_7
 - -python_targets_python3_10
 - -python_targets_python3_7
 - -python_targets_python3_8
@@ -23,7 +22,7 @@ annotations:
       - ^/var/db/pkg/
 description: Internationalized Domain Names in Applications (IDNA)
 uri:
-- None https://pypi.org/project/idna/
+- https://pypi.org/project/idna/
 license: BSD
 labels:
   BDEPEND: python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7?
