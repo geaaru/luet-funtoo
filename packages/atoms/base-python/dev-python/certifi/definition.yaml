@@ -1,5 +1,5 @@
 name: certifi
-version: 10001+2
+version: 10001+3
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -28,7 +28,8 @@ annotations:
       - ^/var/db/pkg/
 description: Thin replacement for certifi using system certificate store
 uri:
-- https://github.com/mgorny/certifi-shim/ https://pypi.org/project/certifi/
+- https://github.com/mgorny/certifi-shim/
+- https://pypi.org/project/certifi/
 license: CC0-1.0
 labels:
   BDEPEND: test? ( app-misc/ca-certificates dev-python/unittest-or-fail[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,python_targets_python2_7(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-),-python_single_target_python2_7(-)]
