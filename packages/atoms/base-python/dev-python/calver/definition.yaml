@@ -1,5 +1,5 @@
 name: calver
-version: 2022.6.26+1
+version: 2022.6.26+2
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -22,7 +22,8 @@ annotations:
       - ^/var/db/pkg/
 description: Setuptools extension for CalVer package versions
 uri:
-- https://github.com/di/calver https://pypi.org/project/calver/
+- https://github.com/di/calver
+- https://pypi.org/project/calver/
 license: Apache-2.0
 labels:
   BDEPEND: python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7?
