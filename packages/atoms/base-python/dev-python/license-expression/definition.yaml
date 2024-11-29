@@ -1,5 +1,5 @@
 name: license-expression
-version: 30.4.0
+version: 30.4.0+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10

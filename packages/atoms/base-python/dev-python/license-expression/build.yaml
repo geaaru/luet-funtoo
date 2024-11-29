@@ -6,6 +6,11 @@ env:
 - LUET_PORTAGE_PKGFILES=1
 - FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"
 prelude:
+# Temporary fix until next race
+- >-
+  cd /var/git/meta-repo/kits/python-modules-kit/dev-python/license-expression &&
+  rm license-expression-30.4.0.ebuild &&
+  wget https://raw.githubusercontent.com/macaroni-os/python-modules-kit/refs/heads/mark-testing/dev-python/license-expression/license-expression-30.4.0.ebuild
 - |
   eval 'mkdir -p /var/cache/portage/distfiles || true' && \
   chown portage:portage -R /var/cache/portage/ && \
