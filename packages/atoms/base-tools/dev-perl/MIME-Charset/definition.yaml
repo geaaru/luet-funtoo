@@ -1,5 +1,5 @@
 name: MIME-Charset
-version: 1.12.2
+version: 1.12.2+1
 category: dev-perl
 use_flags:
 - -l10n_ja
