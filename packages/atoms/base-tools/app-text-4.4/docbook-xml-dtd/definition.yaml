@@ -1,5 +1,5 @@
 name: docbook-xml-dtd
-version: "4.4"
+version: 4.4+1
 category: app-text-4.4
 requires:
 - name: docbook-xsl-stylesheets
