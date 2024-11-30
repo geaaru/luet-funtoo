@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: virtual for yacc (yet another compiler compiler)
-uri:
-- ""
 labels:
   RDEPEND: '|| ( sys-devel/bison dev-util/byacc dev-util/yacc )'
   emerge.packages: virtual/yacc

@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for the device filesystem manager
-uri:
-- ""
 labels:
   RDEPEND: '|| ( virtual/udev sys-apps/busybox[mdev] sys-fs/static-dev sys-freebsd/freebsd-sbin
     )'

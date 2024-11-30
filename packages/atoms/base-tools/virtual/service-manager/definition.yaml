@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for various service managers
-uri:
-- ""
 labels:
   IUSE: kernel_linux prefix
   RDEPEND: sys-apps/openrc

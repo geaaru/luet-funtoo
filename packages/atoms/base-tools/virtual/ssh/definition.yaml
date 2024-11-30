@@ -11,8 +11,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for SSH client and server
-uri:
-- ""
 labels:
   IUSE: minimal
   RDEPEND: minimal? ( || ( net-misc/dropbear net-misc/openssh ) ) !minimal? ( || (

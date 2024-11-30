@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for utilities to manage Linux kernel modules
-uri:
-- ""
 labels:
   RDEPEND: '|| ( sys-apps/kmod[tools] sys-apps/modutils )'
   emerge.packages: virtual/modutils

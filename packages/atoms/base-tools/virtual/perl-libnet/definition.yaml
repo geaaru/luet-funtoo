@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for libnet
-uri:
-- ""
 labels:
   IUSE: +ssl
   RDEPEND: '|| ( =dev-lang/perl-5.32* =dev-lang/perl-5.30* ~perl-core/libnet-3.110.0

@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for command-line pagers
-uri:
-- ""
 labels:
   RDEPEND: '|| ( sys-apps/less sys-apps/most sys-apps/util-linux[ncurses] app-text/lv
     app-editors/vim[vim-pager] )'

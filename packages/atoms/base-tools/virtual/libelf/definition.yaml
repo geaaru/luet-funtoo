@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for libelf.so.1 provider dev-libs/elfutils
-uri:
-- ""
 labels:
   RDEPEND: '>=dev-libs/elfutils-0.187'
   emerge.packages: virtual/libelf

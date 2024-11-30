@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for man
-uri:
-- ""
 labels:
   RDEPEND: '|| ( sys-apps/man-db sys-apps/man >=sys-freebsd/freebsd-ubin-11.1-r1 )'
   emerge.packages: virtual/man

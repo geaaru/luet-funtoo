@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for editor
-uri:
-- ""
 labels:
   RDEPEND: '|| ( app-editors/nano app-editors/dav app-editors/e3 app-editors/ee app-editors/efte
     app-editors/elvis app-editors/emacs app-editors/emacs-vcs app-editors/emact app-editors/ersatz-emacs

@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for the package manager
-uri:
-- ""
 labels:
   RDEPEND: '|| ( sys-apps/portage sys-apps/pkgcore )'
   emerge.packages: virtual/package-manager
