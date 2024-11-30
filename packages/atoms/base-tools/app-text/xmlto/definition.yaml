@@ -1,5 +1,5 @@
 name: xmlto
-version: 0.0.28
+version: 0.0.28+1
 category: app-text
 use_flags:
 - -latex
