@@ -1,7 +1,8 @@
 name: net-tools
-version: "2.10"
+version: 2.10+1
 category: sys-apps
 use_flags:
+- -nis
 - -selinux
 - hostname
 annotations:
@@ -13,7 +14,7 @@ annotations:
       - ^/var/db/pkg/
 description: Standard Linux networking tools
 uri:
-- http://net-tools.sourceforge.net/
+- https://net-tools.sourceforge.io/
 license: GPL-2
 labels:
   BDEPEND: selinux? ( virtual/pkgconfig ) app-arch/xz-utils
