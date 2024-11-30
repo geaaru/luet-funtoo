@@ -1,5 +1,5 @@
 name: libintl-perl
-version: 1.280.0
+version: 1.280.0+1
 category: dev-perl
 requires:
 - name: perl
@@ -17,7 +17,8 @@ annotations:
       - ^/var/db/pkg/
 description: High-Level Interface to Uniforum Message Translation
 uri:
-- http://guido-flohr.net/projects/libintl-perl https://metacpan.org/release/libintl-perl
+- http://guido-flohr.net/projects/libintl-perl
+- https://metacpan.org/release/libintl-perl
 license: GPL-3
 labels:
   DEPEND: virtual/libintl virtual/perl-ExtUtils-MakeMaker dev-lang/perl:=
