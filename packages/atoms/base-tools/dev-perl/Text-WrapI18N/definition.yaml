@@ -1,5 +1,5 @@
 name: Text-WrapI18N
-version: 0.60.0
+version: 0.60.0+1
 category: dev-perl
 requires:
 - name: Text-CharWidth
