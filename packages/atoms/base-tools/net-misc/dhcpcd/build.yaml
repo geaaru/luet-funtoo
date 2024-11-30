@@ -1,8 +1,4 @@
 prelude:
-- >-
-  luet repo update &&
-  luet upgrade -y &&
-  luet cleanup --purge-repos
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
   export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \

@@ -1,5 +1,5 @@
 name: dhcpcd
-version: 10.0.4+1
+version: 10.0.4+2
 category: net-misc
 use_flags:
 - udev
@@ -16,7 +16,8 @@ annotations:
       - ^/var/db/pkg/
 description: A fully featured, yet light weight RFC2131 compliant DHCP client
 uri:
-- https://github.com/NetworkConfiguration/dhcpcd/ https://roy.marples.name/projects/dhcpcd/
+- https://github.com/NetworkConfiguration/dhcpcd/
+- https://roy.marples.name/projects/dhcpcd/
 license: BSD-2
 labels:
   DEPEND: udev? ( virtual/udev ) sys-apps/shadow
