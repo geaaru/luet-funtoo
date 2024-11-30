@@ -1,5 +1,5 @@
 name: eselect-python
-version: "20190417"
+version: 20190417+1
 category: app-eselect
 requires:
 - name: eselect
