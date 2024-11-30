@@ -69,9 +69,6 @@ requires:
   - name: glib
     category: dev-libs-2
     version: '>=0'
-  - name: iniparser
-    category: dev-libs-4
-    version: '>=0'
   - name: boost
     category: dev-libs
     version: '>=0'
