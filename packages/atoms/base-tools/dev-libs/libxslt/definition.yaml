@@ -1,7 +1,12 @@
 name: libxslt
-version: 1.1.38
+version: 1.1.38+1
 category: dev-libs
 use_flags:
+- -python
+- -python_single_target_python3_10
+- -python_single_target_python3_7
+- -python_single_target_python3_8
+- -python_single_target_python3_9
 - crypt
 requires:
 - name: libgcrypt
@@ -19,7 +24,7 @@ annotations:
       - ^/var/db/pkg/
 description: XSLT libraries and tools
 uri:
-- http://www.xmlsoft.org/
+- https://gitlab.gnome.org/GNOME/libxslt
 license: MIT
 labels:
   BDEPEND: '>=virtual/pkgconfig-1 app-arch/xz-utils >=app-portage/elt-patches-20170815'
