@@ -1,5 +1,5 @@
 name: cmake
-version: 3.24.1+1
+version: 3.24.1+2
 category: dev-util
 use_flags:
 - -doc
@@ -55,7 +55,7 @@ labels:
     >=dev-libs/libuv-1.10.0:= >=net-misc/curl-7.21.5[ssl] sys-libs/zlib virtual/pkgconfig
     emacs? ( >=app-editors/emacs-23.1:* ) ncurses? ( sys-libs/ncurses:0= ) qt5? (
     dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 )'
-  IUSE: +doc emacs ncurses qt5 test test
+  IUSE: doc emacs ncurses qt5 test test
   RDEPEND: '>=app-arch/libarchive-3.3.3:= app-crypt/rhash >=dev-libs/expat-2.0.1 >=dev-libs/jsoncpp-1.9.2-r2:0=
     >=dev-libs/libuv-1.10.0:= >=net-misc/curl-7.21.5[ssl] sys-libs/zlib virtual/pkgconfig
     emacs? ( >=app-editors/emacs-23.1:* ) ncurses? ( sys-libs/ncurses:0= ) qt5? (
