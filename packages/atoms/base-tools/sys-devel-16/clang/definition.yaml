@@ -1,0 +1,122 @@
+name: clang
+version: 16.0.0
+category: sys-devel-16
+use_flags:
+- -doc
+- -python_single_target_python3_10
+- -python_single_target_python3_7
+- -python_single_target_python3_8
+- llvm_targets_AArch64
+- llvm_targets_AMDGPU
+- llvm_targets_ARC
+- llvm_targets_ARM
+- llvm_targets_AVR
+- llvm_targets_BPF
+- llvm_targets_CSKY
+- llvm_targets_DirectX
+- llvm_targets_Hexagon
+- llvm_targets_Lanai
+- llvm_targets_LoongArch
+- llvm_targets_M68k
+- llvm_targets_MSP430
+- llvm_targets_Mips
+- llvm_targets_NVPTX
+- llvm_targets_PowerPC
+- llvm_targets_RISCV
+- llvm_targets_SPIRV
+- llvm_targets_Sparc
+- llvm_targets_SystemZ
+- llvm_targets_VE
+- llvm_targets_WebAssembly
+- llvm_targets_X86
+- llvm_targets_XCore
+- llvm_targets_Xtensa
+- python_single_target_python3_9
+- static-analyzer
+- xml
+requires:
+- name: python
+  version: '>=0'
+  category: dev-lang-3.9
+- name: python-exec
+  version: '>=0'
+  category: dev-lang-2
+- name: llvm
+  version: '>=0'
+  category: sys-devel-16
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: C language family frontend for LLVM
+uri:
+- https://llvm.org/
+license: Apache-2.0-with-LLVM-exceptions UoI-NCSA MIT
+labels:
+  BDEPEND: python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10]
+    ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
+    ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9]
+    ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8]
+    ) >=dev-util/cmake-3.16 doc? ( dev-python/recommonmark dev-python/sphinx ) xml?
+    ( virtual/pkgconfig ) dev-python/sphinx dev-util/ninja dev-util/cmake
+  DEPEND: ~sys-devel/llvm-16.0.0:16=[debug=,-mgorny(-)] static-analyzer? ( dev-lang/perl:*
+    ) xml? ( dev-libs/libxml2:2= ) llvm_targets_AArch64? ( ~sys-devel/llvm-16.0.0[llvm_targets_AArch64]
+    ) llvm_targets_AMDGPU? ( ~sys-devel/llvm-16.0.0[llvm_targets_AMDGPU] ) llvm_targets_ARM?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_ARM] ) llvm_targets_AVR? ( ~sys-devel/llvm-16.0.0[llvm_targets_AVR]
+    ) llvm_targets_BPF? ( ~sys-devel/llvm-16.0.0[llvm_targets_BPF] ) llvm_targets_Hexagon?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_Hexagon] ) llvm_targets_Lanai? ( ~sys-devel/llvm-16.0.0[llvm_targets_Lanai]
+    ) llvm_targets_LoongArch? ( ~sys-devel/llvm-16.0.0[llvm_targets_LoongArch] ) llvm_targets_Mips?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_Mips] ) llvm_targets_MSP430? ( ~sys-devel/llvm-16.0.0[llvm_targets_MSP430]
+    ) llvm_targets_NVPTX? ( ~sys-devel/llvm-16.0.0[llvm_targets_NVPTX] ) llvm_targets_PowerPC?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_PowerPC] ) llvm_targets_RISCV? ( ~sys-devel/llvm-16.0.0[llvm_targets_RISCV]
+    ) llvm_targets_Sparc? ( ~sys-devel/llvm-16.0.0[llvm_targets_Sparc] ) llvm_targets_SystemZ?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_SystemZ] ) llvm_targets_VE? ( ~sys-devel/llvm-16.0.0[llvm_targets_VE]
+    ) llvm_targets_WebAssembly? ( ~sys-devel/llvm-16.0.0[llvm_targets_WebAssembly]
+    ) llvm_targets_X86? ( ~sys-devel/llvm-16.0.0[llvm_targets_X86] ) llvm_targets_XCore?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_XCore] ) llvm_targets_ARC? ( ~sys-devel/llvm-16.0.0[llvm_targets_ARC]
+    ) llvm_targets_CSKY? ( ~sys-devel/llvm-16.0.0[llvm_targets_CSKY] ) llvm_targets_DirectX?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_DirectX] ) llvm_targets_M68k? ( ~sys-devel/llvm-16.0.0[llvm_targets_M68k]
+    ) llvm_targets_SPIRV? ( ~sys-devel/llvm-16.0.0[llvm_targets_SPIRV] ) llvm_targets_Xtensa?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_Xtensa] ) !!sys-devel/llvm:0
+  IUSE: debug default-compiler-rt default-libcxx default-lld doc +extra llvm-libunwind
+    ieee-long-double +pie +static-analyzer test xml test doc llvm_targets_AArch64
+    llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Hexagon
+    llvm_targets_Lanai llvm_targets_LoongArch llvm_targets_Mips llvm_targets_MSP430
+    llvm_targets_NVPTX llvm_targets_PowerPC llvm_targets_RISCV llvm_targets_Sparc
+    llvm_targets_SystemZ llvm_targets_VE llvm_targets_WebAssembly llvm_targets_X86
+    llvm_targets_XCore llvm_targets_ARC llvm_targets_CSKY llvm_targets_DirectX llvm_targets_M68k
+    llvm_targets_SPIRV llvm_targets_Xtensa abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32
+    abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 python_single_target_python3_10
+    python_single_target_python3_7 python_single_target_python3_9 python_single_target_python3_8
+    python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
+  RDEPEND: python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10]
+    ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
+    ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9]
+    ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8]
+    ) ~sys-devel/llvm-16.0.0:16=[debug=,-mgorny(-)] static-analyzer? ( dev-lang/perl:*
+    ) xml? ( dev-libs/libxml2:2= ) llvm_targets_AArch64? ( ~sys-devel/llvm-16.0.0[llvm_targets_AArch64]
+    ) llvm_targets_AMDGPU? ( ~sys-devel/llvm-16.0.0[llvm_targets_AMDGPU] ) llvm_targets_ARM?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_ARM] ) llvm_targets_AVR? ( ~sys-devel/llvm-16.0.0[llvm_targets_AVR]
+    ) llvm_targets_BPF? ( ~sys-devel/llvm-16.0.0[llvm_targets_BPF] ) llvm_targets_Hexagon?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_Hexagon] ) llvm_targets_Lanai? ( ~sys-devel/llvm-16.0.0[llvm_targets_Lanai]
+    ) llvm_targets_LoongArch? ( ~sys-devel/llvm-16.0.0[llvm_targets_LoongArch] ) llvm_targets_Mips?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_Mips] ) llvm_targets_MSP430? ( ~sys-devel/llvm-16.0.0[llvm_targets_MSP430]
+    ) llvm_targets_NVPTX? ( ~sys-devel/llvm-16.0.0[llvm_targets_NVPTX] ) llvm_targets_PowerPC?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_PowerPC] ) llvm_targets_RISCV? ( ~sys-devel/llvm-16.0.0[llvm_targets_RISCV]
+    ) llvm_targets_Sparc? ( ~sys-devel/llvm-16.0.0[llvm_targets_Sparc] ) llvm_targets_SystemZ?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_SystemZ] ) llvm_targets_VE? ( ~sys-devel/llvm-16.0.0[llvm_targets_VE]
+    ) llvm_targets_WebAssembly? ( ~sys-devel/llvm-16.0.0[llvm_targets_WebAssembly]
+    ) llvm_targets_X86? ( ~sys-devel/llvm-16.0.0[llvm_targets_X86] ) llvm_targets_XCore?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_XCore] ) llvm_targets_ARC? ( ~sys-devel/llvm-16.0.0[llvm_targets_ARC]
+    ) llvm_targets_CSKY? ( ~sys-devel/llvm-16.0.0[llvm_targets_CSKY] ) llvm_targets_DirectX?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_DirectX] ) llvm_targets_M68k? ( ~sys-devel/llvm-16.0.0[llvm_targets_M68k]
+    ) llvm_targets_SPIRV? ( ~sys-devel/llvm-16.0.0[llvm_targets_SPIRV] ) llvm_targets_Xtensa?
+    ( ~sys-devel/llvm-16.0.0[llvm_targets_Xtensa] )
+  emerge.packages: sys-devel/clang:16
+  kit: llvm-kit
+  original.package.name: sys-devel/clang
+  original.package.slot: "16"
+  original.package.version: 16.0.0-r1
