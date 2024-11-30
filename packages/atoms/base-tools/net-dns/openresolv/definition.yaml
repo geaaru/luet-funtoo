@@ -1,5 +1,5 @@
 name: openresolv
-version: 3.13.2
+version: 3.13.2+1
 category: net-dns
 use_flags:
 - -selinux
@@ -15,7 +15,6 @@ uri:
 - https://roy.marples.name/projects/openresolv
 license: BSD-2
 labels:
-  DEPEND: '!net-dns/resolvconf-gentoo !<net-dns/dnsmasq-2.40-r1'
   IUSE: selinux
   RDEPEND: selinux? ( sec-policy/selinux-resolvconf )
   emerge.packages: net-dns/openresolv
