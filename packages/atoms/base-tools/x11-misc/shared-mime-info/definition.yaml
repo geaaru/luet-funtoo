@@ -17,13 +17,12 @@ annotations:
       - ^/var/db/pkg/
 description: The Shared MIME-info Database specification
 uri:
-- https://freedesktop.org/wiki/Software/shared-mime-info
+- https://gitlab.freedesktop.org/xdg/shared-mime-info
 license: GPL-2
 labels:
   BDEPEND: '>=dev-util/meson-0.48.2 >=dev-util/ninja-1.7.2'
   DEPEND: dev-libs/glib dev-libs/libxml2 app-text/xmlto dev-util/intltool sys-devel/gettext
     virtual/pkgconfig
-  IUSE: test
   RDEPEND: dev-libs/glib dev-libs/libxml2
   emerge.packages: x11-misc/shared-mime-info
   kit: desktop-kit
