@@ -1,5 +1,5 @@
 name: asciidoc
-version: 10.2.1
+version: 10.2.1+1
 category: app-text
 use_flags:
 - -python_targets_python3_10
