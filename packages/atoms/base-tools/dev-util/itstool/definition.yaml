@@ -1,8 +1,7 @@
 name: itstool
-version: 2.0.6+2
+version: 2.0.6+3
 category: dev-util
 use_flags:
-- -python_single_target_python2_7
 - -python_single_target_python3_10
 - -python_single_target_python3_7
 - -python_single_target_python3_8
