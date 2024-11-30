@@ -1,5 +1,5 @@
 name: thin-provisioning-tools
-version: 0.8.5
+version: 1.1.0
 category: sys-block
 use_flags:
 - -static
@@ -23,16 +23,13 @@ uri:
 - https://github.com/jthornber/thin-provisioning-tools
 license: GPL-3
 labels:
-  BDEPEND: '>=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 ||
-    ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69
-    >=sys-devel/libtool-2.4'
-  DEPEND: '!static? ( dev-libs/expat dev-libs/libaio ) static? ( dev-libs/expat[static-libs(+)]
-    dev-libs/libaio[static-libs(+)] ) test? ( || ( dev-lang/ruby:2.6 dev-lang/ruby:2.5
-    dev-lang/ruby:2.4 ) >=dev-cpp/gtest-1.8.0 dev-util/cucumber dev-util/aruba ) dev-libs/boost'
-  IUSE: static test
+  BDEPEND: virtual/pkgconfig >=virtual/rust-1.75 app-text/asciidoc sys-devel/clang
+    sys-fs/lvm2 >=virtual/rust-1.37.0
+  DEPEND: io-uring? ( !!<=sys-block/thin-provisioning-tools-1.0.14 ) sys-fs/lvm2 !!sys-devel/llvm:0
+  IUSE: io-uring debug
   RDEPEND: '!static? ( dev-libs/expat dev-libs/libaio )'
   emerge.packages: sys-block/thin-provisioning-tools
   kit: core-kit
   original.package.name: sys-block/thin-provisioning-tools
   original.package.slot: "0"
-  original.package.version: 0.8.5
+  original.package.version: 1.1.0
