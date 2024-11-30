@@ -1,16 +1,8 @@
 name: thin-provisioning-tools
-version: 1.1.0
+version: 1.1.0+1
 category: sys-block
 use_flags:
-- -static
-- -test
-requires:
-- name: expat
-  version: '>=0'
-  category: dev-libs
-- name: libaio
-  version: '>=0'
-  category: dev-libs
+- io-uring
 annotations:
   subsets:
     rules:
@@ -27,7 +19,6 @@ labels:
     sys-fs/lvm2 >=virtual/rust-1.37.0
   DEPEND: io-uring? ( !!<=sys-block/thin-provisioning-tools-1.0.14 ) sys-fs/lvm2 !!sys-devel/llvm:0
   IUSE: io-uring debug
-  RDEPEND: '!static? ( dev-libs/expat dev-libs/libaio )'
   emerge.packages: sys-block/thin-provisioning-tools
   kit: core-kit
   original.package.name: sys-block/thin-provisioning-tools
