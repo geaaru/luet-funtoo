@@ -1,5 +1,5 @@
 name: gdbus-codegen
-version: 2.72.0
+version: 2.72.0+1
 category: dev-util
 use_flags:
 - -python_single_target_python2_7
