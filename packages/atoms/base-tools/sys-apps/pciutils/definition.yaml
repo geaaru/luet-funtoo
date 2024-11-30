@@ -1,5 +1,5 @@
 name: pciutils
-version: 3.13.0
+version: 3.13.0+1
 category: sys-apps
 use_flags:
 - -static-libs
@@ -28,7 +28,8 @@ annotations:
       - ^/var/db/pkg/
 description: Various utilities dealing with the PCI bus
 uri:
-- http://mj.ucw.cz/sw/pciutils/ https://git.kernel.org/?p=utils/pciutils/pciutils.git
+- http://mj.ucw.cz/sw/pciutils/
+- https://git.kernel.org/?p=utils/pciutils/pciutils.git
 license: GPL-2
 labels:
   DEPEND: kmod? ( sys-apps/kmod ) static-libs? ( zlib? ( >=sys-libs/zlib-1.2.8-r1[static-libs(+),-mgorny(-)]
