@@ -1,0 +1,32 @@
+name: compiler-rt
+version: 16.0.0
+category: sys-libs-16.0.0
+use_flags:
+- -test
+- clang
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Compiler runtime library for clang (built-in part)
+uri:
+- https://llvm.org/
+license: Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT )
+labels:
+  BDEPEND: '>=dev-util/cmake-3.16 clang? ( sys-devel/clang ) test? ( || ( ( dev-lang/python:3.8
+    >=dev-python/lit-9.0.1[python_targets_python3_8(-),python_single_target_python3_8(+)]
+    ) ( dev-lang/python:3.9 >=dev-python/lit-9.0.1[python_targets_python3_9(-),python_single_target_python3_9(+)]
+    ) ( dev-lang/python:3.7 >=dev-python/lit-9.0.1[python_targets_python3_7(-),python_single_target_python3_7(+)]
+    ) ( dev-lang/python:3.10 >=dev-python/lit-9.0.1[python_targets_python3_10(-),python_single_target_python3_10(+)]
+    ) ) =sys-devel/clang-16.0.0*:16 ) || ( dev-lang/python:3.8 dev-lang/python:3.9
+    dev-lang/python:3.7 dev-lang/python:3.10 ) dev-util/ninja dev-util/cmake'
+  DEPEND: '>=sys-devel/llvm-6 !!sys-devel/llvm:0'
+  IUSE: +clang debug test
+  emerge.packages: sys-libs/compiler-rt:16.0.0
+  kit: llvm-kit
+  original.package.name: sys-libs/compiler-rt
+  original.package.slot: 16.0.0
+  original.package.version: 16.0.0
