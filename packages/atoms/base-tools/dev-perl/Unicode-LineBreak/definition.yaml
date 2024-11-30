@@ -1,5 +1,5 @@
 name: Unicode-LineBreak
-version: 2017.4.0
+version: 2017.4.0+1
 category: dev-perl
 requires:
 - name: MIME-Charset
