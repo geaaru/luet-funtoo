@@ -1,5 +1,5 @@
 name: kbd
-version: 2.6.2
+version: 2.6.2+1
 category: sys-apps
 use_flags:
 - pam
@@ -22,9 +22,8 @@ uri:
 - http://kbd-project.org/
 license: GPL-2
 labels:
-  BDEPEND: virtual/pkgconfig >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3
-    || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69
-    >=sys-devel/libtool-2.4
+  BDEPEND: virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16
+    ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
   DEPEND: app-arch/gzip pam? ( !app-misc/vlock sys-libs/pam )
   IUSE: nls pam
   RDEPEND: app-arch/gzip pam? ( !app-misc/vlock sys-libs/pam )
