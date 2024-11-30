@@ -1,10 +1,8 @@
 name: man-db
-version: 2.13.0
+version: 2.13.0+1
 category: sys-apps
 use_flags:
 - -selinux
-- berkdb
-- gdbm
 - nls
 - seccomp
 - zlib
@@ -15,9 +13,6 @@ requires:
 - name: groff
   version: '>=0'
   category: sys-apps
-- name: db
-  version: '>=0'
-  category: sys-libs-18.1
 - name: gdbm
   version: '>=0'
   category: sys-libs
@@ -27,6 +22,9 @@ requires:
 - name: zlib
   version: '>=0'
   category: sys-libs
+- name: tmpfiles
+  version: '>=0'
+  category: virtual
 annotations:
   subsets:
     rules:
@@ -34,9 +32,10 @@ annotations:
       - ^/usr/include/
       portage:
       - ^/var/db/pkg/
-description: a man replacement that utilizes berkdb instead of flat files
+description: A man replacement that utilizes dbm instead of flat files
 uri:
-- http://www.nongnu.org/man-db/
+- https://gitlab.com/man-db/man-db
+- https://www.nongnu.org/man-db/
 license: GPL-3
 labels:
   BDEPEND: app-arch/xz-utils virtual/pkgconfig nls? ( >=app-text/po4a-0.45 sys-devel/gettext
