@@ -24,6 +24,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: docbook-xsl-ns-stylesheets
+- name: docbook-xml-dtd
   version: '>=0'
-  category: app-text
+  category: app-text-4.2
