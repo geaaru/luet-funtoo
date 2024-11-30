@@ -1,5 +1,5 @@
 name: docbook-xsl-stylesheets
-version: 1.79.1
+version: 1.79.1+1
 category: app-text
 use_flags:
 - -ruby
