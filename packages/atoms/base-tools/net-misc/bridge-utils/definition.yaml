@@ -12,8 +12,8 @@ annotations:
       - ^/var/db/pkg/
 description: Tools for configuring the Linux kernel 802.1d Ethernet Bridge
 uri:
-- http://bridge.sourceforge.net/
-license: GPL-2
+- https://bridge.sourceforge.net/
+license: GPL-2+
 labels:
   BDEPEND: '>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16
     ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4'
