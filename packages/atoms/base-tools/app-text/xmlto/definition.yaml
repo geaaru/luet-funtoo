@@ -3,7 +3,7 @@ version: 0.0.28
 category: app-text
 use_flags:
 - -latex
-- -text
+- text
 requires:
 - name: bash
   version: '>=0'
@@ -38,17 +38,15 @@ license: GPL-2
 labels:
   DEPEND: '>=app-text/docbook-xsl-stylesheets-1.62.0-r1 app-text/docbook-xml-dtd:4.2
     app-shells/bash:0 dev-libs/libxslt sys-apps/sed >=sys-apps/coreutils-6.10-r1 ||
-    ( sys-apps/util-linux app-misc/getopt ) sys-apps/which text? ( || ( virtual/w3m
-    www-client/lynx www-client/elinks ) ) latex? ( dev-texlive/texlive-formatsextra
-    )'
+    ( sys-apps/util-linux app-misc/getopt ) sys-apps/which text? ( || ( www-client/lynx
+    www-client/elinks ) ) latex? ( dev-texlive/texlive-formatsextra )'
   IUSE: latex text
   RDEPEND: '>=app-text/docbook-xsl-stylesheets-1.62.0-r1 app-text/docbook-xml-dtd:4.2
     app-shells/bash:0 dev-libs/libxslt sys-apps/sed >=sys-apps/coreutils-6.10-r1 ||
-    ( sys-apps/util-linux app-misc/getopt ) sys-apps/which text? ( || ( virtual/w3m
-    www-client/lynx www-client/elinks ) ) latex? ( dev-texlive/texlive-formatsextra
-    )'
+    ( sys-apps/util-linux app-misc/getopt ) sys-apps/which text? ( || ( www-client/lynx
+    www-client/elinks ) ) latex? ( dev-texlive/texlive-formatsextra )'
   emerge.packages: app-text/xmlto
   kit: text-kit
   original.package.name: app-text/xmlto
   original.package.slot: "0"
-  original.package.version: 0.0.28-r3
+  original.package.version: 0.0.28-r4
