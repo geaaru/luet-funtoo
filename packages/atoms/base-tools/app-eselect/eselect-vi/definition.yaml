@@ -1,5 +1,5 @@
 name: eselect-vi
-version: 1.1.9
+version: 1.1.9+1
 category: app-eselect
 requires:
 - name: eselect
