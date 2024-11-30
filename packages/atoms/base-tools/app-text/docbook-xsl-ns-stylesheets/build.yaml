@@ -24,6 +24,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: docbook-xml-dtd
+- name: libxslt
   version: '>=0'
-  category: app-text-4.2
+  category: dev-libs
