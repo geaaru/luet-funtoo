@@ -1,4 +1,7 @@
 prelude:
+# Temporary fix
+- >-
+  eval 'anise rm thin-provisioning-tools --nodeps || true'
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
   export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \
