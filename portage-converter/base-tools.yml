@@ -94,6 +94,8 @@ artefacts:
     - static-libs
     enabled:
     - crypt
+    - python_single_target_python3_9
+    - python_targets_python3_9
   packages:
   - dev-libs/libxslt
 
@@ -127,16 +129,24 @@ artefacts:
   packages:
   - app-text/docbook-sgml-dtd:3.0
   - app-text/docbook-sgml-dtd:4.5
-  - app-text/yelp-tools
 
 - tree: packages/atoms/base-tools
   uses:
     disabled:
-    - emacs
     - nios2
+    - nis
+    - plipconfig
+    - selinux
     - sh
+    - slattach
+    - static
+    enabled:
+    - arp
+    - hostname
+    - ipv6
+    - nls
   packages:
-  - dev-util/desktop-file-utils
+  - sys-apps/net-tools
 
 - tree: packages/atoms/base-tools
   uses:
@@ -160,24 +170,6 @@ artefacts:
     - xattr
   packages:
   - net-misc/rsync
-
-- tree: packages/atoms/base-tools
-  uses:
-    disabled:
-    - nios2
-    - nis
-    - plipconfig
-    - selinux
-    - sh
-    - slattach
-    - static
-    enabled:
-    - arp
-    - hostname
-    - ipv6
-    - nls
-  packages:
-  - sys-apps/net-tools
 
 - tree: packages/atoms/base-tools
   uses:
@@ -539,16 +531,7 @@ artefacts:
     - sh
   packages:
   - net-dns/openresolv
-  - dev-libs/iniparser:4
-
-- tree: packages/atoms/base-tools
-  uses:
-    disabled:
-    - nios2
-    - sh
-    - test
-  packages:
-  - x11-misc/shared-mime-info
+  - dev-libs/iniparser
 
 - tree: packages/atoms/base-tools
   uses:
@@ -582,16 +565,6 @@ artefacts:
     - unicode
   packages:
   - sys-process/procps
-
-- tree: packages/atoms/base-tools
-  uses:
-    disabled:
-    - nios2
-    - sh
-    - static
-    - test
-  packages:
-  - sys-block/thin-provisioning-tools
 
 - tree: packages/atoms/base-tools
   uses:
@@ -810,22 +783,6 @@ artefacts:
 
 
 - tree: packages/atoms/base-tools
-  mutations:
-    buildtime_deps:
-      packages:
-        - category: virtual
-          name: yacc
-  uses:
-    disabled:
-    - nios2
-    - sh
-    enabled:
-    - nls
-    - pam
-  packages:
-  - sys-apps/kbd
-
-- tree: packages/atoms/base-tools
   uses:
     disabled:
     - nios2
@@ -848,18 +805,6 @@ artefacts:
     - nls
   packages:
   - app-text/opensp
-- tree: packages/atoms/base-tools
-  uses:
-    disabled:
-    - ccache
-    - doc
-    - nios2
-    - sh
-    enabled:
-    - pcre
-  packages:
-  - dev-lang/swig
-
 
 - tree: packages/atoms/base-tools
   uses:
@@ -937,6 +882,113 @@ artefacts:
 - tree: packages/atoms/base-tools
   uses:
     disabled:
+    - nios2
+    - sh
+  packages:
+    - dev-lang/yasm
+    - sys-devel/clang:16
+    - sys-devel/clang-runtime:16
+
+
+- tree: packages/atoms/base-tools
+  uses:
+    disabled:
+    - nios2
+    - sh
+    - debug
+    - test
+  packages:
+    - sys-libs/compiler-rt:16.0.0
+    - sys-libs/compiler-rt-sanitizers:16.0.0
+
+- tree: packages/atoms/base-tools
+  uses:
+    disabled:
+    - abi_mips_n32
+    - abi_mips_n64
+    - abi_mips_o32
+    - abi_s390_32
+    - abi_s390_64
+    - abi_x86_32
+    - abi_x86_x32
+    - debug
+    - doc
+    - exegesis
+    - gold
+    - libedit
+    - llvm_targets_AArch64
+    - llvm_targets_ARC
+    - llvm_targets_ARM
+    - llvm_targets_AVR
+    - llvm_targets_Hexagon
+    - llvm_targets_Lanai
+    - llvm_targets_MSP430
+    - llvm_targets_Mips
+    - llvm_targets_PowerPC
+    - llvm_targets_RISCV
+    - llvm_targets_Sparc
+    - llvm_targets_SystemZ
+    - llvm_targets_VE
+    - llvm_targets_WebAssembly
+    - llvm_targets_XCore
+    - nios2
+    - sh
+    - test
+    - xar
+    - z3
+    enabled:
+    - abi_x86_64
+    - libffi
+    - llvm_targets_AMDGPU
+    - llvm_targets_BPF
+    - llvm_targets_NVPTX
+    - llvm_targets_X86
+    - ncurses
+    - xml
+  packages:
+  - sys-devel/llvm:16
+
+- tree: packages/atoms/base-tools
+  uses:
+    disabled:
+    - emacs
+    - nios2
+    - sh
+  packages:
+  - dev-util/desktop-file-utils
+
+- tree: packages/atoms/base-tools
+  mutations:
+    buildtime_deps:
+      packages:
+        - category: virtual
+          name: yacc
+  uses:
+    disabled:
+    - nios2
+    - sh
+    enabled:
+    - nls
+    - pam
+  packages:
+  - sys-apps/kbd
+
+- tree: packages/atoms/base-tools
+  uses:
+    disabled:
+    - ccache
+    - doc
+    - nios2
+    - sh
+    enabled:
+    - pcre
+  packages:
+  - dev-lang/swig
+
+
+- tree: packages/atoms/base-tools
+  uses:
+    disabled:
     - dbus
     - fam
     - gtk-doc
@@ -951,6 +1003,62 @@ artefacts:
     - xattr
   packages:
   - dev-libs/glib:2
+
+- tree: packages/atoms/base-tools
+  uses:
+    disabled:
+    - clvm
+    - cman
+    - corosync
+    - device-mapper-only
+    - lvm1
+    - lvm2create_initrd
+    - nios2
+    - openais
+    - sanlock
+    - selinux
+    - sh
+    - static-libs
+    - systemd
+    - static
+    enabled:
+    - readline
+    - thin
+    - udev
+  packages:
+  - sys-fs/lvm2
+
+- tree: packages/atoms/base-tools
+  uses:
+    disabled:
+    - nios2
+    - sh
+    - static
+    - test
+  packages:
+  - sys-block/thin-provisioning-tools
+
+- tree: packages/atoms/base-tools
+  uses:
+    disabled:
+    - latex
+    - nios2
+    - sh
+    enabled:
+    - text
+  packages:
+  - app-text/xmlto
+
+- tree: packages/atoms/base-tools
+  uses:
+    disabled:
+    - nios2
+    - sh
+    - test
+  packages:
+  - x11-misc/shared-mime-info
+  - app-text/yelp-tools
+
 
 
 include_layers:
@@ -1009,6 +1117,8 @@ reposcan_contraints:
     - dev-lang/python:3.9
     - sys-devel/gcc:11.3.0
 
+    - sys-devel/llvm:16
+    - sys-devel/clang:16
 
 reposcan_disabled_use_flags:
   - build
