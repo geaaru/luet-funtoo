@@ -2,10 +2,8 @@ prelude:
 # Temporary fix
 - >-
   eval 'anise rm thin-provisioning-tools --nodeps || true' &&
-  cp thin-provisioning-tools-1.1.0.ebuild /var/git/meta-repo/kits/core-kit/sys-block/thin-provisioning-tools/
-# Break circular dependencies
-- >-
-  USE="lvm readline udev" emerge --nodeps sys-fs/lvm2 -j
+  cp thin-provisioning-tools-1.1.0.ebuild /var/git/meta-repo/kits/core-kit/sys-block/thin-provisioning-tools/ &&
+  eselect rust set 1
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
   export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \
