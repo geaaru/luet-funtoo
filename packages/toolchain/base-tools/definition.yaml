@@ -33,6 +33,9 @@ requires:
   - name: docbook-xml-dtd
     category: app-text-4.5
     version: '>=0'
+  - name: asciidoc
+    category: app-text
+    version: '>=0'
   - name: build-docbook-catalog
     category: app-text
     version: '>=0'
@@ -57,6 +60,9 @@ requires:
   - name: sgml-common
     category: app-text
     version: '>=0'
+  - name: xmlto
+    category: app-text
+    version: '>=0'
   - name: yelp-tools
     category: app-text
     version: '>=0'
@@ -64,6 +70,9 @@ requires:
     category: dev-cpp
     version: '>=0'
   - name: swig
+    category: dev-lang
+    version: '>=0'
+  - name: yasm
     category: dev-lang
     version: '>=0'
   - name: glib
@@ -216,6 +225,12 @@ requires:
   - name: thin-provisioning-tools
     category: sys-block
     version: '>=0'
+  - name: clang
+    category: sys-devel-16
+    version: '>=0'
+  - name: llvm
+    category: sys-devel-16
+    version: '>=0'
   - name: autoconf-archive
     category: sys-devel
     version: '>=0'
@@ -230,6 +245,15 @@ requires:
     version: '>=0'
   - name: btrfs-progs
     category: sys-fs
+    version: '>=0'
+  - name: lvm2
+    category: sys-fs
+    version: '>=0'
+  - name: compiler-rt
+    category: sys-libs-16.0.0
+    version: '>=0'
+  - name: compiler-rt-sanitizers
+    category: sys-libs-16.0.0
     version: '>=0'
   - name: libseccomp
     category: sys-libs
