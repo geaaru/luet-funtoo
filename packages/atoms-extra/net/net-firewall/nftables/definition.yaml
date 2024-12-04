@@ -1,5 +1,5 @@
 name: nftables
-version: 1.1.0+1
+version: 1.1.1
 category: net-firewall
 use_flags:
 - -doc
@@ -43,4 +43,4 @@ labels:
   kit: net-kit
   original.package.name: net-firewall/nftables
   original.package.slot: "0"
-  original.package.version: 1.1.0
+  original.package.version: 1.1.1
