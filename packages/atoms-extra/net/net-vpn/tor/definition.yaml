@@ -1,5 +1,5 @@
 name: tor
-version: 0.4.8.12+1
+version: 0.4.8.13
 category: net-vpn
 use_flags:
 - -libressl
@@ -49,4 +49,4 @@ labels:
   kit: net-kit
   original.package.name: net-vpn/tor
   original.package.slot: "0"
-  original.package.version: 0.4.8.12
+  original.package.version: 0.4.8.13
