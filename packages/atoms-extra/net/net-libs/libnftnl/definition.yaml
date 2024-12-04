@@ -1,5 +1,5 @@
 name: libnftnl
-version: 1.2.7+1
+version: 1.2.8
 category: net-libs
 requires:
 - name: libmnl
@@ -26,4 +26,4 @@ labels:
   kit: net-kit
   original.package.name: net-libs/libnftnl
   original.package.slot: "0"
-  original.package.version: 1.2.7
+  original.package.version: 1.2.8
