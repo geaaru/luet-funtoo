@@ -1,5 +1,5 @@
 name: chrony
-version: 4.6+1
+version: 4.6.1
 category: net-misc
 use_flags:
 - -doc
@@ -57,4 +57,4 @@ labels:
   kit: net-kit
   original.package.name: net-misc/chrony
   original.package.slot: "0"
-  original.package.version: "4.6"
+  original.package.version: 4.6.1
