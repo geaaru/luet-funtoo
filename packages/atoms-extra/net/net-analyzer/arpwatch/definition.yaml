@@ -1,5 +1,5 @@
 name: arpwatch
-version: 2.1.15+2
+version: 2.1.15+3
 category: net-analyzer
 use_flags:
 - -selinux
@@ -27,4 +27,4 @@ labels:
   kit: net-kit
   original.package.name: net-analyzer/arpwatch
   original.package.slot: "0"
-  original.package.version: 2.1.15-r11
+  original.package.version: 2.1.15-r9
