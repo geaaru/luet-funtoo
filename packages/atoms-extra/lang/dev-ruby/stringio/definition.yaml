@@ -1,5 +1,5 @@
 name: stringio
-version: 3.1.1
+version: 3.1.2
 category: dev-ruby
 use_flags:
 - -doc
@@ -53,4 +53,4 @@ labels:
   kit: ruby-kit
   original.package.name: dev-ruby/stringio
   original.package.slot: "0"
-  original.package.version: 3.1.1
+  original.package.version: 3.1.2
