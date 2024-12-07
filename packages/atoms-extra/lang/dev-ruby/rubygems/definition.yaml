@@ -1,5 +1,5 @@
 name: rubygems
-version: 3.5.20+1
+version: 3.5.23
 category: dev-ruby
 use_flags:
 - -ruby_targets_ruby30
@@ -46,4 +46,4 @@ labels:
   kit: ruby-kit
   original.package.name: dev-ruby/rubygems
   original.package.slot: "0"
-  original.package.version: 3.5.20
+  original.package.version: 3.5.23
