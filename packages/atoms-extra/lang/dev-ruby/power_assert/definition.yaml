@@ -1,5 +1,5 @@
 name: power_assert
-version: 2.0.3+1
+version: 2.0.4
 category: dev-ruby
 use_flags:
 - -doc
@@ -57,4 +57,4 @@ labels:
   kit: ruby-kit
   original.package.name: dev-ruby/power_assert
   original.package.slot: "0"
-  original.package.version: 2.0.3
+  original.package.version: 2.0.4
