@@ -1,5 +1,5 @@
 name: go
-version: 1.22.5+1
+version: 1.23.1
 category: dev-lang
 annotations:
   subsets:
@@ -20,4 +20,4 @@ labels:
   kit: lang-kit
   original.package.name: dev-lang/go
   original.package.slot: "0"
-  original.package.version: 1.22.5
+  original.package.version: 1.23.1
