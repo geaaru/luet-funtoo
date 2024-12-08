@@ -1,0 +1,22 @@
+name: nodejs
+version: 20.18.0
+category: net-libs
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Node.js JavaScript runtime
+uri:
+- https://nodejs.org
+license: Apache-1.1 Apache-2.0 BSD BSD-2 MIT
+labels:
+  BDEPEND: '|| ( dev-lang/python:3.8 dev-lang/python:3.9 dev-lang/python:3.7 dev-lang/python:3.10
+    )'
+  emerge.packages: net-libs/nodejs
+  kit: core-server-kit
+  original.package.name: net-libs/nodejs
+  original.package.slot: "0"
+  original.package.version: 20.18.0
