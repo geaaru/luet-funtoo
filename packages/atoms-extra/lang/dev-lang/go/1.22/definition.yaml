@@ -1,0 +1,22 @@
+name: go
+version: 1.22.7
+category: dev-lang
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: A concurrent garbage collected and typesafe programming language
+uri:
+- https://golang.org
+license: BSD
+labels:
+  BDEPEND: '|| ( >=dev-lang/go-1.20.14 >=dev-lang/go-bootstrap-1.20.14 )'
+  IUSE: cpu_flags_x86_sse2
+  emerge.packages: dev-lang/go
+  kit: lang-kit
+  original.package.name: dev-lang/go
+  original.package.slot: "0"
+  original.package.version: 1.22.7
