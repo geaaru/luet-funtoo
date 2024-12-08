@@ -15,7 +15,6 @@ license: BSD
 labels:
   BDEPEND: '|| ( >=dev-lang/go-1.20.14 >=dev-lang/go-bootstrap-1.20.14 )'
   IUSE: cpu_flags_x86_sse2
-  RDEPEND: '!<dev-go/go-tools-0_pre20150902'
   emerge.packages: dev-lang/go
   kit: lang-kit
   original.package.name: dev-lang/go
