@@ -85,6 +85,7 @@ global_annotations:
 artefacts:
 
 - tree: packages/atoms-extra/lang
+  custom_path: dev-lang/go
   mutations:
     buildtime_deps:
       packages:
@@ -95,6 +96,22 @@ artefacts:
       - nls
   packages:
     - dev-lang/go
+
+- tree: packages/atoms-extra/lang
+  custom_path: dev-lang/go/1.22
+  conditions:
+    - '<dev-lang/go-1.23'
+    - '>=dev-lang/go-1.22.0'
+  mutations:
+    buildtime_deps:
+      packages:
+        - category: dev-lang
+          name: go-bootstrap
+  uses:
+    enabled:
+      - nls
+  packages:
+    - dev-lang/go,go1.22
 
 - tree: packages/atoms-extra/lang
   mutations:
