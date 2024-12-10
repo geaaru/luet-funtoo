@@ -1,5 +1,5 @@
 name: eix
-version: 0.36.8+1
+version: 0.36.9
 category: app-portage
 use_flags:
 - -sqlite
@@ -39,4 +39,4 @@ labels:
   kit: core-kit
   original.package.name: app-portage/eix
   original.package.slot: "0"
-  original.package.version: 0.36.8
+  original.package.version: 0.36.9
