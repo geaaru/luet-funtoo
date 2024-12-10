@@ -1,5 +1,5 @@
 name: pymongo
-version: 4.9.1+2
+version: 4.10.1
 category: dev-python
 use_flags:
 - -kerberos
@@ -43,4 +43,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/pymongo
   original.package.slot: "0"
-  original.package.version: 4.9.1
+  original.package.version: 4.10.1
