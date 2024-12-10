@@ -1,5 +1,5 @@
 name: runc
-version: 1.1.14+1
+version: 1.2.1
 category: app-emulation
 use_flags:
 - -apparmor
@@ -31,4 +31,4 @@ labels:
   kit: core-kit
   original.package.name: app-emulation/runc
   original.package.slot: "0"
-  original.package.version: 1.1.14
+  original.package.version: 1.2.1
