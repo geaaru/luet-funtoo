@@ -1,5 +1,5 @@
 name: libbson
-version: 1.28.0+1
+version: 1.29.0
 category: dev-libs
 annotations:
   subsets:
@@ -20,4 +20,4 @@ labels:
   kit: dev-kit
   original.package.name: dev-libs/libbson
   original.package.slot: "0"
-  original.package.version: 1.28.0
+  original.package.version: 1.29.0
