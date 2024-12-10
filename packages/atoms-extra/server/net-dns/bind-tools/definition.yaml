@@ -1,5 +1,5 @@
 name: bind-tools
-version: 9.20.2+1
+version: 9.20.3
 category: net-dns
 use_flags:
 - -doc
@@ -53,4 +53,4 @@ labels:
   kit: net-kit
   original.package.name: net-dns/bind-tools
   original.package.slot: "0"
-  original.package.version: 9.20.2
+  original.package.version: 9.20.3
