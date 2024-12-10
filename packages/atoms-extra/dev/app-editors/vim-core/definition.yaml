@@ -1,5 +1,5 @@
 name: vim-core
-version: 9.1.0738
+version: 9.1.0830
 category: app-editors
 annotations:
   subsets:
@@ -20,4 +20,4 @@ labels:
   kit: editors-kit
   original.package.name: app-editors/vim-core
   original.package.slot: "0"
-  original.package.version: 9.1.0738
+  original.package.version: 9.1.0830
