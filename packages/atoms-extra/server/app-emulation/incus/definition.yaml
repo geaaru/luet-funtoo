@@ -1,5 +1,5 @@
 name: incus
-version: 6.5+3
+version: "6.6"
 category: app-emulation
 use_flags:
 - nls
@@ -58,7 +58,7 @@ labels:
     net-firewall/ebtables net-firewall/iptables[ipv6?] sys-apps/iproute2[ipv6?] sys-fs/fuse:*
     sys-fs/lxcfs sys-fs/squashfs-tools[lzma] virtual/acl
   emerge.packages: app-emulation/incus
-  kit: geaaru-kit
+  kit: core-kit
   original.package.name: app-emulation/incus
   original.package.slot: "0"
-  original.package.version: "6.5"
+  original.package.version: "6.6"
