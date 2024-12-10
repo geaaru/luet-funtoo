@@ -1,5 +1,5 @@
 name: networkmanager
-version: 1.48.10+1
+version: 1.50.0
 category: net-misc
 use_flags:
 - -audit
@@ -119,4 +119,4 @@ labels:
   kit: net-kit
   original.package.name: net-misc/networkmanager
   original.package.slot: "0"
-  original.package.version: 1.48.10
+  original.package.version: 1.50.0
