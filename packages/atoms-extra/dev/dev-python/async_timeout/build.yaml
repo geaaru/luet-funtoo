@@ -1,4 +1,10 @@
 prelude:
+# Temporary fix until next race
+- >-
+  cd /var/git/meta-repo/kits/python-modules-kit/dev-python/async_timeout/ &&
+  rm sync_timeout-5.0.1.ebuild &&
+  wget https://raw.githubusercontent.com/macaroni-os/python-modules-kit/refs/heads/mark-testing/dev-python/async_timeout/async_timeout-5.0.1.ebuild &&
+  cd -
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
   export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \
