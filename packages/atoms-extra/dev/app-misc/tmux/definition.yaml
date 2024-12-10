@@ -1,5 +1,5 @@
 name: tmux
-version: 3.4+1
+version: "3.5"
 category: app-misc
 use_flags:
 - -selinux
@@ -38,4 +38,4 @@ labels:
   kit: core-kit
   original.package.name: app-misc/tmux
   original.package.slot: "0"
-  original.package.version: "3.4"
+  original.package.version: "3.5"
