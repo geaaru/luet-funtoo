@@ -1,5 +1,5 @@
 name: containerd
-version: 1.7.22+1
+version: 2.0.0
 category: app-emulation
 use_flags:
 - btrfs
@@ -31,4 +31,4 @@ labels:
   kit: core-kit
   original.package.name: app-emulation/containerd
   original.package.slot: "0"
-  original.package.version: 1.7.22
+  original.package.version: 2.0.0
