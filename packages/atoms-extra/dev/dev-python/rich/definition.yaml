@@ -1,5 +1,5 @@
 name: rich
-version: 13.8.1
+version: 13.9.4
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -41,4 +41,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/rich
   original.package.slot: "0"
-  original.package.version: 13.8.1
+  original.package.version: 13.9.4
