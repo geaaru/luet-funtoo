@@ -1,5 +1,5 @@
 name: bind
-version: 9.20.2+1
+version: 9.20.3
 category: net-dns
 use_flags:
 - -dnstap
@@ -44,14 +44,14 @@ labels:
     dev-lang/python:3.10 ) dev-python/dnspython dev-python/pytest dev-perl/Net-DNS-SEC
     dev-util/cmocka ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16
     ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
-  DEPEND: =net-dns/bind-tools-9.20.2* dev-libs/jemalloc dev-libs/json-c:= dev-libs/libuv:=
+  DEPEND: =net-dns/bind-tools-9.20.3* dev-libs/jemalloc dev-libs/json-c:= dev-libs/libuv:=
     dev-libs/openssl:=[-bindist(-)] sys-libs/libcap sys-libs/zlib doh? ( net-libs/nghttp2
     ) geoip? ( dev-libs/libmaxminddb ) gssapi? ( virtual/krb5 ) idn? ( net-dns/libidn2
     ) lmdb? ( dev-db/lmdb ) dnstap? ( dev-libs/fstrm dev-libs/protobuf-c ) xml? (
     dev-libs/libxml2 ) sys-apps/shadow
   IUSE: dnstap dnsrps doc doh fixed-rrset geoip gssapi idn lmdb selinux test urandom
     xml
-  RDEPEND: =net-dns/bind-tools-9.20.2* dev-libs/jemalloc dev-libs/json-c:= dev-libs/libuv:=
+  RDEPEND: =net-dns/bind-tools-9.20.3* dev-libs/jemalloc dev-libs/json-c:= dev-libs/libuv:=
     dev-libs/openssl:=[-bindist(-)] sys-libs/libcap sys-libs/zlib doh? ( net-libs/nghttp2
     ) geoip? ( dev-libs/libmaxminddb ) gssapi? ( virtual/krb5 ) idn? ( net-dns/libidn2
     ) lmdb? ( dev-db/lmdb ) dnstap? ( dev-libs/fstrm dev-libs/protobuf-c ) xml? (
@@ -60,4 +60,4 @@ labels:
   kit: net-kit
   original.package.name: net-dns/bind
   original.package.slot: "0"
-  original.package.version: 9.20.2
+  original.package.version: 9.20.3
