@@ -1,5 +1,5 @@
 name: blinker
-version: 1.8.2
+version: 1.9.0
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -41,4 +41,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/blinker
   original.package.slot: "0"
-  original.package.version: 1.8.2
+  original.package.version: 1.9.0
