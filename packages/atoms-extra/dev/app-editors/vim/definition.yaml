@@ -1,5 +1,5 @@
 name: vim
-version: 9.1.0738
+version: 9.1.0830
 category: app-editors
 use_flags:
 - -X
@@ -68,7 +68,7 @@ labels:
     ( dev-lang/luajit:= ) lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-2?
     ( dev-lua/lua:5.2 ) lua_single_target_lua5-3? ( dev-lua/lua:5.3 ) lua_single_target_lua5-4?
     ( dev-lua/lua:5.4 ) lua_single_target_lua5-1? ( dev-lang/lua:5.1[deprecated] )
-    ) ~app-editors/vim-core-9.1.0738 !<app-editors/vim-core-8.2.4328-r1 vim-pager?
+    ) ~app-editors/vim-core-9.1.0830 !<app-editors/vim-core-8.2.4328-r1 vim-pager?
     ( app-editors/vim-core[-minimal] ) perl? ( dev-lang/perl:= ) python? ( python_single_target_python3_10?
     ( dev-lang/python:3.10[threads(+)] >=dev-lang/python-exec-2:=[python_targets_python3_10]
     ) python_single_target_python3_7? ( dev-lang/python:3.7[threads(+)] >=dev-lang/python-exec-2:=[python_targets_python3_7]
@@ -94,7 +94,7 @@ labels:
     ( dev-lang/luajit:= ) lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-2?
     ( dev-lua/lua:5.2 ) lua_single_target_lua5-3? ( dev-lua/lua:5.3 ) lua_single_target_lua5-4?
     ( dev-lua/lua:5.4 ) lua_single_target_lua5-1? ( dev-lang/lua:5.1[deprecated] )
-    ) ~app-editors/vim-core-9.1.0738 !<app-editors/vim-core-8.2.4328-r1 vim-pager?
+    ) ~app-editors/vim-core-9.1.0830 !<app-editors/vim-core-8.2.4328-r1 vim-pager?
     ( app-editors/vim-core[-minimal] ) perl? ( dev-lang/perl:= ) python? ( python_single_target_python3_10?
     ( dev-lang/python:3.10[threads(+)] >=dev-lang/python-exec-2:=[python_targets_python3_10]
     ) python_single_target_python3_7? ( dev-lang/python:3.7[threads(+)] >=dev-lang/python-exec-2:=[python_targets_python3_7]
@@ -109,4 +109,4 @@ labels:
   kit: editors-kit
   original.package.name: app-editors/vim
   original.package.slot: "0"
-  original.package.version: 9.1.0738
+  original.package.version: 9.1.0830
