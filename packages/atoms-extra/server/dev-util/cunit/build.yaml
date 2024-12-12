@@ -6,10 +6,6 @@ env:
 - LUET_PORTAGE_PKGFILES=1
 - FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"
 prelude:
-# Temporary patch until https://github.com/macaroni-os/mark-issues/issues/154 is fixed
-- >-
-  eval 'mkdir -p /etc/portage/patches/dev-util/cunit || true' &&
-  cp -fv patches/* /etc/portage/patches/dev-util/cunit/
 - |
   eval 'mkdir -p /var/cache/portage/distfiles || true' && \
   chown portage:portage -R /var/cache/portage/ && \
