@@ -1,5 +1,5 @@
 name: openjdk-jre-bin
-version: 17.0.11
+version: 17.0.12
 category: dev-java-17
 use_flags:
 - -cups
@@ -45,4 +45,4 @@ labels:
   kit: java-kit
   original.package.name: dev-java/openjdk-jre-bin
   original.package.slot: "17"
-  original.package.version: 17.0.11_p9
+  original.package.version: 17.0.12_p7
