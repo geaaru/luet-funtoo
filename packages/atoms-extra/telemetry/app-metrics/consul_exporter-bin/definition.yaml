@@ -1,5 +1,5 @@
 name: consul_exporter-bin
-version: 0.12.1
+version: 0.13.0
 category: app-metrics
 annotations:
   subsets:
@@ -19,4 +19,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-metrics/consul_exporter-bin
   original.package.slot: "0"
-  original.package.version: 0.12.1
+  original.package.version: 0.13.0
