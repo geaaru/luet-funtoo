@@ -1,5 +1,5 @@
 name: mysql-community
-version: 8.0.39+1
+version: 8.0.40
 category: dev-db-8.0
 use_flags:
 - -cjk
@@ -74,4 +74,4 @@ labels:
   kit: core-server-kit
   original.package.name: dev-db/mysql-community
   original.package.slot: "8.0"
-  original.package.version: 8.0.39
+  original.package.version: 8.0.40
