@@ -1,5 +1,5 @@
 name: redis_exporter-bin
-version: 1.63.0
+version: 1.66.0
 category: app-metrics
 annotations:
   subsets:
@@ -20,4 +20,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-metrics/redis_exporter-bin
   original.package.slot: "0"
-  original.package.version: 1.63.0
+  original.package.version: 1.66.0
