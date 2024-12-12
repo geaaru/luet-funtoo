@@ -1,5 +1,5 @@
 name: mysqld_exporter-bin
-version: 0.15.1
+version: 0.16.0
 category: app-metrics
 annotations:
   subsets:
@@ -19,4 +19,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-metrics/mysqld_exporter-bin
   original.package.slot: "0"
-  original.package.version: 0.15.1
+  original.package.version: 0.16.0
