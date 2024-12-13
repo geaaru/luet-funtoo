@@ -1,5 +1,5 @@
 name: restic
-version: 0.17.1+1
+version: 0.17.2
 category: app-backup
 requires:
 - name: fuse
@@ -24,4 +24,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-backup/restic
   original.package.slot: "0"
-  original.package.version: 0.17.1
+  original.package.version: 0.17.2
