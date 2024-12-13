@@ -1,5 +1,5 @@
 name: qrencode
-version: 4.0.2
+version: 4.1.1
 category: media-gfx
 requires:
 - name: libpng
@@ -17,6 +17,8 @@ uri:
 - https://fukuchi.org/works/qrencode/
 license: LGPL-2
 labels:
+  BDEPEND: '>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16
+    ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4'
   DEPEND: media-libs/libpng:0= virtual/pkgconfig
   IUSE: test
   RDEPEND: media-libs/libpng:0=
@@ -24,4 +26,4 @@ labels:
   kit: media-kit
   original.package.name: media-gfx/qrencode
   original.package.slot: "0"
-  original.package.version: 4.0.2
+  original.package.version: 4.1.1
