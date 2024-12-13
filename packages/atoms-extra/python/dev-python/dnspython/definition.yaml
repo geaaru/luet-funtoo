@@ -1,5 +1,5 @@
 name: dnspython
-version: 2.6.1+1
+version: 2.7.0
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -39,9 +39,9 @@ labels:
     ) python_targets_python3_9? ( dev-python/cryptography[python_targets_python3_10(-)?,-python_single_target_python3_10(-),python_targets_pypy3(-)?,-python_single_target_pypy3(-),python_targets_python3_7(-)?,-python_single_target_python3_7(-),python_targets_python3_9(-)?,-python_single_target_python3_9(-),python_targets_python3_8(-)?,-python_single_target_python3_8(-)]
     ) python_targets_python3_8? ( dev-python/cryptography[python_targets_python3_10(-)?,-python_single_target_python3_10(-),python_targets_pypy3(-)?,-python_single_target_pypy3(-),python_targets_python3_7(-)?,-python_single_target_python3_7(-),python_targets_python3_9(-)?,-python_single_target_python3_9(-),python_targets_python3_8(-)?,-python_single_target_python3_8(-)]
     )
-  IUSE: python_targets_python2_7 python_targets_python3_10 python_targets_pypy3 python_targets_python3_7
-    python_targets_python3_9 python_targets_python3_8
-  RDEPEND: python_targets_python2_7? ( dev-python/dnspython-compat ) dev-python/idna[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+  IUSE: python_targets_python3_10 python_targets_pypy3 python_targets_python3_7 python_targets_python3_9
+    python_targets_python3_8
+  RDEPEND: dev-python/idna[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     python_targets_python3_10? ( dev-python/cryptography[python_targets_python3_10(-)?,-python_single_target_python3_10(-),python_targets_pypy3(-)?,-python_single_target_pypy3(-),python_targets_python3_7(-)?,-python_single_target_python3_7(-),python_targets_python3_9(-)?,-python_single_target_python3_9(-),python_targets_python3_8(-)?,-python_single_target_python3_8(-)]
     ) python_targets_pypy3? ( dev-python/cryptography[python_targets_python3_10(-)?,-python_single_target_python3_10(-),python_targets_pypy3(-)?,-python_single_target_pypy3(-),python_targets_python3_7(-)?,-python_single_target_python3_7(-),python_targets_python3_9(-)?,-python_single_target_python3_9(-),python_targets_python3_8(-)?,-python_single_target_python3_8(-)]
     ) python_targets_python3_7? ( dev-python/cryptography[python_targets_python3_10(-)?,-python_single_target_python3_10(-),python_targets_pypy3(-)?,-python_single_target_pypy3(-),python_targets_python3_7(-)?,-python_single_target_python3_7(-),python_targets_python3_9(-)?,-python_single_target_python3_9(-),python_targets_python3_8(-)?,-python_single_target_python3_8(-)]
@@ -55,4 +55,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/dnspython
   original.package.slot: "0"
-  original.package.version: 2.6.1
+  original.package.version: 2.7.0
