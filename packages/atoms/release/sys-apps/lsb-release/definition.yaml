@@ -1,5 +1,5 @@
 name: lsb-release
-version: 1.4+20
+version: 1.4+21
 category: sys-apps
 annotations:
   subsets:
@@ -16,7 +16,7 @@ labels:
   DEPEND: dev-lang/perl
   emerge.packages: sys-apps/lsb-release
   kit: core-kit
-  macaroni.version: "24.11"
+  macaroni.version: "24.12"
   original.package.name: sys-apps/lsb-release
   original.package.slot: "0"
   original.package.version: 1.4-r4
