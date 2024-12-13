@@ -1,5 +1,5 @@
 name: google-cloud-sdk
-version: 493.0.0+1
+version: 500.0.0
 category: app-misc
 requires:
 - name: python
@@ -26,4 +26,4 @@ labels:
   kit: dev-kit
   original.package.name: app-misc/google-cloud-sdk
   original.package.slot: "0"
-  original.package.version: 493.0.0
+  original.package.version: 500.0.0
