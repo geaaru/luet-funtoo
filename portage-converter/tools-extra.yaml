@@ -251,13 +251,35 @@ artefacts:
     - media-libs/opus
     - sys-firmware/edk2-ovmf
     - sys-firmware/edk2-ovmf-bin
-    - sys-firmware/seabios-bin
-    - sys-firmware/seabios
     - sys-firmware/sgabios
     - app-arch/upx-bin
     - virtual/perl-Digest
     - sys-fs/mtools
+    - sys-power/iasl
     - app-cdr/cdrtools
+
+- tree: packages/atoms-extra/tools
+  mutations:
+    provides:
+      - category: virtual
+        name: seabios
+        version: 1.16.3
+  packages:
+    - sys-firmware/seabios
+
+- tree: packages/atoms-extra/tools
+  mutations:
+    buildtime_deps:
+      packages:
+        - category: seed
+          name: macaroni-funtoo-race10
+    provides:
+      - category: virtual
+        name: seabios
+        version: 1.16.0
+  packages:
+    - sys-firmware/seabios-bin
+
 
 - tree: packages/atoms-extra/tools
   uses:
