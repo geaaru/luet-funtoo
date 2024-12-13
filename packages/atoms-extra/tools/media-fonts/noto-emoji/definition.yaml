@@ -1,5 +1,5 @@
 name: noto-emoji
-version: 20240729+1
+version: "20241003"
 category: media-fonts
 use_flags:
 - -X
@@ -33,4 +33,4 @@ labels:
   kit: media-kit
   original.package.name: media-fonts/noto-emoji
   original.package.slot: "0"
-  original.package.version: "20240729"
+  original.package.version: "20241003"
