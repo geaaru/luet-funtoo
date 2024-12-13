@@ -1,5 +1,5 @@
 name: rsyslog
-version: 8.2408.0+1
+version: 8.2410.0
 category: app-admin
 use_flags:
 - -elibc_musl
@@ -125,4 +125,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-admin/rsyslog
   original.package.slot: "0"
-  original.package.version: 8.2408.0
+  original.package.version: 8.2410.0
