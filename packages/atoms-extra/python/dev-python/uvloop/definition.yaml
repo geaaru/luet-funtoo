@@ -1,5 +1,5 @@
 name: uvloop
-version: 0.20.0+1
+version: 0.21.0
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -38,4 +38,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/uvloop
   original.package.slot: "0"
-  original.package.version: 0.20.0
+  original.package.version: 0.21.0
