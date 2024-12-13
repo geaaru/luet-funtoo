@@ -1,4 +1,9 @@
 prelude:
+# Temporary fix (xmlto needs lynx to HTML to text)
+- >-
+  export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" &&
+  emerge lynx --nodeps -j
+
 # xdg-utils use w3m to build html also when -doc is present.
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
