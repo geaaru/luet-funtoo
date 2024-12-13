@@ -1,5 +1,5 @@
 name: lsb-release
-version: 1.4+15
+version: 1.4+16
 category: sys-apps
 annotations:
   subsets:
@@ -19,4 +19,4 @@ labels:
   macaroni.version: "24.10"
   original.package.name: sys-apps/lsb-release
   original.package.slot: "0"
-  original.package.version: 1.4-r3
+  original.package.version: 1.4-r4
