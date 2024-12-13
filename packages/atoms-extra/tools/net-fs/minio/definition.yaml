@@ -1,5 +1,5 @@
 name: minio
-version: 2024.11.07.00.52.20
+version: 2024.11.07.00.52.20+1
 category: net-fs
 annotations:
   subsets:
