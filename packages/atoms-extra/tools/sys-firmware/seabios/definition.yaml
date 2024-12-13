@@ -1,8 +1,10 @@
 name: seabios
 version: 1.16.3
 category: sys-firmware
-use_flags:
-- binary
+provides:
+- name: seabios
+  version: 1.16.3
+  category: virtual
 annotations:
   subsets:
     rules:
