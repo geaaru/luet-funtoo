@@ -1,5 +1,5 @@
 name: baselayout
-version: "3.0"
+version: 3.0+1
 category: sys-apps
 annotations:
   subsets:
@@ -17,7 +17,7 @@ labels:
   RDEPEND: '!>=dev-util/meson-0.60'
   emerge.packages: sys-apps/baselayout
   kit: core-kit
-  macaroni.version: "24.10"
+  macaroni.version: "24.12"
   original.package.name: sys-apps/baselayout
   original.package.slot: "0"
   original.package.version: "3.0"
