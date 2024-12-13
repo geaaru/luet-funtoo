@@ -1,5 +1,5 @@
 name: botocore
-version: 1.35.25+1
+version: 1.35.56
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -45,4 +45,4 @@ labels:
   kit: core-server-kit
   original.package.name: dev-python/botocore
   original.package.slot: "0"
-  original.package.version: 1.35.25
+  original.package.version: 1.35.56
