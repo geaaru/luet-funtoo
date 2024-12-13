@@ -24,6 +24,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: macaroni-funtoo-race10
+- name: iasl
   version: '>=0'
-  category: seed
+  category: sys-power

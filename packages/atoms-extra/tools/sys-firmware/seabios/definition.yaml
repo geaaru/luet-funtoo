@@ -1,5 +1,5 @@
 name: seabios
-version: 1.16.3
+version: 1.16.3+1
 category: sys-firmware
 provides:
 - name: seabios
