@@ -1,5 +1,5 @@
 name: valgrind
-version: 3.23.0+1
+version: 3.24.0
 category: dev-util
 use_flags:
 - -mpi
@@ -24,4 +24,4 @@ labels:
   kit: dev-kit
   original.package.name: dev-util/valgrind
   original.package.slot: "0"
-  original.package.version: 3.23.0
+  original.package.version: 3.24.0
