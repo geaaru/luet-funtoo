@@ -1,5 +1,5 @@
 name: tailscale
-version: 1.70.0
+version: 1.76.6
 category: net-vpn
 requires:
 - name: iptables
@@ -26,4 +26,4 @@ labels:
   kit: net-kit
   original.package.name: net-vpn/tailscale
   original.package.slot: "0"
-  original.package.version: 1.70.0
+  original.package.version: 1.76.6
