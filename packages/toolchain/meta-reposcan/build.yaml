@@ -1,0 +1,9 @@
+requires:
+  - name: funtoo-kits
+    category: "seed"
+    version: ">=0"
+package_dir: /{{ .Values.name }}
+steps:
+- >-
+  mkdir -p /{{ .Values.name }}/usr/share/mark-devkit/{{ .Values.name }}/kit-cache/ &&
+  cp -rvf /kit-cache/* /{{ .Values.name }}/usr/share/mark-devkit/{{ .Values.name }}/kit-cache/
