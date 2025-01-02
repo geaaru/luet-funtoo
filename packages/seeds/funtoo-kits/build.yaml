@@ -21,7 +21,7 @@ prelude:
   cd /var/git/meta-repo/kits &&
   chown root:root -R /var/git/meta-repo/kits &&
   rm -rf * &&
-  mark-devkit kit clone --specfiles /kits-versions/kits.yml
+  mark-devkit kit clone --specfile /kits-versions/kits.yml
   --to /var/git/meta-repo/kits --deep $GIT_HISTORY_ENTRIES
   --concurrency $JOBS
   --generate-reposcan-files --kit-cache-dir /kit-cache
