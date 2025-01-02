@@ -13,27 +13,16 @@ prelude:
   mv kits-versions / &&
   curl https://raw.githubusercontent.com/geaaru/luet/geaaru/contrib/config/get_luet_root.sh | sh &&
   luet install --sync-repos
-  dev-util/pkgs-checker-minimal utils/yq utils/jq system/luet-devkit &&
+  dev-util/pkgs-checker-minimal utils/yq utils/jq system/luet-devkit
+  mark-devkit anise-portage-converter &&
   luet install system/entities --sync-repos && luet upgrade &&
   luet cleanup &&
   ego sync &&
   cd /var/git/meta-repo/kits &&
   chown root:root -R /var/git/meta-repo/kits &&
-  ls -l &&
-  for i in $(ls .) ; do
-  echo $i ;
-  if [ -e /kits-versions/$i.yml ] ; then
-  hash=$(yq r /kits-versions/$i.yml 'commit') ;
-  echo "For kit $i set hash $hash" ;
-  pushd $i ;
-  git pull -ff --depth=$GIT_HISTORY_ENTRIES ;
-  git checkout $hash || exit 1 ;
-  popd ;
-  fi ;
-  done
-# I want move ahead meson
-- >-
-  sed -e 's/^RDEPEND=.*/RDEPEND=""/g' -i
-  /var/git/meta-repo/kits/core-kit/sys-apps/baselayout/baselayout-*.ebuild &&
-  sed '/meson/d' -i
-  /var/git/meta-repo/kits/core-kit/profiles/package.mask/01-funtoo
+  rm -rf * &&
+  mark-devkit kit clone --specfiles /kits-versions/kits.yml
+  --to /var/git/meta-repo/kits --deep $GIT_HISTORY_ENTRIES
+  --concurrency $JOBS
+  --generate-reposcan-files --kit-cache-dir /kit-cache
+

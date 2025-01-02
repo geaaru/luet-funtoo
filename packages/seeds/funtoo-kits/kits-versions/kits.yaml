@@ -1,0 +1,125 @@
+sources:
+    - name: core-kit
+      url: https://github.com/macaroni-os/core-kit
+      branch: mark-testing
+      commit_sha1: 9567d10b65ff1dbf5f3382d5c9b1ee5e1af1733c
+    - name: core-server-kit
+      url: https://github.com/macaroni-os/core-server-kit
+      branch: mark-testing
+      commit_sha1: 690884a85bfee18c1d547edb82d14d3e980dd8c0
+    - name: core-gl-kit
+      url: https://github.com/macaroni-os/core-gl-kit
+      branch: mark-testing
+      commit_sha1: a5c35bb58d3f9a37909871d469856f17e7666e9f
+    - name: core-hw-kit
+      url: https://github.com/macaroni-os/core-hw-kit
+      branch: mark-testing
+      commit_sha1: 4290200af49c825b160e202a4dd263bf501e23fb
+    - name: net-kit
+      url: https://github.com/macaroni-os/net-kit
+      branch: mark-testing
+      commit_sha1: cb3367c7f9c32615a7f1072b2c94a6dc6e175332
+    - name: llvm-kit
+      url: https://github.com/macaroni-os/llvm-kit
+      branch: mark-testing
+      commit_sha1: ddc3b3fea41b1eb373066b33a2eb22ad48e81f90
+    - name: perl-kit
+      url: https://github.com/macaroni-os/perl-kit
+      branch: mark-testing
+      commit_sha1: 0199feec9940bf2c436a980e98deb454fbf177a5
+    - name: python-kit
+      url: https://github.com/macaroni-os/python-kit
+      branch: mark-testing
+      commit_sha1: 1c4f21b983e74a6b50c199fabbc6dc7b0ed195ab
+    - name: python-modules-kit
+      url: https://github.com/macaroni-os/python-modules-kit
+      branch: mark-testing
+      commit_sha1: e5f33110c9227dcdf09c09016bee0cb4b4797151
+    - name: desktop-kit
+      url: https://github.com/macaroni-os/desktop-kit
+      branch: mark-testing
+      commit_sha1: 81775a4fd0dd27149019a359ad154357721cac81
+    - name: dev-kit
+      url: https://github.com/macaroni-os/dev-kit
+      branch: mark-testing
+      commit_sha1: bd570166c39790e1a4e0c245b4608fef1636808d
+    - name: editors-kit
+      url: https://github.com/macaroni-os/editors-kit
+      branch: mark-testing
+      commit_sha1: c8fa5578ddd25418be3f7c404d4a5839fe9c4de4
+    - name: games-kit
+      url: https://github.com/macaroni-os/games-kit
+      branch: mark-testing
+      commit_sha1: 2717836ff25e867bb3089dbd9f3eac7d12ee4247
+    - name: gnome-kit
+      url: https://github.com/macaroni-os/gnome-kit
+      branch: mark-testing
+      commit_sha1: 6c328c745858b5cd9a84c5877797c25d75a8bea3
+    - name: haskell-kit
+      url: https://github.com/macaroni-os/haskell-kit
+      branch: mark-testing
+      commit_sha1: 04de641bf91cb954fae10282bb4cceabe87b48a0
+    - name: browser-kit
+      url: https://github.com/macaroni-os/browser-kit
+      branch: mark-testing
+      commit_sha1: 8783530e699db72174446a3072fa5da42fe80903
+    - name: java-kit
+      url: https://github.com/macaroni-os/java-kit
+      branch: mark-testing
+      commit_sha1: f0298ae583ad7641ec55a1f41ca30907a4e4810f
+    - name: kde-kit
+      url: https://github.com/macaroni-os/kde-kit
+      branch: mark-testing
+      commit_sha1: fb8b67ed39eb97a26f26f9c58d717cca24957932
+    - name: lang-kit
+      url: https://github.com/macaroni-os/lang-kit
+      branch: mark-testing
+      commit_sha1: ee5a2d8b9956fd4b6d83d7df3030ce3c3bd249c8
+    - name: lisp-scheme-kit
+      url: https://github.com/macaroni-os/lisp-scheme-kit
+      branch: mark-testing
+      commit_sha1: e4728ab45222da2c62e33ddea58f07b0a7c95cd9
+    - name: mate-kit
+      url: https://github.com/macaroni-os/mate-kit
+      branch: mark-testing
+      commit_sha1: 2d9ca3782fedb3b35398dc371fadf4dbc10c5b14
+    - name: media-kit
+      url: https://github.com/macaroni-os/media-kit
+      branch: mark-testing
+      commit_sha1: f70cc5effd07012a325d8eeba46c3d81df386914
+    - name: ml-lang-kit
+      url: https://github.com/macaroni-os/ml-lang-kit
+      branch: mark-testing
+      commit_sha1: ee52b18f792c1e5122604ac553b292b58d3883d4
+    - name: i18n-kit
+      url: https://github.com/macaroni-os/i18n-kit
+      branch: mark-testing
+      commit_sha1: e6df4e7449d2d9e5cc3c43a70231c9d731cb6ed6
+    - name: qt-kit
+      url: https://github.com/macaroni-os/qt-kit
+      branch: mark-testing
+      commit_sha1: 5d70fb2f5c6e72615d603780b9b3698d1164d68c
+    - name: ruby-kit
+      url: https://github.com/macaroni-os/ruby-kit
+      branch: mark-testing
+      commit_sha1: 057f399f19b59ed186479dcf3b5bc972d3fd6f06
+    - name: science-kit
+      url: https://github.com/macaroni-os/science-kit
+      branch: mark-testing
+      commit_sha1: f2e6ff4718e37a37d13d0ae0c5d7a80094d073a1
+    - name: security-kit
+      url: https://github.com/macaroni-os/security-kit
+      branch: mark-testing
+      commit_sha1: f858817202967d3eb705fef65f5df094f5181a09
+    - name: text-kit
+      url: https://github.com/macaroni-os/text-kit
+      branch: mark-testing
+      commit_sha1: 4eb92727b66b3c138674db87092faa6ad259358e
+    - name: xfce-kit
+      url: https://github.com/macaroni-os/xfce-kit
+      branch: mark-testing
+      commit_sha1: 567167b00d9b6e3ddddeb7cedc42392cbdbca96f
+    - name: i18n-kit
+      url: https://github.com/macaroni-os/i18n-kit
+      branch: mark-testing
+      commit_sha1: e6df4e7449d2d9e5cc3c43a70231c9d731cb6ed6
