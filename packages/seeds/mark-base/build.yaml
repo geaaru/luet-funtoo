@@ -1,0 +1,38 @@
+requires:
+- category: "seed"
+  name: "funtoo-kit-geaaru"
+  version: ">=0"
+env:
+- JOBS=10
+- PYTHON_TARGETS="python3_9"
+- PYTHON_SINGLE_TARGET="python3_9"
+- 'GENTOO_MIRRORS="https://distfiles.macaronios.org https://dl.macaronios.org/repos/distfiles"'
+prelude:
+- >-
+  cp -rvf package.use /etc/portage/ &&
+  echo 'CHOST="{{ ( index .Values.labels "arch" ) }}-pc-linux-gnu"' > /etc/portage/make.conf &&
+  epro flavor core &&
+  epro mix-in +btrfs +vmware-guest &&
+  epro list &&
+  echo "UTC" > /etc/timezone
+# We use now stage3 tarball from mark-stages that already
+# contains macaroni repos, entities and entities-catalog.
+# I disable the terragon repos to avoid upgrade of the packages
+# to handle with portage.
+- >-
+  anise subsets enable devel portage &&
+  anise repo list &&
+  anise repo disable macaroni-terragon macaroni-commons &&
+  anise upgrade --sync-repos &&
+  anise cleanup --purge-repos &&
+  rm -rf /etc/passwd /etc/group /etc/passwd /etc/shadow &&
+  entities merge -s /usr/share/macaroni/entities -a &&
+  entities list users &&
+  entities list groups &&
+  export FEATURES="-collision-protect -sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" &&
+  unset RELEASE &&
+  emerge -j $JOBS @world -D --with-bdeps y -t -e &&
+  emerge -t -j $JOBS -DN @world &&
+  emerge -t -j $JOBS -D @world &&
+  emerge -t -j $JOBS -uDN @world &&
+  rm -rf /var/cache/portage/distfiles/*

@@ -1,0 +1,36 @@
+net-misc/networkmanager bluetooth connection-sharing -consolekit -dhcpcd elogind introspection modemmanager ncurses nss policykit ppp resolvconf vala wext wifi -audit dhclient -gnutls -iwd -json -ofono -ovs -teamd -test
+
+
+# mount is needef for calamares
+sys-boot/grub mount
+net-print/cups -zeroconf
+net-libs/libproxy -kde
+
+# Required for blender
+sys-libs/ncurses tinfo
+
+# caps is required by openvswitch
+sys-apps/util-linux caps cramfs logger ncurses nls pam python readline split-usr static-libs suid tty-helpers unicode -kill
+# caps in iputils
+net-misc/iputils arping caps filecaps ipv6 nls ssl
+# caps
+sys-apps/coreutils acl nls split-usr xattr caps
+
+sys-kernel/debian-sources -btrfs binary
+sys-libs/zlib minizip
+
+sys-fs/lvm2 lvm1 readline -static systemd thin udev
+
+net-misc/curl -adns -brotli -curl_ssl_gnutls -curl_ssl_libressl -curl_ssl_mbedtls -curl_ssl_nss -curl_ssl_winssl -idn -kerberos -ldap -metalink -nios2 -samba -sh -ssh -static-libs -test -threads -rtmp http2 curl_ssl_openssl ipv6 ssl -nss -imap -pop3 -smtp -progress-meter
+
+# Needed for libvirt
+net-dns/dnsmasq script dbus dhcp dumpfile inotify ipv6 nls
+
+# Needed for fchroot
+dev-libs/glib static-libs
+sys-apps/attr static-libs
+sys-libs/zlib static-libs
+dev-libs/libpcre static-libs
+
+# imlib is needed for netfetch
+www-client/w3m X imlib nls ssl unicode
