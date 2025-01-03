@@ -52,7 +52,8 @@ annotations:
       - ^/var/db/pkg/
 description: Various useful Linux utilities
 uri:
-- https://www.kernel.org/pub/linux/utils/util-linux/ https://github.com/karelzak/util-linux
+- https://www.kernel.org/pub/linux/utils/util-linux/
+- https://github.com/karelzak/util-linux
 license: GPL-2 GPL-3 LGPL-2.1 BSD-4 MIT public-domain
 labels:
   BDEPEND: virtual/pkgconfig nls? ( sys-devel/gettext ) >=app-portage/elt-patches-20170815
