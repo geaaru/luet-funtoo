@@ -16,8 +16,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for the C library
-uri:
-- ""
 labels:
   RDEPEND: '!prefix-guest? ( elibc_glibc? ( sys-libs/glibc:2.2 ) elibc_musl? ( sys-libs/musl
     ) elibc_uclibc? ( || ( sys-libs/uclibc-ng sys-libs/uclibc ) ) elibc_FreeBSD? (
