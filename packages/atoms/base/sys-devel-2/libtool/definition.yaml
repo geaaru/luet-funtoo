@@ -1,5 +1,5 @@
 name: libtool
-version: 2.4.6+1
+version: 2.4.6+2
 category: sys-devel-2
 requires:
 - name: libltdl
@@ -7,7 +7,7 @@ requires:
   category: dev-libs
 - name: autoconf
   version: '>=0'
-  category: sys-devel-2.69
+  category: sys-devel-latest
 - name: automake
   version: '>=0'
   category: sys-devel-1.16
@@ -25,8 +25,7 @@ license: GPL-2
 labels:
   DEPEND: sys-devel/gnuconfig >=sys-devel/autoconf-2.69 >=sys-devel/automake-1.13
     dev-libs/libltdl:0 !<sys-apps/sandbox-2.10-r4 app-arch/xz-utils >=app-portage/elt-patches-20170815
-    !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15
-    ) >=sys-devel/autoconf-2.69 >=app-portage/elt-patches-20170317
+    || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=app-portage/elt-patches-20170317
   IUSE: vanilla
   RDEPEND: sys-devel/gnuconfig >=sys-devel/autoconf-2.69 >=sys-devel/automake-1.13
     dev-libs/libltdl:0 !<sys-apps/sandbox-2.10-r4
