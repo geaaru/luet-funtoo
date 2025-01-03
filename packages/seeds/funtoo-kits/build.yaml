@@ -12,11 +12,12 @@ prelude:
 - >-
   mv kits-versions / &&
   curl https://raw.githubusercontent.com/geaaru/luet/geaaru/contrib/config/get_luet_root.sh | sh &&
-  luet install --sync-repos
+  anise subsets enable portage devel &&
+  anise install --sync-repos
   dev-util/pkgs-checker-minimal utils/yq utils/jq system/luet-devkit
   mark-devkit anise-portage-converter &&
-  luet install system/entities --sync-repos && luet upgrade &&
-  luet cleanup &&
+  anise install system/entities --sync-repos && anise upgrade &&
+  anise cleanup &&
   ego sync &&
   cd /var/git/meta-repo/kits &&
   chown root:root -R /var/git/meta-repo/kits &&
