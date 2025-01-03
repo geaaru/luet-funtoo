@@ -1,14 +1,13 @@
 name: libxml2
-version: 2.11.5+1
+version: 2.11.5+2
 category: dev-libs-2
 use_flags:
 - -lzma
-- -python_targets_python3_10
-- -python_targets_python3_7
-- -python_targets_python3_8
+- -python_single_target_python3_10
+- -python_single_target_python3_7
+- -python_single_target_python3_8
 - icu
-- python
-- python_targets_python3_9
+- python_single_target_python3_9
 - readline
 requires:
 - name: icu
@@ -20,6 +19,9 @@ requires:
 - name: zlib
   version: '>=0'
   category: sys-libs
+- name: libiconv
+  version: '>=0'
+  category: virtual
 annotations:
   subsets:
     rules:
@@ -29,21 +31,21 @@ annotations:
       - ^/var/db/pkg/
 description: XML C parser and toolkit
 uri:
-- http://www.xmlsoft.org/ https://gitlab.gnome.org/GNOME/libxml2
+- https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
 license: MIT
 labels:
-  BDEPEND: virtual/pkgconfig dev-util/gtk-doc-am >=app-portage/elt-patches-20170815
-    !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15
-    ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 app-arch/xz-utils
+  BDEPEND: virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16
+    ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 app-arch/xz-utils
   DEPEND: virtual/libiconv >=sys-libs/zlib-1.2.8-r1:= icu? ( >=dev-libs/icu-51.2-r1:=
-    ) lzma? ( >=app-arch/xz-utils-5.0.5-r1:= ) readline? ( sys-libs/readline:= ) python_single_target_python3_7?
-    ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python3_9?
-    ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) python_single_target_python3_8?
-    ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_10?
+    ) lzma? ( >=app-arch/xz-utils-5.0.5-r1:= ) readline? ( sys-libs/readline:= ) python_single_target_python3_10?
     ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10] )
-  IUSE: debug examples +ftp icu +lzma +python readline static-libs test python_single_target_python3_7
-    python_single_target_python3_9 python_single_target_python3_8 python_single_target_python3_10
-    python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python3_10
+    python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
+    ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9]
+    ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8]
+    )
+  IUSE: debug examples +ftp icu +lzma +python readline static-libs test python_single_target_python3_10
+    python_single_target_python3_7 python_single_target_python3_9 python_single_target_python3_8
+    python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
   RDEPEND: virtual/libiconv >=sys-libs/zlib-1.2.8-r1:= icu? ( >=dev-libs/icu-51.2-r1:=
     ) lzma? ( >=app-arch/xz-utils-5.0.5-r1:= ) readline? ( sys-libs/readline:= )
   emerge.packages: dev-libs/libxml2:2
