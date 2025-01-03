@@ -10,7 +10,7 @@ annotations:
       - ^/var/db/pkg/
 description: Library for arbitrary-precision arithmetic on different type of numbers
 uri:
-- http://gmplib.org/
+- https://gmplib.org/
 license: '|| ( LGPL-3+ GPL-2+ )'
 labels:
   BDEPEND: app-arch/xz-utils sys-devel/m4 >=app-portage/elt-patches-20170815
