@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for awk implementation
-uri:
-- ""
 labels:
   RDEPEND: '|| ( >=sys-apps/gawk-4.0.1-r1 sys-apps/mawk sys-apps/nawk sys-apps/busybox
     ) !<sys-apps/gawk-4.0.1-r1'
