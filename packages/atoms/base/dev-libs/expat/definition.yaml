@@ -15,12 +15,8 @@ uri:
 - https://libexpat.github.io/
 license: MIT
 labels:
-  BDEPEND: unicode? ( !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16
-    >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
-    ) >=app-portage/elt-patches-20170815
-  DEPEND: unicode? ( !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16
-    >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
-    )
+  BDEPEND: unicode? ( || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71
+    >=sys-devel/libtool-2.4 ) >=app-portage/elt-patches-20170815
   IUSE: examples static-libs unicode abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32
     abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
   emerge.packages: dev-libs/expat
