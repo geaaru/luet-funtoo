@@ -14,6 +14,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: mark-base
+- name: uchardet
   version: '>=0'
-  category: seed
+  category: app-i18n

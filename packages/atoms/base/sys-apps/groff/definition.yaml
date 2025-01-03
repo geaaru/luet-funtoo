@@ -1,8 +1,13 @@
 name: groff
-version: 1.23.0+1
+version: 1.23.0+2
 category: sys-apps
 use_flags:
 - -X
+- uchardet
+requires:
+- name: uchardet
+  version: '>=0'
+  category: app-i18n
 annotations:
   subsets:
     rules:
