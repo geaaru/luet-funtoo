@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for PAM (Pluggable Authentication Modules)
-uri:
-- ""
 labels:
   RDEPEND: sys-libs/pam
   emerge.packages: virtual/pam
