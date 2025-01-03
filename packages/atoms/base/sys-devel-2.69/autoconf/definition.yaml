@@ -1,11 +1,14 @@
 name: autoconf
-version: 2.69+5
+version: 2.69+6
 category: sys-devel-2.69
 requires:
-- name: perl
+- name: texinfo
   version: '>=0'
-  category: dev-lang
+  category: sys-apps
 - name: autoconf-wrapper
+  version: '>=0'
+  category: sys-devel
+- name: gnuconfig
   version: '>=0'
   category: sys-devel
 - name: m4
@@ -21,10 +24,9 @@ annotations:
 description: Used to create autoconfiguration files
 uri:
 - https://www.gnu.org/software/autoconf/autoconf.html
-license: GPL-3
+license: GPL-3+
 labels:
   BDEPEND: sys-apps/texinfo >=dev-lang/perl-5.10 >=sys-devel/m4-1.4.16
-  DEPEND: '>=sys-devel/m4-1.4.16 >=dev-lang/perl-5.6'
   IUSE: emacs
   RDEPEND: sys-apps/texinfo >=dev-lang/perl-5.10 >=sys-devel/m4-1.4.16 >=sys-devel/autoconf-wrapper-13
     sys-devel/gnuconfig !~sys-devel/autoconf-2.69:2.5
