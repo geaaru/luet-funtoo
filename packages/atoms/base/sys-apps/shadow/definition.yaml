@@ -35,7 +35,8 @@ annotations:
       - ^/var/db/pkg/
 description: Utilities to deal with user accounts
 uri:
-- https://github.com/shadow-maint/shadow http://pkg-shadow.alioth.debian.org/
+- https://github.com/shadow-maint/shadow
+- http://pkg-shadow.alioth.debian.org/
 license: BSD GPL-2
 labels:
   BDEPEND: app-arch/xz-utils nls? ( sys-devel/gettext ) >=app-portage/elt-patches-20170815
