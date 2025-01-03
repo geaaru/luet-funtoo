@@ -11,10 +11,8 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Virtual for user account management utilities
-uri:
-- ""
 labels:
-  RDEPEND: '!prefix? ( || ( >=sys-apps/shadow-4.1 sys-apps/hardened-shadow ) )'
+  RDEPEND: '!prefix? ( >=sys-apps/shadow-4.1 )'
   emerge.packages: virtual/shadow
   kit: core-kit
   original.package.name: virtual/shadow
