@@ -1,6 +1,0 @@
-name: funtoo-base
-version: 0.20241109+1
-category: seed
-hidden: true
-labels:
-  arch: x86_64
