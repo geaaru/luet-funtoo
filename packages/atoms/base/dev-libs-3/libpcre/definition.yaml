@@ -1,11 +1,21 @@
 name: libpcre
-version: 8.44+1
+version: 8.44+2
 category: dev-libs-3
 use_flags:
-- -bzip2
 - -libedit
-- -readline
-- -zlib
+- bzip2
+- readline
+- zlib
+requires:
+- name: bzip2
+  version: '>=0'
+  category: app-arch
+- name: readline
+  version: '>=0'
+  category: sys-libs
+- name: zlib
+  version: '>=0'
+  category: sys-libs
 annotations:
   subsets:
     rules:
