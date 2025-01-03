@@ -1,9 +1,13 @@
 name: nettle
-version: 3.7.3+1
+version: 3.7.3+2
 category: dev-libs
 use_flags:
 - -doc
-- -gmp
+- gmp
+requires:
+- name: gmp
+  version: '>=0'
+  category: dev-libs
 annotations:
   subsets:
     rules:
@@ -16,9 +20,8 @@ uri:
 - http://www.lysator.liu.se/~nisse/nettle/
 license: '|| ( LGPL-3 LGPL-2.1 )'
 labels:
-  BDEPEND: doc? ( sys-apps/texinfo ) >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3
-    || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69
-    >=sys-devel/libtool-2.4
+  BDEPEND: doc? ( sys-apps/texinfo ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16
+    ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
   DEPEND: gmp? ( >=dev-libs/gmp-6.1:0=[static-libs?,-mgorny(-)] )
   IUSE: +asm doc +gmp static-libs test cpu_flags_x86_aes cpu_flags_arm_neon cpu_flags_x86_sha
     abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32
