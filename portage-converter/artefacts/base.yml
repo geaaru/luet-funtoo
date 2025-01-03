@@ -505,6 +505,7 @@ artefacts:
     - ipv6
     - python
     - python_targets_python3_9
+    - python_single_target_python3_9
     - readline
   packages:
   - dev-libs/libxml2:2
