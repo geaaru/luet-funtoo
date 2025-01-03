@@ -4,7 +4,7 @@ category: sys-libs
 requires:
 - name: binutils
   version: '>=0'
-  category: sys-devel-2.36
+  category: sys-devel-2.40
 annotations:
   subsets:
     rules:
@@ -13,8 +13,6 @@ annotations:
       portage:
       - ^/var/db/pkg/
 description: Core binutils libraries (libbfd, libopcodes, libiberty) -- skeleton package
-uri:
-- ""
 labels:
   RDEPEND: =sys-devel/binutils-2.40_p5-r1
   emerge.packages: sys-libs/binutils-libs
