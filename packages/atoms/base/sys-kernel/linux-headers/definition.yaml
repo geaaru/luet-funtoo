@@ -10,7 +10,8 @@ annotations:
       - ^/var/db/pkg/
 description: Linux system headers
 uri:
-- https://www.kernel.org/ https://www.gentoo.org/
+- https://www.kernel.org/
+- https://www.gentoo.org/
 license: GPL-2
 labels:
   DEPEND: app-arch/xz-utils dev-lang/perl
