@@ -34,8 +34,7 @@ labels:
   BDEPEND: app-text/docbook-xml-dtd:4.1.2 app-text/docbook-xml-dtd:4.3 app-text/docbook-xml-dtd:4.4
     app-text/docbook-xml-dtd:4.5 dev-libs/libxslt sys-devel/flex virtual/pkgconfig
     nls? ( sys-devel/gettext ) app-arch/xz-utils app-portage/portage-utils >=app-portage/elt-patches-20170815
-    !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15
-    ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+    || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
   DEPEND: audit? ( >=sys-process/audit-2.2.2 ) berkdb? ( >=sys-libs/db-4.8.30-r1:=
     ) cracklib? ( >=sys-libs/cracklib-2.9.1-r1 ) selinux? ( >=sys-libs/libselinux-2.2.2-r4
     ) nis? ( >=net-libs/libtirpc-0.2.4-r2 ) nls? ( >=virtual/libintl-0-r1 ) filecaps?
