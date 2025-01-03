@@ -1,12 +1,11 @@
 name: setuptools
-version: 70.3.0+1
+version: 70.3.0+2
 category: dev-python
 use_flags:
 - -python_targets_pypy3
-- -python_targets_python2_7
 - -python_targets_python3_10
-- -python_targets_python3_8
 - -python_targets_python3_7
+- -python_targets_python3_8
 - python_targets_python3_9
 requires:
 - name: python
@@ -22,8 +21,10 @@ annotations:
       - ^/usr/include/
       portage:
       - ^/var/db/pkg/
+description: Collection of extensions to Distutils
 uri:
-- https://github.com/pypa/setuptools https://pypi.org/project/setuptools/
+- https://github.com/pypa/setuptools
+- https://pypi.org/project/setuptools/
 license: MIT
 labels:
   BDEPEND: python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_pypy3?
@@ -31,12 +32,12 @@ labels:
     ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8?
     ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
   DEPEND: app-arch/unzip
-  IUSE: python_targets_python2_7 python_targets_python3_10 python_targets_pypy3 python_targets_python3_7
-    python_targets_python3_9 python_targets_python3_8
-  RDEPEND: python_targets_python2_7? ( dev-python/setuptools-compat ) python_targets_python3_10?
-    ( dev-lang/python:3.10 ) python_targets_pypy3? ( >=dev-python/pypy3-7.3.0:0= )
-    python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? (
-    dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+  IUSE: python_targets_python3_10 python_targets_pypy3 python_targets_python3_7 python_targets_python3_9
+    python_targets_python3_8
+  RDEPEND: python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_pypy3?
+    ( >=dev-python/pypy3-7.3.0:0= ) python_targets_python3_7? ( dev-lang/python:3.7
+    ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8?
+    ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
   emerge.packages: dev-python/setuptools
   kit: python-modules-kit
   original.package.name: dev-python/setuptools
