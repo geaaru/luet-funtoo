@@ -1,15 +1,15 @@
 name: gnutls
-version: 3.7.11+1
+version: 3.7.11+2
 category: net-libs
 use_flags:
+- -brotli
 - -dane
 - -doc
-- -guile
 - -seccomp
 - -test
 - -test-full
-- -tools
-- -valgrind
+- -zlib
+- -zstd
 - idn
 - nls
 - pkcs11
@@ -17,6 +17,9 @@ requires:
 - name: p11-kit
   version: '>=0'
   category: app-crypt
+- name: libtasn1
+  version: '>=0'
+  category: dev-libs
 - name: nettle
   version: '>=0'
   category: dev-libs
@@ -33,9 +36,9 @@ annotations:
       - ^/usr/include/
       portage:
       - ^/var/db/pkg/
-description: A TLS 1.2 and SSL 3.0 implementation for the GNU project
+description: A secure communications library implementing the SSL, TLS and DTLS protocols
 uri:
-- http://www.gnutls.org/
+- https://www.gnutls.org/
 license: GPL-3 LGPL-2.1+
 labels:
   BDEPEND: dev-util/gtk-doc-am >=virtual/pkgconfig-0-r1 doc? ( dev-util/gtk-doc )
