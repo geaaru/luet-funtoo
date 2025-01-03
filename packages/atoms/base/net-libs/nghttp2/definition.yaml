@@ -1,14 +1,24 @@
 name: nghttp2
-version: 1.64.0
+version: 1.64.0+1
 category: net-libs
 use_flags:
-- -cxx
 - -hpack-tools
 - -jemalloc
 - -libressl
 - -test
 - -utils
-- -xml
+- cxx
+- xml
+requires:
+- name: boost
+  version: '>=0'
+  category: dev-libs
+- name: libxml2
+  version: '>=0'
+  category: dev-libs-2
+- name: openssl
+  version: '>=0'
+  category: dev-libs
 annotations:
   subsets:
     rules:
