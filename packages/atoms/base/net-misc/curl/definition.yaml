@@ -1,5 +1,5 @@
 name: curl
-version: 8.11.0
+version: 8.11.1
 category: net-misc
 use_flags:
 - -adns
@@ -10,7 +10,6 @@ use_flags:
 - -ldap
 - -mbedtls
 - -nghttp3
-- -nss
 - -quiche
 - -rtmp
 - -ssh
@@ -27,9 +26,6 @@ use_flags:
 - -metalink
 - curl_ssl_openssl
 requires:
-- name: openssl
-  version: '>=0'
-  category: dev-libs
 - name: nghttp2
   version: '>=0'
   category: net-libs
@@ -74,4 +70,4 @@ labels:
   kit: core-kit
   original.package.name: net-misc/curl
   original.package.slot: "0"
-  original.package.version: 8.11.0
+  original.package.version: 8.11.1
