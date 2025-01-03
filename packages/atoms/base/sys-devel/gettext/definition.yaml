@@ -20,9 +20,6 @@ requires:
 - name: acl
   version: '>=0'
   category: virtual
-- name: libiconv
-  version: '>=0'
-  category: virtual
 - name: libintl
   version: '>=0'
   category: virtual
