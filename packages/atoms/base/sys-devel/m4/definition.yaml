@@ -1,6 +1,12 @@
 name: m4
 version: 1.4.19+1
 category: sys-devel
+use_flags:
+- nls
+requires:
+- name: gettext
+  version: '>=0'
+  category: sys-devel
 annotations:
   subsets:
     rules:
