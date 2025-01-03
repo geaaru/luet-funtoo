@@ -1,0 +1,19 @@
+env:
+- JOBS={{ ( index .Values.labels "jobs" ) | default "3" }}
+- LUET_PORTAGE_CACHE_PACKAGES="/var/cache/portage/packages"
+- LUET_PORTAGE_IGNORE_TAR_WARNING=1
+- LUET_PORTAGE_PKGMETA=1
+- LUET_PORTAGE_PKGFILES=1
+- FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"
+prelude:
+- eval 'rm -rf /pkgdir/ || true' && mkdir -p /pkgdir/{{ .Values.name }} && luet-portage
+  --dir /pkgdir/{{ .Values.name }} {{ ( index .Values.labels "emerge.packages" ) }}
+- rm -v /var/cache/distfiles/* ${LUET_PORTAGE_CACHE_PACKAGES}/* || true
+package_dir: /pkgdir/{{ .Values.name }}
+excludes:
+- ^/var/cache/portage/
+- ^/var/git/
+requires:
+- name: mark-base
+  version: '>=0'
+  category: seed
