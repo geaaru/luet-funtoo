@@ -48,6 +48,9 @@ requires:
   - name: eselect-pinentry
     category: app-eselect
     version: '>=0'
+  - name: uchardet
+    category: app-i18n
+    version: '>=0'
   - name: ca-certificates
     category: app-misc
     version: '>=0'
