@@ -108,6 +108,9 @@ requires:
   - name: hatch-fancy-pypi-readme
     category: dev-python
     version: '>=0'
+  - name: hatch-requirements-txt
+    category: dev-python
+    version: '>=0'
   - name: hatch-vcs
     category: dev-python
     version: '>=0'
