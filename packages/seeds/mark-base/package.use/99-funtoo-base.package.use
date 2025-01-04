@@ -34,3 +34,6 @@ dev-libs/libpcre static-libs
 
 # imlib is needed for netfetch
 www-client/w3m X imlib nls ssl unicode
+
+# it seems reasonable support different encodings here. Maybe directly in the profile.
+sys-apps/groff uchardet
