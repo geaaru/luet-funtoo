@@ -1,5 +1,5 @@
 name: e2fsprogs
-version: 1.47.1+1
+version: 1.47.2
 category: sys-fs
 use_flags:
 - -cron
@@ -25,13 +25,13 @@ uri:
 license: GPL-2 BSD
 labels:
   BDEPEND: nls? ( sys-devel/gettext ) virtual/pkgconfig sys-apps/texinfo virtual/pkgconfig
-  DEPEND: ~sys-libs/e2fsprogs-libs-1.47.1 >=sys-apps/util-linux-2.16 cron? ( sys-fs/lvm2[-device-mapper-only(-)]
+  DEPEND: ~sys-libs/e2fsprogs-libs-1.47.2 >=sys-apps/util-linux-2.16 cron? ( sys-fs/lvm2[-device-mapper-only(-)]
     ) fuse? ( sys-fs/fuse:0 ) nls? ( virtual/libintl )
   IUSE: cron fuse lto nls static-libs +threads elibc_FreeBSD +split-usr
-  RDEPEND: ~sys-libs/e2fsprogs-libs-1.47.1 >=sys-apps/util-linux-2.16 cron? ( sys-fs/lvm2[-device-mapper-only(-)]
+  RDEPEND: ~sys-libs/e2fsprogs-libs-1.47.2 >=sys-apps/util-linux-2.16 cron? ( sys-fs/lvm2[-device-mapper-only(-)]
     ) fuse? ( sys-fs/fuse:0 ) nls? ( virtual/libintl )
   emerge.packages: sys-fs/e2fsprogs
   kit: core-kit
   original.package.name: sys-fs/e2fsprogs
   original.package.slot: "0"
-  original.package.version: 1.47.1
+  original.package.version: 1.47.2
