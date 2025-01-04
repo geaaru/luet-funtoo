@@ -1,5 +1,5 @@
 name: meson
-version: 1.6.0
+version: 1.6.1
 category: dev-util
 use_flags:
 - -python_targets_python3_10
@@ -36,4 +36,4 @@ labels:
   kit: core-kit
   original.package.name: dev-util/meson
   original.package.slot: "0"
-  original.package.version: 1.6.0
+  original.package.version: 1.6.1
