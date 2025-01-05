@@ -1,5 +1,5 @@
 name: jinja
-version: 3.1.4+3
+version: 3.1.5
 category: dev-python
 use_flags:
 - -doc
@@ -51,4 +51,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/jinja
   original.package.slot: "0"
-  original.package.version: 3.1.4
+  original.package.version: 3.1.5
