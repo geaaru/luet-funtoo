@@ -1,5 +1,5 @@
 name: six
-version: 1.16.0+3
+version: 1.17.0
 category: dev-python
 use_flags:
 - -doc
@@ -46,4 +46,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/six
   original.package.slot: "0"
-  original.package.version: 1.16.0
+  original.package.version: 1.17.0
