@@ -1,5 +1,5 @@
 name: zipp
-version: 3.20.2+2
+version: 3.21.0
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -45,4 +45,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/zipp
   original.package.slot: "0"
-  original.package.version: 3.20.2
+  original.package.version: 3.21.0
