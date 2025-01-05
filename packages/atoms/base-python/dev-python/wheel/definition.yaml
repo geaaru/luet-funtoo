@@ -1,5 +1,5 @@
 name: wheel
-version: 0.44.0+2
+version: 0.45.1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -44,4 +44,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/wheel
   original.package.slot: "0"
-  original.package.version: 0.44.0
+  original.package.version: 0.45.1
