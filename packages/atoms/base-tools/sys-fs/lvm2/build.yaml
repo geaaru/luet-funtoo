@@ -1,8 +1,4 @@
 prelude:
-# Temporary fix until macaroni-os/mark-issues#230 is fixed.
-- >-
-  sed -e '/thin-provisioning-tools/d' -i
-  /var/git/meta-repo/kits/core-kit/sys-fs/lvm2/lvm2-2.03.28.ebuild
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
   export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \
