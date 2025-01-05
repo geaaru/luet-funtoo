@@ -1,5 +1,5 @@
 name: packaging
-version: 21.3+2
+version: "24.2"
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -36,4 +36,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/packaging
   original.package.slot: "0"
-  original.package.version: "21.3"
+  original.package.version: "24.2"
