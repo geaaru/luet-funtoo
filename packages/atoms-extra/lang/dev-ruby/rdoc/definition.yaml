@@ -1,5 +1,5 @@
 name: rdoc
-version: 6.7.0+1
+version: 6.10.0
 category: dev-ruby
 use_flags:
 - -ruby_targets_ruby30
@@ -68,4 +68,4 @@ labels:
   kit: ruby-kit
   original.package.name: dev-ruby/rdoc
   original.package.slot: "0"
-  original.package.version: 6.7.0
+  original.package.version: 6.10.0
