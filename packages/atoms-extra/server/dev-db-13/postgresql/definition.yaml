@@ -1,5 +1,5 @@
 name: postgresql
-version: "13.18"
+version: 13.18+1
 category: dev-db-13
 use_flags:
 - -elibc_glibc

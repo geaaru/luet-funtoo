@@ -9,7 +9,7 @@ prelude:
 # Temporary patch
 - >-
   sed -i -e 's|^KEYWORDS.*|KEYWORDS="*"|g'
-  /var/git/meta-repo/kits/core-server-kit/dev-db/postgresql/postgresql-13.16.ebuild
+  /var/git/meta-repo/kits/core-server-kit/dev-db/postgresql/postgresql-13.18.ebuild
 - |
   eval 'mkdir -p /var/cache/portage/distfiles || true' && \
   chown portage:portage -R /var/cache/portage/ && \
