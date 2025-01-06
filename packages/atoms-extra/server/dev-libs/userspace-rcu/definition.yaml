@@ -1,5 +1,5 @@
 name: userspace-rcu
-version: 0.14.1+1
+version: 0.15.0
 category: dev-libs
 annotations:
   subsets:
@@ -20,4 +20,4 @@ labels:
   kit: dev-kit
   original.package.name: dev-libs/userspace-rcu
   original.package.slot: "0"
-  original.package.version: 0.14.1
+  original.package.version: 0.15.0
