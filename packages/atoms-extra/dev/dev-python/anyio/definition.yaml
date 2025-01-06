@@ -1,5 +1,5 @@
 name: anyio
-version: 4.6.2
+version: 4.7.0
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -46,4 +46,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/anyio
   original.package.slot: "0"
-  original.package.version: 4.6.2_p1
+  original.package.version: 4.7.0
