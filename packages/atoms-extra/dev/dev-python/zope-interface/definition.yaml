@@ -1,5 +1,5 @@
 name: zope-interface
-version: 7.1.1
+version: "7.2"
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -43,4 +43,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/zope-interface
   original.package.slot: "0"
-  original.package.version: 7.1.1
+  original.package.version: "7.2"
