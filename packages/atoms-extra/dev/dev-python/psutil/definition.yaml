@@ -1,5 +1,5 @@
 name: psutil
-version: 6.1.0
+version: 6.1.1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -42,4 +42,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/psutil
   original.package.slot: "0"
-  original.package.version: 6.1.0
+  original.package.version: 6.1.1
