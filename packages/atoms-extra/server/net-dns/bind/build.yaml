@@ -6,6 +6,8 @@ env:
 - LUET_PORTAGE_PKGFILES=1
 - FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"
 prelude:
+- >-
+  sed -e 's|CHANGES||g' -i /var/git/meta-repo/kits/net-kit/net-dns/bind/bind-9.20.4.ebuild
 - |
   eval 'mkdir -p /var/cache/portage/distfiles || true' && \
   chown portage:portage -R /var/cache/portage/ && \
