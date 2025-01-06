@@ -1,5 +1,5 @@
 name: postgresql
-version: 16.4+2
+version: "16.6"
 category: dev-db-16
 use_flags:
 - -elibc_glibc
@@ -94,4 +94,4 @@ labels:
   kit: core-server-kit
   original.package.name: dev-db/postgresql
   original.package.slot: "16"
-  original.package.version: "16.4"
+  original.package.version: "16.6"
