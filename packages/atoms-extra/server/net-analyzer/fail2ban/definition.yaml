@@ -1,5 +1,5 @@
 name: fail2ban
-version: 1.1.0+3
+version: 1.1.0+4
 category: net-analyzer
 use_flags:
 - -python_single_target_python3_10
