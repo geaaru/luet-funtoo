@@ -1,5 +1,5 @@
 name: postgresql
-version: "16.6"
+version: 16.6+1
 category: dev-db-16
 use_flags:
 - -elibc_glibc
