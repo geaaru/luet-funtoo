@@ -1,5 +1,5 @@
 name: oniguruma
-version: 6.9.9+1
+version: 6.9.10
 category: dev-libs
 annotations:
   subsets:
@@ -19,4 +19,4 @@ labels:
   kit: dev-kit
   original.package.name: dev-libs/oniguruma
   original.package.slot: "0"
-  original.package.version: 6.9.9
+  original.package.version: 6.9.10
