@@ -1,5 +1,5 @@
 name: strace
-version: "6.11"
+version: "6.12"
 category: dev-util
 use_flags:
 - -aio
@@ -30,4 +30,4 @@ labels:
   kit: dev-kit
   original.package.name: dev-util/strace
   original.package.slot: "0"
-  original.package.version: "6.11"
+  original.package.version: "6.12"
