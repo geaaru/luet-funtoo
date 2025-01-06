@@ -6,11 +6,6 @@ env:
 - LUET_PORTAGE_PKGFILES=1
 - FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"
 prelude:
-# Temporary update tree
-- >-
-  anise repo update && anise upgrade && anise cleanup &&
-  sed -i -e "s|emake|echo \"\$(go env GOVERSION \| sed 's/go//g')\" > .go-version \&\& emake|g"
-  /var/git/meta-repo/kits/net-kit/net-dns/coredns/coredns-1.11.3.ebuild
 - |
   eval 'mkdir -p /var/cache/portage/distfiles || true' && \
   chown portage:portage -R /var/cache/portage/ && \
