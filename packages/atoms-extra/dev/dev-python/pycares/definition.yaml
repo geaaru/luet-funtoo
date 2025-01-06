@@ -1,5 +1,5 @@
 name: pycares
-version: 4.4.0+1
+version: 4.5.0
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -38,4 +38,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/pycares
   original.package.slot: "0"
-  original.package.version: 4.4.0
+  original.package.version: 4.5.0
