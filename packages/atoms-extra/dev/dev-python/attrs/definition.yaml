@@ -1,5 +1,5 @@
 name: attrs
-version: 24.2.0
+version: 24.3.0
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -41,4 +41,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/attrs
   original.package.slot: "0"
-  original.package.version: 24.2.0
+  original.package.version: 24.3.0
