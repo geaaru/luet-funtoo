@@ -1,5 +1,5 @@
 name: ovs
-version: 3.4.0+1
+version: 3.4.1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -35,4 +35,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/ovs
   original.package.slot: "0"
-  original.package.version: 3.4.0
+  original.package.version: 3.4.1
