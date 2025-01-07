@@ -1,5 +1,5 @@
 name: awscliv2
-version: 2.19.3
+version: 2.22.26
 category: app-admin
 use_flags:
 - -python_targets_python3_10
@@ -55,4 +55,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-admin/awscliv2
   original.package.slot: "0"
-  original.package.version: 2.19.3
+  original.package.version: 2.22.26
