@@ -1,5 +1,5 @@
 name: pandoc-bin
-version: "3.5"
+version: 3.6.1
 category: app-text
 annotations:
   subsets:
@@ -18,4 +18,4 @@ labels:
   kit: text-kit
   original.package.name: app-text/pandoc-bin
   original.package.slot: "0"
-  original.package.version: "3.5"
+  original.package.version: 3.6.1
