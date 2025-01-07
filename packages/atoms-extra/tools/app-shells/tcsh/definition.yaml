@@ -1,5 +1,5 @@
 name: tcsh
-version: 6.24.13+1
+version: 6.24.14
 category: app-shells
 use_flags:
 - -doc
@@ -35,4 +35,4 @@ labels:
   kit: core-kit
   original.package.name: app-shells/tcsh
   original.package.slot: "0"
-  original.package.version: 6.24.13
+  original.package.version: 6.24.14
