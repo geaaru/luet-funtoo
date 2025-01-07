@@ -1,5 +1,5 @@
 name: cpupower
-version: 6.11.7
+version: 6.12.8
 category: sys-power
 use_flags:
 - nls
@@ -27,4 +27,4 @@ labels:
   kit: core-hw-kit
   original.package.name: sys-power/cpupower
   original.package.slot: "0"
-  original.package.version: 6.11.7
+  original.package.version: 6.12.8
