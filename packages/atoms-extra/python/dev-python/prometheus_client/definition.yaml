@@ -1,5 +1,5 @@
 name: prometheus_client
-version: 0.21.0+1
+version: 0.21.1
 category: dev-python
 use_flags:
 - -python_targets_python2_7
@@ -43,4 +43,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/prometheus_client
   original.package.slot: "0"
-  original.package.version: 0.21.0
+  original.package.version: 0.21.1
