@@ -7,33 +7,39 @@ release:
 
     A new release of Terragon branch is out!
 
-    Macaroni Terragon now is now based on MARK Terragon Stage3!
-
-    We begin to support multiple versions of some packages.
+    Macaroni Terragon tree now use the new *mark-devkit* tool to setup the kits.
 
     In evidence:
 
-      * Incus 6.6
+      * Python 3.9.21
 
-      * Meson 1.6.0
+      * Incus 6.8
 
-      * Git 2.47.0
+      * Meson 1.6.1
 
-      * Bind 9.20.3
+      * Git 2.47.1
 
-      * Nodejs 22.11.0, 20.18.0
+      * Bind 9.20.4
+
+      * Nodejs 22.12.0
 
       * Golang 1.23.1, 1.22.7
 
-      * HaProxy 2.9.12
+      * HaProxy 2.9.13
 
-      * Gitea 1.22.3
+      * Gitea 1.22.6
 
-      * Grafana 11.3.0
+      * Grafana 11.4.0
 
-      * Minio 2024.11.05.11.29.45
+      * Minio 2024.12.18
 
-      * Prometheus 2.55.1
+      * Prometheus 3.1.0
+
+      * CoreDNS 1.12.0
+
+      * Caddy 2.9.0
+
+      * PostgreSQL 13.18, 16.6
 
     See the above list for all upgrade details.
 
