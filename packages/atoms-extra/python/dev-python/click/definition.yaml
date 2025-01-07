@@ -1,5 +1,5 @@
 name: click
-version: 8.1.7+1
+version: 8.1.8
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -38,4 +38,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/click
   original.package.slot: "0"
-  original.package.version: 8.1.7
+  original.package.version: 8.1.8
