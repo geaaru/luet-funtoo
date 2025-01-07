@@ -1,5 +1,5 @@
 name: libsdl2
-version: 2.30.9
+version: 2.30.11
 category: media-libs
 use_flags:
 - -X
@@ -73,4 +73,4 @@ labels:
   kit: media-kit
   original.package.name: media-libs/libsdl2
   original.package.slot: "0"
-  original.package.version: 2.30.9
+  original.package.version: 2.30.11
