@@ -260,18 +260,6 @@ artefacts:
 - tree: packages/atoms-extra/net
   uses:
     enabled:
-      - daemon
-      - xmlrpc
-    disabled:
-      - test
-      - selinux
-      - debug
-  packages:
-    - net-p2p/rtorrent
-
-- tree: packages/atoms-extra/net
-  uses:
-    enabled:
       - dbus
       - dhcp
       - dumpfile
