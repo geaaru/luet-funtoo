@@ -1,5 +1,5 @@
 name: eza
-version: 0.20.7
+version: 0.20.15
 category: sys-apps
 use_flags:
 - git
@@ -28,4 +28,4 @@ labels:
   kit: dev-kit
   original.package.name: sys-apps/eza
   original.package.slot: "0"
-  original.package.version: 0.20.7
+  original.package.version: 0.20.15
