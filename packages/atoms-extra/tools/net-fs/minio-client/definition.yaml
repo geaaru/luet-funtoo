@@ -1,5 +1,5 @@
 name: minio-client
-version: 2024.11.05.11.29.45+1
+version: 2024.11.21
 category: net-fs
 annotations:
   subsets:
@@ -18,4 +18,4 @@ labels:
   kit: net-kit
   original.package.name: net-fs/minio-client
   original.package.slot: "0"
-  original.package.version: 2024.11.05.11.29.45
+  original.package.version: 2024.11.21
