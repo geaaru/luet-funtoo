@@ -1,5 +1,5 @@
 name: stunnel
-version: 5.73+1
+version: "5.74"
 category: net-misc
 use_flags:
 - -selinux
@@ -44,4 +44,4 @@ labels:
   kit: net-kit
   original.package.name: net-misc/stunnel
   original.package.slot: "0"
-  original.package.version: "5.73"
+  original.package.version: "5.74"
