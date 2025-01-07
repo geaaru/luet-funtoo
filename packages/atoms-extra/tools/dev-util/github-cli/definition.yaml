@@ -1,5 +1,5 @@
 name: github-cli
-version: 2.61.0
+version: 2.64.0
 category: dev-util
 requires:
 - name: git
@@ -23,4 +23,4 @@ labels:
   kit: dev-kit
   original.package.name: dev-util/github-cli
   original.package.slot: "0"
-  original.package.version: 2.61.0
+  original.package.version: 2.64.0
