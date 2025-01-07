@@ -1,5 +1,5 @@
 name: kubectl
-version: 1.31.2
+version: 1.32.0
 category: sys-cluster
 annotations:
   subsets:
@@ -20,4 +20,4 @@ labels:
   kit: core-kit
   original.package.name: sys-cluster/kubectl
   original.package.slot: "0"
-  original.package.version: 1.31.2
+  original.package.version: 1.32.0
