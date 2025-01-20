@@ -19,7 +19,7 @@ prelude:
   mv kits-versions / &&
   rm -rf /var/git/meta-repo/ &&
   mkdir -p /tmp/ && chmod a+rw /tmp &&
-  sed -e 's|^release.*|release = mark-xl|g' /etc/ego.conf  -i &&
+  sed -e 's|^release.*|release = {{ ( index .Values.labels "mark-release" ) }}|g' /etc/ego.conf  -i &&
   ego sync &&
   ego profile arch x86-64bit &&
   ego profile build mark &&
