@@ -11,13 +11,11 @@ env:
 prelude:
 - >-
   anise rm repository/macaroni-terragon -y &&
-  mv kits-versions / &&
   curl https://raw.githubusercontent.com/geaaru/luet/geaaru/contrib/config/get_luet_root.sh | sh &&
   anise install --sync-repos
   dev-util/pkgs-checker-minimal utils/yq utils/jq system/luet-devkit &&
   anise install system/entities --sync-repos && anise upgrade &&
   anise cleanup &&
-
   mv kits-versions / &&
   rm -rf /var/git/meta-repo/ &&
   mkdir -p /tmp/ && chmod a+rw /tmp &&
