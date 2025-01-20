@@ -1,6 +1,6 @@
 requires:
 - category: "seed"
-  name: "funtoo-base"
+  name: "mark-base"
   version: ">=0"
 package_dir: /{{ .Values.name }}
 steps:

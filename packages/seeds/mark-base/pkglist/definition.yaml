@@ -1,3 +1,8 @@
-name: funtoo-base
-version: "0.20241102"
+name: mark-base
+version: "0.20250120"
 category: pkglist
+provides:
+- category: pkglist
+  name: funtoo-base
+  version: "0.20250120"
+
