@@ -13,39 +13,35 @@ prelude:
   anise rm repository/macaroni-terragon -y &&
   mv kits-versions / &&
   curl https://raw.githubusercontent.com/geaaru/luet/geaaru/contrib/config/get_luet_root.sh | sh &&
-  luet install --sync-repos
+  anise install --sync-repos
   dev-util/pkgs-checker-minimal utils/yq utils/jq system/luet-devkit &&
-  luet install system/entities --sync-repos && luet upgrade &&
-  luet cleanup &&
+  anise install system/entities --sync-repos && anise upgrade &&
+  anise cleanup &&
+
+  mv kits-versions / &&
+  rm -rf /var/git/meta-repo/ &&
+  mkdir -p /tmp/ && chmod a+rw /tmp &&
+  sed -e 's|^release.*|release = mark-xl|g' /etc/ego.conf  -i &&
   ego sync &&
+  ego profile arch x86-64bit &&
   ego profile build mark &&
+  ego profile subarch generic_64 &&
+  ego profile flavor core &&
   cd /var/git/meta-repo/kits &&
   chown root:root -R /var/git/meta-repo/kits &&
-  ls -l &&
-  for i in $(ls .) ; do
-  echo $i ;
-  if [ -e /kits-versions/$i.yml ] ; then
-  hash=$(yq r /kits-versions/$i.yml 'commit') ;
-  echo "For kit $i set hash $hash" ;
-  pushd $i ;
-  git pull -ff --depth=$GIT_HISTORY_ENTRIES ;
-  git checkout $hash || exit 1 ;
-  popd ;
-  fi ;
-  done
+  rm -rf * &&
+  mark-devkit kit clone --specfile /kits-versions/kits.yaml
+  --to /var/git/meta-repo/kits --deep $GIT_HISTORY_ENTRIES
+  --concurrency $JOBS
+  --generate-reposcan-files --kit-cache-dir /kit-cache/ &&
+  cp /kits-versions/kits.yaml /kit-cache/ &&
+  mkdir /layer
 - >-
   cp patches/libical-3.0.11.ebuild /var/git/meta-repo/kits/core-kit/dev-libs/libical/ &&
   cd /var/git/meta-repo/kits/core-kit/dev-libs/libical &&
   ebuild libical-3.0.11.ebuild digest
 - >-
   cp patches/text-kit/* /var/git/meta-repo/kits/text-kit/ -rfv
-
-# I want move ahead meson
-- >-
-  sed -e 's/^RDEPEND=.*/RDEPEND=""/g' -i
-  /var/git/meta-repo/kits/core-kit/sys-apps/baselayout/baselayout-*.ebuild &&
-  sed '/meson/d' -i
-  /var/git/meta-repo/kits/core-kit/profiles/package.mask/01-funtoo
 
 - >-
   cp -rvf kits-patches/core-kit/* /var/git/meta-repo/kits/core-kit/ &&
