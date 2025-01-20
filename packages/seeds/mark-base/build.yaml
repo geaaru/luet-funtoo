@@ -13,15 +13,13 @@ prelude:
   epro flavor minimal &&
   epro mix-in +btrfs +vmware-guest &&
   epro list
-- luet upgrade --sync-repos &&
-  luet i repository/macaroni-commons-dev &&
-  luet i --force --sync-repos macaroni/entities-catalog
+- anise upgrade --sync-repos &&
+  anise i repository/macaroni-commons-dev &&
+  anise i --force --sync-repos macaroni/entities-catalog
   system/entities &&
-  luet cleanup --purge-repos &&
+  anise cleanup --purge-repos &&
   rm -rf /etc/passwd /etc/group /etc/passwd /etc/shadow &&
-  entities merge -s /usr/share/macaroni/entities -a &&
-  entities list users &&
-  entities list groups
+  entities merge -s /usr/share/macaroni/entities -a
 #steps:
 - >-
   emerge --unmerge
@@ -42,6 +40,7 @@ prelude:
   net-misc/dhcpcd
   sys-apps/usbutils
   sys-apps/pciutils
+  sys-apps/systemd-tmpfiles
   sys-fs/dosfstools
   sys-kernel/debian-sources
   x11-drivers/nvidia-kernel-modules
