@@ -1,5 +1,5 @@
 name: meta-geaaru-kit
-version: "0.20241101"
+version: "0.202450117"
 category: toolchain
 description: Metadata package of the geaaru overlay
 labels:
