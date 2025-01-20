@@ -12,7 +12,7 @@ prelude:
 - >-
   anise rm repository/macaroni-terragon -y &&
   curl https://raw.githubusercontent.com/geaaru/luet/geaaru/contrib/config/get_luet_root.sh | sh &&
-  anise install --sync-repos
+  anise install --sync-repos mark-devkit
   dev-util/pkgs-checker-minimal utils/yq utils/jq system/luet-devkit &&
   anise install system/entities --sync-repos && anise upgrade &&
   anise cleanup &&
