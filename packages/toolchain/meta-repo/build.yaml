@@ -1,5 +1,5 @@
 requires:
-  - name: funtoo-kits
+  - name: mark-kits
     category: "seed"
     version: ">=0"
 env:
