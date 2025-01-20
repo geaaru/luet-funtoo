@@ -7,9 +7,28 @@ release:
 
     A new release of Macaroni Eagle is out!
 
-    This is the second bugfix release that contains the
-    revision of the FreeRadius package with the
-    fix of the .service file.
+    This release now is based on MARK stage3 and contains
+    the migratation of GCC from 11.3.0 to 12.3.0!
+
+    All packages are been rebuilt.
+
+    In evidence:
+
+      * Ansible 9.0.0
+
+      * Prometheus 2.55.0
+
+      * PHP 8.2.25
+
+      * Git 2.47.0
+
+      * Bind 9.20.3
+
+      * SystemD 253.26
+
+      * Grafana 11.3.0
+
+    See the above list for all upgrade details.
 
     Many thanks to all Macaroni OS devs and contributors that are the sap of all this.
 
