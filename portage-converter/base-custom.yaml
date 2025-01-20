@@ -52,7 +52,7 @@ include_files:
   - ./artefacts/base.yml
 
 include_layers:
-- layers/funtoo-base.yaml
+- layers/mark-base.yaml
 
 build_template_file: ../templates/build-pkg-from-layer.yaml.tmpl
 
@@ -85,7 +85,7 @@ artefacts:
     buildtime_deps:
       packages:
         - category: seed
-          name: funtoo-base
+          name: mark-base
   packages:
     - app-portage/elt-patches
 
