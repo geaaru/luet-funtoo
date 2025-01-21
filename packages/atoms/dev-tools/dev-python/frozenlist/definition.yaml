@@ -1,5 +1,5 @@
 name: frozenlist
-version: 1.4.1+1
+version: 1.5.0
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -48,4 +48,4 @@ labels:
   kit: geaaru-kit
   original.package.name: dev-python/frozenlist
   original.package.slot: "0"
-  original.package.version: 1.4.1
+  original.package.version: 1.5.0
