@@ -1,5 +1,5 @@
 name: aiohttp
-version: 3.9.5+1
+version: 3.11.10
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -69,4 +69,4 @@ labels:
   kit: geaaru-kit
   original.package.name: dev-python/aiohttp
   original.package.slot: "0"
-  original.package.version: 3.9.5
+  original.package.version: 3.11.10
