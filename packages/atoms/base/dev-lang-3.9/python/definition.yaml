@@ -1,5 +1,5 @@
 name: python
-version: 3.9.20+1
+version: 3.9.21
 category: dev-lang-3.9
 use_flags:
 - -bluetooth
@@ -75,4 +75,4 @@ labels:
   kit: python-kit
   original.package.name: dev-lang/python
   original.package.slot: "3.9"
-  original.package.version: 3.9.20
+  original.package.version: 3.9.21
