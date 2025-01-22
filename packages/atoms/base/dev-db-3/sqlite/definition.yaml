@@ -1,5 +1,5 @@
 name: sqlite
-version: 3.47.0+1
+version: 3.47.2
 category: dev-db-3
 use_flags:
 - -tcl
@@ -31,16 +31,14 @@ license: public-domain
 labels:
   BDEPEND: app-arch/unzip >=dev-lang/tcl-8.6:0 >=app-portage/elt-patches-20170815
     || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
-  DEPEND: sys-libs/zlib:0=[-mgorny(-)] icu? ( dev-libs/icu:0=[-mgorny(-)] ) readline?
-    ( sys-libs/readline:0=[-mgorny(-)] ) tcl? ( dev-lang/tcl:0=[-mgorny(-)] ) tools?
-    ( dev-lang/tcl:0= ) test? ( >=dev-lang/tcl-8.6:0[-mgorny(-)] )
-  IUSE: debug doc icu +readline secure-delete static-libs tcl test tools abi_x86_32
-    abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
-  RDEPEND: sys-libs/zlib:0=[-mgorny(-)] icu? ( dev-libs/icu:0=[-mgorny(-)] ) readline?
-    ( sys-libs/readline:0=[-mgorny(-)] ) tcl? ( dev-lang/tcl:0=[-mgorny(-)] ) tools?
-    ( dev-lang/tcl:0= )
+  DEPEND: sys-libs/zlib:0= icu? ( dev-libs/icu:0= ) readline? ( sys-libs/readline:0=
+    ) tcl? ( dev-lang/tcl:0= ) tools? ( dev-lang/tcl:0= ) test? ( >=dev-lang/tcl-8.6:0
+    )
+  IUSE: debug doc icu +readline secure-delete static-libs tcl test tools
+  RDEPEND: sys-libs/zlib:0= icu? ( dev-libs/icu:0= ) readline? ( sys-libs/readline:0=
+    ) tcl? ( dev-lang/tcl:0= ) tools? ( dev-lang/tcl:0= )
   emerge.packages: dev-db/sqlite:3
   kit: core-server-kit
   original.package.name: dev-db/sqlite
   original.package.slot: "3"
-  original.package.version: 3.47.0
+  original.package.version: 3.47.2
