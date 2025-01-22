@@ -1,5 +1,5 @@
 name: mark-kits
-version: 0.20250120+5
+version: "0.20250122"
 category: seed
 labels:
   mark-release: mark-testing
