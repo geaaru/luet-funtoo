@@ -1,5 +1,5 @@
 name: e2fsprogs-libs
-version: 1.47.1+1
+version: 1.47.2
 category: sys-libs
 annotations:
   subsets:
@@ -20,4 +20,4 @@ labels:
   kit: core-kit
   original.package.name: sys-libs/e2fsprogs-libs
   original.package.slot: "0"
-  original.package.version: 1.47.1
+  original.package.version: 1.47.2
