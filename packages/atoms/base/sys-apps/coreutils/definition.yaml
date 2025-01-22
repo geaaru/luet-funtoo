@@ -1,5 +1,5 @@
 name: coreutils
-version: 9.5+1
+version: "9.6"
 category: sys-apps
 use_flags:
 - -caps
@@ -49,4 +49,4 @@ labels:
   kit: core-kit
   original.package.name: sys-apps/coreutils
   original.package.slot: "0"
-  original.package.version: "9.5"
+  original.package.version: "9.6"
