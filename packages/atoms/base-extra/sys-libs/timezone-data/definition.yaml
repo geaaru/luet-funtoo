@@ -1,5 +1,5 @@
 name: timezone-data
-version: 2024b+1
+version: 2025a
 category: sys-libs
 use_flags:
 - nls
@@ -26,4 +26,4 @@ labels:
   kit: core-hw-kit
   original.package.name: sys-libs/timezone-data
   original.package.slot: "0"
-  original.package.version: 2024b
+  original.package.version: 2025a
