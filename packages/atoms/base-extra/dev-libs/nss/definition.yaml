@@ -1,5 +1,5 @@
 name: nss
-version: 3.106+1
+version: "3.107"
 category: dev-libs
 requires:
 - name: sqlite
@@ -30,4 +30,4 @@ labels:
   kit: dev-kit
   original.package.name: dev-libs/nss
   original.package.slot: "0"
-  original.package.version: "3.106"
+  original.package.version: "3.107"
