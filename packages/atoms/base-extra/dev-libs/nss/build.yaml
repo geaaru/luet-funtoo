@@ -24,6 +24,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: macaroni-funtoo-base
+- name: nspr
   version: '>=0'
-  category: seed
+  category: dev-libs
