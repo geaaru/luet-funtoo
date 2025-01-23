@@ -1,5 +1,5 @@
 name: zipp
-version: 3.20.2+1
+version: 3.21.0
 category: dev-python
 use_flags:
 - -python_targets_pypy3
@@ -35,9 +35,9 @@ labels:
     >=dev-python/setuptools-62.3.3[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     dev-python/wheel[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
   DEPEND: dev-python/setuptools_scm[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
-  IUSE: python_targets_python2_7 python_targets_python3_10 python_targets_pypy3 python_targets_python3_7
-    python_targets_python3_9 python_targets_python3_8
-  RDEPEND: python_targets_python2_7? ( dev-python/zipp-compat ) dev-python/toml[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+  IUSE: python_targets_python3_10 python_targets_pypy3 python_targets_python3_7 python_targets_python3_9
+    python_targets_python3_8
+  RDEPEND: dev-python/toml[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     dev-python/setuptools_scm[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_pypy3? ( >=dev-python/pypy3-7.3.0:0=
     ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9?
@@ -46,4 +46,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/zipp
   original.package.slot: "0"
-  original.package.version: 3.20.2
+  original.package.version: 3.21.0
