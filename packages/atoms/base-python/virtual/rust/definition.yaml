@@ -1,5 +1,5 @@
 name: rust
-version: 1.82.0+1
+version: 1.84.0
 category: virtual
 requires:
 - name: rust-bin
@@ -18,10 +18,10 @@ uri:
 labels:
   IUSE: abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32
     abi_s390_64
-  RDEPEND: '|| ( ~dev-lang/rust-bin-1.82.0[-mgorny(-)] ~dev-lang/rust-1.82.0[-mgorny(-)]
+  RDEPEND: '|| ( ~dev-lang/rust-bin-1.84.0[-mgorny(-)] ~dev-lang/rust-1.84.0[-mgorny(-)]
     )'
   emerge.packages: virtual/rust
   kit: lang-kit
   original.package.name: virtual/rust
   original.package.slot: "0"
-  original.package.version: 1.82.0
+  original.package.version: 1.84.0
