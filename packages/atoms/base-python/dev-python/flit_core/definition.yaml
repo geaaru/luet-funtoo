@@ -1,5 +1,5 @@
 name: flit_core
-version: 3.10.0+1
+version: 3.10.1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -38,4 +38,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/flit_core
   original.package.slot: "0"
-  original.package.version: 3.10.0
+  original.package.version: 3.10.1
