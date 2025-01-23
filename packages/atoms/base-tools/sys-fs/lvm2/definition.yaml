@@ -1,5 +1,5 @@
 name: lvm2
-version: 2.03.27+2
+version: 2.03.30
 category: sys-fs
 use_flags:
 - -sanlock
@@ -49,9 +49,9 @@ labels:
   IUSE: +lvm readline sanlock selinux static static-libs thin +udev valgrind kernel_linux
   RDEPEND: udev? ( virtual/libudev:= ) lvm? ( dev-libs/libaio sys-apps/util-linux
     readline? ( sys-libs/readline:= ) sanlock? ( sys-cluster/sanlock ) ) >=sys-apps/baselayout-2.2
-    lvm? ( virtual/tmpfiles thin? ( >=sys-block/thin-provisioning-tools-1.0.6 ) )
+    lvm? ( virtual/tmpfiles )
   emerge.packages: sys-fs/lvm2
   kit: core-kit
   original.package.name: sys-fs/lvm2
   original.package.slot: "0"
-  original.package.version: 2.03.27
+  original.package.version: 2.03.30
