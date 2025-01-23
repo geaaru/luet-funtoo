@@ -1,5 +1,5 @@
 name: iptables
-version: 1.8.10+1
+version: 1.8.11
 category: net-firewall
 use_flags:
 - -conntrack
@@ -30,4 +30,4 @@ labels:
   kit: core-kit
   original.package.name: net-firewall/iptables
   original.package.slot: "0"
-  original.package.version: 1.8.10
+  original.package.version: 1.8.11
