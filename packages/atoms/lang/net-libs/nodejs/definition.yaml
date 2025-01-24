@@ -1,5 +1,5 @@
 name: nodejs
-version: 20.18.0
+version: 20.18.2
 category: net-libs
 annotations:
   subsets:
@@ -19,4 +19,4 @@ labels:
   kit: core-server-kit
   original.package.name: net-libs/nodejs
   original.package.slot: "0"
-  original.package.version: 20.18.0
+  original.package.version: 20.18.2
