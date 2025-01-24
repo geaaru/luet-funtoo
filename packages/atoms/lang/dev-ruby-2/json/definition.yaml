@@ -1,5 +1,5 @@
 name: json
-version: 2.7.5
+version: 2.9.1
 category: dev-ruby-2
 use_flags:
 - -doc
@@ -63,4 +63,4 @@ labels:
   kit: ruby-kit
   original.package.name: dev-ruby/json
   original.package.slot: "2"
-  original.package.version: 2.7.5
+  original.package.version: 2.9.1
