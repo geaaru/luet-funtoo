@@ -1,5 +1,5 @@
 name: socat
-version: 1.8.0.1+1
+version: 1.8.0.2
 category: net-misc
 use_flags:
 - readline
@@ -36,4 +36,4 @@ labels:
   kit: net-kit
   original.package.name: net-misc/socat
   original.package.slot: "0"
-  original.package.version: 1.8.0.1
+  original.package.version: 1.8.0.2
