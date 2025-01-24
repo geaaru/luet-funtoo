@@ -1,5 +1,5 @@
 name: coredns
-version: 1.11.3+1
+version: 1.12.0
 category: net-dns
 requires:
 - name: entities-catalog
@@ -22,4 +22,4 @@ labels:
   kit: net-kit
   original.package.name: net-dns/coredns
   original.package.slot: "0"
-  original.package.version: 1.11.3
+  original.package.version: 1.12.0
