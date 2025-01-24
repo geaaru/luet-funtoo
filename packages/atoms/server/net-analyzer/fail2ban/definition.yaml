@@ -1,5 +1,5 @@
 name: fail2ban
-version: 1.1.0+2
+version: 1.1.0+3
 category: net-analyzer
 use_flags:
 - -python_single_target_python3_10
@@ -57,4 +57,4 @@ labels:
   kit: net-kit
   original.package.name: net-analyzer/fail2ban
   original.package.slot: "0"
-  original.package.version: 1.1.0
+  original.package.version: 1.1.0-r1
