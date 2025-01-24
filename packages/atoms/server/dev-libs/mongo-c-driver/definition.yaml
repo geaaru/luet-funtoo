@@ -1,5 +1,5 @@
 name: mongo-c-driver
-version: 1.28.1+1
+version: 1.29.2
 category: dev-libs
 use_flags:
 - -icu
@@ -33,16 +33,16 @@ uri:
 license: Apache-2.0
 labels:
   BDEPEND: dev-util/ninja dev-util/cmake
-  DEPEND: app-arch/snappy:= app-arch/zstd:= >=dev-libs/libbson-1.28.1[static-libs?]
+  DEPEND: app-arch/snappy:= app-arch/zstd:= >=dev-libs/libbson-1.29.2[static-libs?]
     sys-libs/zlib:= icu? ( dev-libs/icu:= ) sasl? ( dev-libs/cyrus-sasl:= ) ssl? (
     !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) ) dev-python/sphinx
     test? ( dev-db/mongodb dev-libs/libbson[static-libs] )
   IUSE: debug examples icu libressl sasl ssl static-libs test
-  RDEPEND: app-arch/snappy:= app-arch/zstd:= >=dev-libs/libbson-1.28.1[static-libs?]
+  RDEPEND: app-arch/snappy:= app-arch/zstd:= >=dev-libs/libbson-1.29.2[static-libs?]
     sys-libs/zlib:= icu? ( dev-libs/icu:= ) sasl? ( dev-libs/cyrus-sasl:= ) ssl? (
     !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) )
   emerge.packages: dev-libs/mongo-c-driver
   kit: dev-kit
   original.package.name: dev-libs/mongo-c-driver
   original.package.slot: "0"
-  original.package.version: 1.28.1
+  original.package.version: 1.29.2
