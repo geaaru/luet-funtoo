@@ -1,0 +1,51 @@
+name: pycurl
+version: 7.45.4
+category: dev-python
+use_flags:
+- -curl_ssl_gnutls
+- -python_targets_python3_10
+- -python_targets_python3_7
+- -python_targets_python3_8
+- python_targets_python3_9
+- ssl
+requires:
+- name: python
+  version: '>=0'
+  category: dev-lang-3.9
+- name: python-exec
+  version: '>=0'
+  category: dev-lang-2
+- name: curl
+  version: '>=0'
+  category: net-misc
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: PycURL -- A Python Interface To The cURL library
+uri:
+- http://pycurl.io/
+- https://pypi.org/project/pycurl/
+license: MIT
+labels:
+  BDEPEND: python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7?
+    ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8?
+    ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+    >=dev-python/gpep517-6[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+    >=dev-python/setuptools-62.3.3[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+    dev-python/wheel[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+  DEPEND: dev-python/setuptools[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+  IUSE: +curl_ssl_openssl curl_ssl_gnutls curl_ssl_nss ssl python_targets_python3_10
+    python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
+  RDEPEND: '>=net-misc/curl-7.25.0-r1[ssl=] ssl? ( net-misc/curl[curl_ssl_gnutls(-)=,curl_ssl_nss(-)=,curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
+    curl_ssl_gnutls? ( >=net-libs/gnutls-2.11.0 ) ) python_targets_python3_10? ( dev-lang/python:3.10
+    ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9?
+    ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]'
+  emerge.packages: dev-python/pycurl
+  kit: geaaru-kit
+  original.package.name: dev-python/pycurl
+  original.package.slot: "0"
+  original.package.version: 7.45.4
