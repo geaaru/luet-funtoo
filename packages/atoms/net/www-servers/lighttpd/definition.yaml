@@ -1,5 +1,5 @@
 name: lighttpd
-version: 1.4.76+1
+version: 1.4.77
 category: www-servers
 use_flags:
 - -dbi
@@ -80,4 +80,4 @@ labels:
   kit: core-server-kit
   original.package.name: www-servers/lighttpd
   original.package.slot: "0"
-  original.package.version: 1.4.76
+  original.package.version: 1.4.77
