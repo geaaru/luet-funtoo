@@ -1,5 +1,5 @@
 name: freeradius
-version: 3.0.20+3
+version: 3.0.27
 category: net-dialup
 use_flags:
 - -firebird
@@ -92,9 +92,10 @@ labels:
     ) odbc? ( dev-db/unixODBC ) iodbc? ( dev-db/libiodbc ) systemd? ( sys-apps/systemd
     ) oracle? ( dev-db/oracle-instantclient-basic ) sys-apps/shadow'
   IUSE: debug firebird iodbc kerberos ldap libressl memcached mysql odbc oracle pam
-    pcap postgres python readline rest samba sqlite ssl redis systemd mongo python_single_target_python3_10
-    python_single_target_python3_7 python_single_target_python3_9 python_single_target_python3_8
-    python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
+    pcap postgres python readline rest samba sqlite ssl redis systemd mongo systemd-integration
+    python_single_target_python3_10 python_single_target_python3_7 python_single_target_python3_9
+    python_single_target_python3_8 python_targets_python3_10 python_targets_python3_7
+    python_targets_python3_9 python_targets_python3_8
   RDEPEND: '!net-dialup/cistronradius dev-lang/perl:= sys-libs/gdbm:= sys-libs/talloc
     python? ( python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10]
     ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
@@ -112,4 +113,4 @@ labels:
   kit: geaaru-kit
   original.package.name: net-dialup/freeradius
   original.package.slot: "0"
-  original.package.version: 3.0.20-r5
+  original.package.version: 3.0.27-r1
