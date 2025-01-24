@@ -1,5 +1,5 @@
 name: procs
-version: 0.14.8+1
+version: 0.14.9
 category: sys-process
 annotations:
   subsets:
@@ -19,4 +19,4 @@ labels:
   kit: core-kit
   original.package.name: sys-process/procs
   original.package.slot: "0"
-  original.package.version: 0.14.8
+  original.package.version: 0.14.9
