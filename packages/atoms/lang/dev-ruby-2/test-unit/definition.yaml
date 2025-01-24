@@ -1,5 +1,5 @@
 name: test-unit
-version: 3.6.2+1
+version: 3.6.7
 category: dev-ruby-2
 use_flags:
 - -doc
@@ -60,4 +60,4 @@ labels:
   kit: ruby-kit
   original.package.name: dev-ruby/test-unit
   original.package.slot: "2"
-  original.package.version: 3.6.2
+  original.package.version: 3.6.7
