@@ -51,8 +51,6 @@ packages:
   - dev-libs/libxml2:2
   - dev-libs/nettle:0
   - dev-libs/npth:0
-  - dev-libs/nspr:0
-  - dev-libs/nss:0
   - dev-libs/openssl:0
   - dev-perl/XML-Parser:0
   - dev-python/pyelftools:0
@@ -153,3 +151,4 @@ packages:
   - virtual/udev:0
   - virtual/yacc:0
   - x11-misc/shared-mime-info:0
+  - sys-devel/autoconf:latest
