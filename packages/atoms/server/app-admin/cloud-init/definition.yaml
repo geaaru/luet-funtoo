@@ -1,5 +1,5 @@
 name: cloud-init
-version: 24.4+1
+version: 24.4.1
 category: app-admin
 use_flags:
 - -python_targets_python3_10
@@ -98,4 +98,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-admin/cloud-init
   original.package.slot: "0"
-  original.package.version: "24.4"
+  original.package.version: 24.4.1
