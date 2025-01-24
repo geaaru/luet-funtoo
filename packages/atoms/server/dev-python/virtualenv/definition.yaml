@@ -1,5 +1,5 @@
 name: virtualenv
-version: 20.27.1+1
+version: 20.29.1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -50,4 +50,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/virtualenv
   original.package.slot: "0"
-  original.package.version: 20.27.1
+  original.package.version: 20.29.1
