@@ -1,7 +1,4 @@
 prelude:
-# Temporary patch
-- >-
-  sed -i -e '/fail2ban-2to3/d' /var/git/meta-repo/kits/net-kit/net-analyzer/fail2ban/fail2ban-1.1.0.ebuild
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
   export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \
