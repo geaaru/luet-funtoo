@@ -1,5 +1,5 @@
 name: iotop
-version: 1.26+1
+version: "1.27"
 category: sys-process
 use_flags:
 - filecaps
@@ -27,4 +27,4 @@ labels:
   kit: core-kit
   original.package.name: sys-process/iotop
   original.package.slot: "0"
-  original.package.version: "1.26"
+  original.package.version: "1.27"
