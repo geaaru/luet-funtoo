@@ -1,5 +1,5 @@
 name: prometheus_client
-version: 0.21.0+1
+version: 0.21.1
 category: dev-python
 use_flags:
 - -python_targets_python2_7
@@ -33,9 +33,9 @@ labels:
     ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8?
     ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     >=dev-python/setuptools-42.0.2[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
-  IUSE: python_targets_python2_7 python_targets_python3_10 python_targets_python3_7
-    python_targets_python3_9 python_targets_python3_8
-  RDEPEND: python_targets_python2_7? ( dev-python/prometheus_client-compat ) dev-python/twisted[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+  IUSE: python_targets_python3_10 python_targets_python3_7 python_targets_python3_9
+    python_targets_python3_8
+  RDEPEND: dev-python/twisted[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
     python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7?
     ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8?
     ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
@@ -43,4 +43,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/prometheus_client
   original.package.slot: "0"
-  original.package.version: 0.21.0
+  original.package.version: 0.21.1
