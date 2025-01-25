@@ -1,5 +1,5 @@
 name: redis
-version: 7.4.1+1
+version: 7.4.2
 category: dev-db
 use_flags:
 - -tcmalloc
@@ -38,4 +38,4 @@ labels:
   kit: core-server-kit
   original.package.name: dev-db/redis
   original.package.slot: "0"
-  original.package.version: 7.4.1
+  original.package.version: 7.4.2
