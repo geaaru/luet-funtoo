@@ -1,5 +1,5 @@
 name: minio
-version: 2024.10.29.16.01.48+1
+version: 2025.01.20
 category: net-fs
 use_flags:
 - systemd
@@ -22,4 +22,4 @@ labels:
   kit: net-kit
   original.package.name: net-fs/minio
   original.package.slot: "0"
-  original.package.version: 2024.10.29.16.01.48
+  original.package.version: 2025.01.20
