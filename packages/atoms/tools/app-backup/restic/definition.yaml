@@ -1,5 +1,5 @@
 name: restic
-version: 0.17.3
+version: 0.17.3+1
 category: app-backup
 requires:
 - name: fuse
