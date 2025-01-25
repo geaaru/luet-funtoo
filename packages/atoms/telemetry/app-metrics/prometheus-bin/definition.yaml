@@ -1,5 +1,5 @@
 name: prometheus-bin
-version: 2.55.0
+version: 3.1.0
 category: app-metrics
 annotations:
   subsets:
@@ -19,4 +19,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-metrics/prometheus-bin
   original.package.slot: "0"
-  original.package.version: 2.55.0
+  original.package.version: 3.1.0
