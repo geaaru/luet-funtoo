@@ -1,5 +1,5 @@
 name: memcached_exporter-bin
-version: 0.14.4
+version: 0.15.0
 category: app-metrics
 annotations:
   subsets:
@@ -19,4 +19,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-metrics/memcached_exporter-bin
   original.package.slot: "0"
-  original.package.version: 0.14.4
+  original.package.version: 0.15.0
