@@ -1,5 +1,5 @@
 name: sqlalchemy
-version: 2.0.36+1
+version: 2.0.37
 category: dev-python
 use_flags:
 - -python_targets_python2_7
@@ -40,4 +40,4 @@ labels:
   kit: python-modules-kit
   original.package.name: dev-python/sqlalchemy
   original.package.slot: "0"
-  original.package.version: 2.0.36
+  original.package.version: 2.0.37
