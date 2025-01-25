@@ -1,5 +1,5 @@
 name: pycurl
-version: 7.45.3+1
+version: 7.45.4
 category: dev-python
 use_flags:
 - -curl_ssl_gnutls
@@ -51,4 +51,4 @@ labels:
   kit: geaaru-kit
   original.package.name: dev-python/pycurl
   original.package.slot: "0"
-  original.package.version: 7.45.3
+  original.package.version: 7.45.4
