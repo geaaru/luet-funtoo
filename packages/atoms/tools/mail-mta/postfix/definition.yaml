@@ -1,5 +1,5 @@
 name: postfix
-version: 3.9.0+1
+version: 3.9.1
 category: mail-mta
 use_flags:
 - -ldap
@@ -73,4 +73,4 @@ labels:
   kit: core-kit
   original.package.name: mail-mta/postfix
   original.package.slot: "0"
-  original.package.version: 3.9.0
+  original.package.version: 3.9.1
