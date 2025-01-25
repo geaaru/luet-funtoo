@@ -1,5 +1,5 @@
 name: alertmanager-bin
-version: 0.27.0
+version: 0.28.0
 category: app-metrics
 annotations:
   subsets:
@@ -19,4 +19,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-metrics/alertmanager-bin
   original.package.slot: "0"
-  original.package.version: 0.27.0
+  original.package.version: 0.28.0
