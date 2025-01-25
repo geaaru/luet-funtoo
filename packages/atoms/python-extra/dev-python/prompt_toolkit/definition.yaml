@@ -1,5 +1,5 @@
 name: prompt_toolkit
-version: 3.0.47+1
+version: 3.0.48
 category: dev-python
 use_flags:
 - -python_targets_python3_10
@@ -39,4 +39,4 @@ labels:
   kit: geaaru-kit
   original.package.name: dev-python/prompt_toolkit
   original.package.slot: "0"
-  original.package.version: 3.0.47
+  original.package.version: 3.0.48
