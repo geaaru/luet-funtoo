@@ -1,5 +1,5 @@
 name: backrest
-version: 1.5.1
+version: 1.5.1+1
 category: app-backup
 use_flags:
 - systemd

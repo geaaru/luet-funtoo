@@ -1,8 +1,4 @@
 prelude:
-# Temporary fix
-- >-
-  sed -i -e 's|-o backrest .$|-o backrest ./cmd/backrest|g'
-  /var/git/extra-kits/geaaru-kit/app-backup/backrest/backrest-1.1.0.ebuild
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
   export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \
