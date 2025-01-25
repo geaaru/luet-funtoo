@@ -1,5 +1,5 @@
 name: awscli
-version: 1.35.19+1
+version: 1.37.3
 category: app-admin
 use_flags:
 - -python_targets_python3_10
@@ -57,4 +57,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-admin/awscli
   original.package.slot: "0"
-  original.package.version: 1.35.19
+  original.package.version: 1.37.3
