@@ -332,7 +332,6 @@ artefacts:
     - dev-python/pycares
     - dev-python/expandvars
     - dev-python/propcache
-    - dev-python/yarl
     - dev-python/pathspec
     - dev-python/hyperlink
     - dev-python/constantly
@@ -350,6 +349,21 @@ artefacts:
     - dev-python/incremental
     - dev-python/h2
     - dev-python/hatch-vcs
+
+- tree: packages/atoms/dev-tools
+  # Needed until macaroni-os/mark-issues#281 is fixed
+  mutations:
+    buildtime_deps:
+      packages:
+        - category: dev-python
+          name: expandvars
+  uses:
+    enabled:
+      - python_targets_python3_9
+      - python_single_target_python3_9
+      - native-extensions
+  packages:
+    - dev-python/yarl
 
 - tree: packages/atoms/dev-tools
   mutations:
