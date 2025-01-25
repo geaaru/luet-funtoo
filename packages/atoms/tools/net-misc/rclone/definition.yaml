@@ -1,5 +1,5 @@
 name: rclone
-version: 1.68.1+1
+version: 1.69.0
 category: net-misc
 annotations:
   subsets:
@@ -20,4 +20,4 @@ labels:
   kit: net-kit
   original.package.name: net-misc/rclone
   original.package.slot: "0"
-  original.package.version: 1.68.1
+  original.package.version: 1.69.0
