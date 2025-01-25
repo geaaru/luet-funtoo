@@ -1,5 +1,5 @@
 name: grafana-bin
-version: 11.3.0
+version: 11.4.0
 category: www-apps
 requires:
 - name: fontconfig
@@ -24,4 +24,4 @@ labels:
   kit: net-kit
   original.package.name: www-apps/grafana-bin
   original.package.slot: "0"
-  original.package.version: 11.3.0
+  original.package.version: 11.4.0
