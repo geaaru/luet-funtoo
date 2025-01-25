@@ -1,5 +1,5 @@
 name: php
-version: 8.2.25+1
+version: 8.2.27
 category: dev-lang-8.2
 use_flags:
 - -apparmor
@@ -135,4 +135,4 @@ labels:
   kit: core-server-kit
   original.package.name: dev-lang/php
   original.package.slot: "8.2"
-  original.package.version: 8.2.25
+  original.package.version: 8.2.27
