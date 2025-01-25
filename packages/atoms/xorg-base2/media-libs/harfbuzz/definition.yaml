@@ -1,5 +1,5 @@
 name: harfbuzz
-version: 10.0.1+1
+version: 10.2.0
 category: media-libs
 use_flags:
 - -doc
@@ -48,4 +48,4 @@ labels:
   kit: media-kit
   original.package.name: media-libs/harfbuzz
   original.package.slot: "0"
-  original.package.version: 10.0.1
+  original.package.version: 10.2.0
