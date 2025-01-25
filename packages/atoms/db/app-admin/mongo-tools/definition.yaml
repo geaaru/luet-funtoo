@@ -1,5 +1,5 @@
 name: mongo-tools
-version: 100.10.0+1
+version: 100.11.0
 category: app-admin
 use_flags:
 - -sasl
@@ -31,4 +31,4 @@ labels:
   kit: core-server-kit
   original.package.name: app-admin/mongo-tools
   original.package.slot: "0"
-  original.package.version: 100.10.0
+  original.package.version: 100.11.0
