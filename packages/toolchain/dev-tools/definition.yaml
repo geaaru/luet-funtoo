@@ -96,6 +96,9 @@ requires:
   - name: exceptiongroup
     category: dev-python
     version: '>=0'
+  - name: expandvars
+    category: dev-python
+    version: '>=0'
   - name: flit_scm
     category: dev-python
     version: '>=0'
@@ -109,6 +112,9 @@ requires:
     category: dev-python
     version: '>=0'
   - name: hatch-fancy-pypi-readme
+    category: dev-python
+    version: '>=0'
+  - name: hatch-requirements-txt
     category: dev-python
     version: '>=0'
   - name: hatch-vcs
@@ -159,6 +165,9 @@ requires:
   - name: priority
     category: dev-python
     version: '>=0'
+  - name: propcache
+    category: dev-python
+    version: '>=0'
   - name: psutil
     category: dev-python
     version: '>=0'
@@ -172,6 +181,9 @@ requires:
     category: dev-python
     version: '>=0'
   - name: pycares
+    category: dev-python
+    version: '>=0'
+  - name: pycurl
     category: dev-python
     version: '>=0'
   - name: pyhamcrest
