@@ -18,8 +18,17 @@ requires:
   - name: syslog-ng
     category: app-admin
     version: '>=0'
+  - name: webapp-config
+    category: app-admin
+    version: '>=0'
   - name: upx-bin
     category: app-arch
+    version: '>=0'
+  - name: backrest
+    category: app-backup
+    version: '>=0'
+  - name: restic
+    category: app-backup
     version: '>=0'
   - name: docker-registry
     category: app-emulation
@@ -44,6 +53,9 @@ requires:
     version: '>=0'
   - name: zsh
     category: app-shells
+    version: '>=0'
+  - name: tree
+    category: app-text
     version: '>=0'
   - name: libdbi
     category: dev-db
@@ -96,6 +108,9 @@ requires:
   - name: paramiko
     category: dev-python
     version: '>=0'
+  - name: pexpect
+    category: dev-python
+    version: '>=0'
   - name: pynacl
     category: dev-python
     version: '>=0'
@@ -123,6 +138,9 @@ requires:
   - name: ascii-image-converter
     category: media-gfx
     version: '>=0'
+  - name: qrencode
+    category: media-gfx
+    version: '>=0'
   - name: libsdl2
     category: media-libs
     version: '>=0'
@@ -142,6 +160,12 @@ requires:
     category: net-dns
     version: '>=0'
   - name: libnfs
+    category: net-fs
+    version: '>=0'
+  - name: minio
+    category: net-fs
+    version: '>=0'
+  - name: minio-client
     category: net-fs
     version: '>=0'
   - name: libesmtp
@@ -174,6 +198,9 @@ requires:
   - name: strongswan
     category: net-vpn
     version: '>=0'
+  - name: tailscale
+    category: net-vpn
+    version: '>=0'
   - name: cpuid
     category: sys-apps
     version: '>=0'
@@ -192,6 +219,12 @@ requires:
   - name: usbredir
     category: sys-apps
     version: '>=0'
+  - name: google-authenticator
+    category: sys-auth
+    version: '>=0'
+  - name: keepalived
+    category: sys-cluster
+    version: '>=0'
   - name: kubectl
     category: sys-cluster
     version: '>=0'
@@ -206,6 +239,9 @@ requires:
     version: '>=0'
   - name: sgabios
     category: sys-firmware
+    version: '>=0'
+  - name: fuse
+    category: sys-fs
     version: '>=0'
   - name: multipath-tools
     category: sys-fs
