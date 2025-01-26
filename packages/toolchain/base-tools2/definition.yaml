@@ -6,9 +6,6 @@ requires:
   - name: boehm-gc
     category: dev-libs
     version: '>=0'
-  - name: libatomic_ops
-    category: dev-libs
-    version: '>=0'
   - name: libbpf
     category: dev-libs
     version: '>=0'
@@ -38,7 +35,4 @@ requires:
     version: '>=0'
   - name: autogen
     category: sys-devel
-    version: '>=0'
-  - name: lvm2
-    category: sys-fs
     version: '>=0'
