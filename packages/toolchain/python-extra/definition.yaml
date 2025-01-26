@@ -24,6 +24,9 @@ requires:
   - name: botocore
     category: dev-python
     version: '>=0'
+  - name: click
+    category: dev-python
+    version: '>=0'
   - name: configparser
     category: dev-python
     version: '>=0'
@@ -55,6 +58,9 @@ requires:
     category: dev-python
     version: '>=0'
   - name: linecache2
+    category: dev-python
+    version: '>=0'
+  - name: meson-python
     category: dev-python
     version: '>=0'
   - name: numpy
@@ -90,6 +96,9 @@ requires:
   - name: pykerberos
     category: dev-python
     version: '>=0'
+  - name: pyproject-metadata
+    category: dev-python
+    version: '>=0'
   - name: python-dateutil
     category: dev-python
     version: '>=0'
@@ -103,6 +112,9 @@ requires:
     category: dev-python
     version: '>=0'
   - name: pyudev
+    category: dev-python
+    version: '>=0'
+  - name: requests-toolbelt
     category: dev-python
     version: '>=0'
   - name: rsa
@@ -141,11 +153,20 @@ requires:
   - name: traceback2
     category: dev-python
     version: '>=0'
+  - name: uvicorn
+    category: dev-python
+    version: '>=0'
   - name: uvloop
     category: dev-python
     version: '>=0'
   - name: wcwidth
     category: dev-python
+    version: '>=0'
+  - name: python-gitlab
+    category: dev-vcs
+    version: '>=0'
+  - name: s3cmd
+    category: net-misc
     version: '>=0'
   - name: blas-reference
     category: sci-libs
