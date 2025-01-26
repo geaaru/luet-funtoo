@@ -21,9 +21,6 @@ requires:
   - name: screen
     category: app-misc
     version: '>=0'
-  - name: asciidoc
-    category: app-text
-    version: '>=0'
   - name: docbook2X
     category: app-text
     version: '>=0'
