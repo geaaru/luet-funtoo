@@ -1,4 +1,7 @@
 prelude:
+# Temporary fix untl mark-issues#290 is done
+- >-
+  sed -i -e '/ipsec.conf/d'  /var/git/meta-repo/kits/net-kit/net-vpn/strongswan/strongswan-6.0.0.ebuild
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
   export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \

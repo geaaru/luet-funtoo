@@ -1,5 +1,5 @@
 name: strongswan
-version: 6.0.0
+version: 6.0.0+1
 category: net-vpn
 use_flags:
 - -gcrypt
