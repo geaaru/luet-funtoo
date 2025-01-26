@@ -39,6 +39,10 @@ requires:
 - name: pam
   version: '>=0'
   category: sys-libs
+conflicts:
+- name: nullmailer
+  version: '>=0'
+  category: mail-mta
 annotations:
   subsets:
     rules:
