@@ -1,5 +1,5 @@
 name: baselayout
-version: 3.0+1
+version: 3.0+2
 category: sys-apps
 annotations:
   subsets:
@@ -16,7 +16,7 @@ labels:
   IUSE: build kernel_FreeBSD kernel_linux +split-usr
   emerge.packages: sys-apps/baselayout
   kit: core-kit
-  macaroni.version: "24.12"
+  macaroni.version: "25.01"
   original.package.name: sys-apps/baselayout
   original.package.slot: "0"
   original.package.version: "3.0"
