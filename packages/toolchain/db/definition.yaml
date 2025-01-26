@@ -3,6 +3,9 @@ version: "1"
 category: toolchain
 description: Virtul package to install portage meta data of the db packages
 requires:
+  - name: mongo-tools
+    category: app-admin
+    version: '>=0'
   - name: yaml-cpp
     category: dev-cpp
     version: '>=0'
