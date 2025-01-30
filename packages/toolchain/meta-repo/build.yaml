@@ -1,5 +1,5 @@
 requires:
-  - name: funtoo-kits
+  - name: mark-kits
     category: "seed"
     version: ">=0"
 env:
@@ -14,5 +14,6 @@ steps:
   mkdir -p /{{ .Values.name }}/etc/portage/patches/ &&
   cp -rvf /etc/portage/repos.conf/* /{{ .Values.name }}/etc/portage/repos.conf/ &&
   cp -rvf /etc/portage/make.profile/* /{{ .Values.name }}/etc/portage/make.profile/ &&
-  cp -rvf /etc/portage/patches/* /{{ .Values.name }}/etc/portage/patches/
+  cp -rvf /etc/portage/patches/* /{{ .Values.name }}/etc/portage/patches/ &&
+  rm /{{ .Values.name }}/etc/portage/repos.conf/geaaru-kit
 
