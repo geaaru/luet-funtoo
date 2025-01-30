@@ -4,7 +4,7 @@ requires:
     version: ">=0"
 env:
 - JOBS=10
-- GIT_HISTORY_ENTRIES=3000
+- GIT_HISTORY_ENTRIES=30000
 - FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"
 - LUET_YES=true
 - LUET_NOLOCK=true
@@ -12,27 +12,21 @@ prelude:
 - >-
   mv kits-versions / &&
   curl https://raw.githubusercontent.com/geaaru/luet/geaaru/contrib/config/get_luet_root.sh | sh &&
-  luet install --sync-repos
-  system/luet-devkit
-  dev-util/pkgs-checker-minimal utils/yq &&
-  luet install system/entities --sync-repos && luet upgrade &&
-  luet cleanup &&
+  anise subsets enable portage devel &&
+  anise install --sync-repos
+  dev-util/pkgs-checker-minimal utils/yq utils/jq system/luet-devkit
+  mark-devkit anise-portage-converter system/entities --sync-repos &&
+  anise upgrade &&
+  anise cleanup &&
   ego sync &&
   cd /var/git/meta-repo/kits &&
   chown root:root -R /var/git/meta-repo/kits &&
-  ls -l &&
-  for i in $(ls .) ; do
-  echo $i ;
-  if [ -e /kits-versions/$i.yml ] ; then
-  hash=$(yq r /kits-versions/$i.yml 'commit') ;
-  echo "For kit $i set hash $hash" ;
-  pushd $i ;
-  git pull -ff --depth=$GIT_HISTORY_ENTRIES ;
-  git checkout $hash || exit 1 ;
-  popd ;
-  fi ;
-  done &&
-  chown portage:portage -R /var/git/meta-repo/kits
+  rm -rf * &&
+  mark-devkit kit clone --specfile /kits-versions/kits.yaml
+  --to /var/git/meta-repo/kits --deep $GIT_HISTORY_ENTRIES
+  --concurrency $JOBS
+  --generate-reposcan-files --kit-cache-dir /kit-cache/ &&
+  cp /kits-versions/kits.yaml /kit-cache/
 
 - >-
   cp patches/libical-3.0.11.ebuild
