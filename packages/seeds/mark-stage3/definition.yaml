@@ -1,0 +1,8 @@
+name: mark-stage3
+version: "0.20250130"
+category: seed
+hidden: true
+labels:
+  distfiles.version: "0.20241031"
+  package.version: "2024-10-31"
+  release: mark

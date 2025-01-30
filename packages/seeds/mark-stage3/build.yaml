@@ -1,5 +1,5 @@
 image: "alpine"
-env: 
+env:
 - LUET_YES=true
 - HTTP_TIMEOUT=0
 - STAGE_VERSION={{ ( index .Values.labels "package.version" ) }}
@@ -12,9 +12,9 @@ prelude:
   luet repo update
 - |
   mkdir /{{ .Values.name }}/etc -p && \
-  luet install =funtoo-${RELEASE}/stage3-amd64-{{ ( index .Values.labels "distfiles.version" ) }} && luet cleanup && \
+  luet install =${RELEASE}-terragon/stage3-amd64-{{ ( index .Values.labels "distfiles.version" ) }} && luet cleanup && \
   export BUILDPATH=`pwd` && \
-  cd /{{ .Values.name }} && tar xJpf /collections/funtoo/stage3.tar.xz --xattrs --numeric-owner && luet uninstall funtoo-${RELEASE}/stage3-amd64 && luet cleanup && \
+  cd /{{ .Values.name }} && tar xJpf /collections/mark/stage3-terragon.tar.xz --xattrs --numeric-owner && luet rm ${RELEASE}-terragon/stage3-amd64 && luet cleanup && \
   cp ${BUILDPATH}/ego.conf /{{ .Values.name }}/etc/ && \
   rm -rf /{{ .Values.name }}/lib64/modules/* && \
   rsync -A -a --delete --numeric-ids --recursive -d -H --one-file-system --xattrs --exclude '/{{ .Values.name }}/*'  --exclude '/etc/resolv.conf'  --exclude '/etc/hostname'  --exclude '/sys/' --exclude '/etc/hosts'  --exclude '/sys/*' --exclude '/proc/*' --exclude '/dev/pts/*' /{{ .Values.name }}/ / && \

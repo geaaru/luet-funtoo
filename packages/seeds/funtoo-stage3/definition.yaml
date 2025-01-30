@@ -1,8 +1,0 @@
-name: funtoo-stage3
-version: 0.20230710+1
-category: seed
-hidden: true
-labels:
-  distfiles.version: "0.20230710"
-  package.version: "2023-07-10"
-  release: next
