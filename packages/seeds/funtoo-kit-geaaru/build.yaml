@@ -1,6 +1,6 @@
 requires:
 - category: "seed"
-  name: "funtoo-kits"
+  name: "mark-kits"
   version: ">=0"
 env:
 - FEATURES="-collision-protect -sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"

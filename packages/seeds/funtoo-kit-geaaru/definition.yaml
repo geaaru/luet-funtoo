@@ -1,5 +1,5 @@
 name: funtoo-kit-geaaru
-version: "0.20250126"
+version: 0.20250126+1
 category: seed
 labels:
   repo: https://github.com/geaaru/geaaru_overlay.git
