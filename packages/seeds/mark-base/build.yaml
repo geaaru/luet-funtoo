@@ -25,7 +25,6 @@ prelude:
   anise repo list &&
   anise repo disable macaroni-terragon macaroni-commons &&
   anise upgrade --sync-repos &&
-  anise cleanup --purge-repos &&
   rm -rf /etc/passwd /etc/group /etc/passwd /etc/shadow &&
   entities merge -s /usr/share/macaroni/entities -a &&
   anise i repository/macaroni-commons-dev &&
