@@ -15,16 +15,21 @@ prelude:
   epro mix-in +btrfs +vmware-guest &&
   epro list &&
   echo "UTC" > /etc/timezone
+
+# We use now stage3 tarball from mark-stages that already
+# contains macaroni repos, entities and entities-catalog.
+# I disable the terragon repos to avoid upgrade of the packages
+# to handle with portage.
 - >-
-  luet upgrade --sync-repos &&
-  luet i repository/macaroni-commons-dev &&
-  luet i --force --sync-repos macaroni/entities-catalog utils/jq utils/yq
-  system/entities &&
-  luet cleanup --purge-repos &&
+  anise subsets enable devel portage &&
+  anise repo list &&
+  anise repo disable macaroni-terragon macaroni-commons &&
+  anise upgrade --sync-repos &&
+  anise cleanup --purge-repos &&
   rm -rf /etc/passwd /etc/group /etc/passwd /etc/shadow &&
   entities merge -s /usr/share/macaroni/entities -a &&
-  entities list users &&
-  entities list groups &&
+  anise i repository/macaroni-commons-dev &&
+  anise cleanup --purge-repos &&
   export FEATURES="-collision-protect -sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" &&
   unset RELEASE &&
   emerge --unmerge sys-kernel/debian-sources x11-drivers/nvidia-kernel-modules app-emulation/open-vm-tools &&
