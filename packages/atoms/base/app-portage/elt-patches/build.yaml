@@ -14,9 +14,9 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: funtoo-base
+- name: mark-base
   version: '>=0'
   category: seed
-- name: funtoo-base
+- name: mark-base
   version: '>=0'
   category: seed
