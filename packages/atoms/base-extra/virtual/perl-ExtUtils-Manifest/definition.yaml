@@ -1,5 +1,5 @@
 name: perl-ExtUtils-Manifest
-version: 1.720.0
+version: 1.720.0+1
 category: virtual
 requires:
 - name: perl
