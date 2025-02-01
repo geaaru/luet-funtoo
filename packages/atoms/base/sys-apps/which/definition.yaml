@@ -1,5 +1,5 @@
 name: which
-version: 2.21+1
+version: 2.21+2
 category: sys-apps
 annotations:
   subsets:
