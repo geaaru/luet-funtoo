@@ -1,5 +1,5 @@
 name: Authen-SASL
-version: 2.160.0
+version: 2.160.0+1
 category: dev-perl
 use_flags:
 - -kerberos
