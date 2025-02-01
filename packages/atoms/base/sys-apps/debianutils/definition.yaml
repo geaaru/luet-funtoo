@@ -1,5 +1,5 @@
 name: debianutils
-version: 4.8.6.1+1
+version: 4.8.6.1+2
 category: sys-apps
 annotations:
   subsets:
