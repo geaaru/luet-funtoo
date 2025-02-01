@@ -1,5 +1,5 @@
 name: xz-utils
-version: 5.6.2
+version: 5.6.4
 category: app-arch
 annotations:
   subsets:
@@ -21,4 +21,4 @@ labels:
   kit: core-kit
   original.package.name: app-arch/xz-utils
   original.package.slot: "0"
-  original.package.version: 5.6.2
+  original.package.version: 5.6.4
