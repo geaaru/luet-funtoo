@@ -1,5 +1,5 @@
 name: patch
-version: 2.7.6+1
+version: 2.7.6+2
 category: sys-devel
 use_flags:
 - -test
