@@ -1,13 +1,13 @@
 category: "virtual"
 name: "base"
-version: "1"
+version: "2"
 description: "Virtual package for setup a base system"
 labels:
-  gcc_version: "11.3.0"
+  gcc_version: "12.3.0"
   gcc_arch: "x86_64"
 requires:
 - name: gcc
-  category: "sys-devel-11.3.0"
+  category: "sys-devel-12.3.0"
   version: ">=0"
 - name: sh
   category: "virtual"
