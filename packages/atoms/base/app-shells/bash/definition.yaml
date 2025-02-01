@@ -1,5 +1,5 @@
 name: bash
-version: 5.2.32
+version: 5.2.37
 category: app-shells
 use_flags:
 - nls
@@ -29,4 +29,4 @@ labels:
   kit: core-kit
   original.package.name: app-shells/bash
   original.package.slot: "0"
-  original.package.version: 5.2.32
+  original.package.version: 5.2.37
