@@ -1,5 +1,5 @@
 name: libltdl
-version: 2.4.6+1
+version: 2.4.6+2
 category: dev-libs
 annotations:
   subsets:
