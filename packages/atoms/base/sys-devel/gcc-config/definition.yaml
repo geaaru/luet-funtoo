@@ -1,5 +1,5 @@
 name: gcc-config
-version: 2.4+1
+version: 2.4+2
 category: sys-devel
 requires:
 - name: gentoo-functions
