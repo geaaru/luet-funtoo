@@ -1,5 +1,5 @@
 name: texinfo
-version: "7.1"
+version: 7.1.1
 category: sys-apps
 use_flags:
 - nls
@@ -38,4 +38,4 @@ labels:
   kit: core-kit
   original.package.name: sys-apps/texinfo
   original.package.slot: "0"
-  original.package.version: "7.1"
+  original.package.version: 7.1.1
