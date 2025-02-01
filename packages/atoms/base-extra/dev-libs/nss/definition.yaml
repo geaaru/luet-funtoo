@@ -1,5 +1,5 @@
 name: nss
-version: "3.104"
+version: "3.107"
 category: dev-libs
 requires:
 - name: sqlite
@@ -23,11 +23,11 @@ uri:
 - https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS
 license: '|| ( MPL-2.0 GPL-2 LGPL-2.1 )'
 labels:
-  DEPEND: '>=dev-libs/nspr-4.35 >=dev-db/sqlite-3.8.2 >=sys-libs/zlib-1.2.8-r1 virtual/pkgconfig'
+  DEPEND: '>=dev-libs/nspr-4.36 >=dev-db/sqlite-3.8.2 >=sys-libs/zlib-1.2.8-r1 virtual/pkgconfig'
   IUSE: cacert +utils
-  RDEPEND: '>=dev-libs/nspr-4.35 >=dev-db/sqlite-3.8.2 >=sys-libs/zlib-1.2.8-r1 virtual/pkgconfig'
+  RDEPEND: '>=dev-libs/nspr-4.36 >=dev-db/sqlite-3.8.2 >=sys-libs/zlib-1.2.8-r1 virtual/pkgconfig'
   emerge.packages: dev-libs/nss
   kit: dev-kit
   original.package.name: dev-libs/nss
   original.package.slot: "0"
-  original.package.version: "3.104"
+  original.package.version: "3.107"
