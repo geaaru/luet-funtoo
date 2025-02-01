@@ -1,5 +1,5 @@
 name: openrc
-version: 0.44.10+2
+version: 0.44.10+3
 category: sys-apps
 use_flags:
 - -prefix
