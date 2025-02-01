@@ -1,5 +1,5 @@
 name: elt-patches
-version: 20170826.1+1
+version: 20170826.1+2
 category: app-portage
 requires:
 - name: gentoo-functions
