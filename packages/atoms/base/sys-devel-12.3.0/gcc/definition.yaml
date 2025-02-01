@@ -1,5 +1,5 @@
 name: gcc
-version: 12.3.0
+version: 12.3.0+1
 category: sys-devel-12.3.0
 use_flags:
 - -elibc_glibc
