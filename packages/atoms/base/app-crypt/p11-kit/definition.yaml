@@ -1,5 +1,5 @@
 name: p11-kit
-version: 0.24.1+1
+version: 0.24.1+2
 category: app-crypt
 use_flags:
 - -asn1
