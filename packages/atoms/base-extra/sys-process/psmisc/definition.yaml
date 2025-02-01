@@ -1,5 +1,5 @@
 name: psmisc
-version: "23.2"
+version: 23.2+1
 category: sys-process
 use_flags:
 - -selinux
