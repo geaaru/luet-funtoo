@@ -1,5 +1,5 @@
 name: libb2
-version: 0.98.1+1
+version: 0.98.1+2
 category: app-crypt
 use_flags:
 - openmp
