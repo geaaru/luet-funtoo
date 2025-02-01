@@ -1,5 +1,5 @@
 name: ncurses
-version: "6.5"
+version: 6.5+1
 category: sys-libs
 use_flags:
 - -gpm
@@ -26,7 +26,7 @@ labels:
   RDEPEND: gpm? ( sys-libs/gpm[-mgorny(-)] ) !<=sys-libs/ncurses-5.9-r4:5 !<sys-libs/slang-2.3.2_pre23
     !<x11-terms/rxvt-unicode-9.06-r3 !<x11-terms/st-0.6-r1
   emerge.packages: sys-libs/ncurses
-  kit: core-kit
+  kit: geaaru-kit
   original.package.name: sys-libs/ncurses
   original.package.slot: "0"
-  original.package.version: 6.5_p20240511
+  original.package.version: 6.5_p20240519
