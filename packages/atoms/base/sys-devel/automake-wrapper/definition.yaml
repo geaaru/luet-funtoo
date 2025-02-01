@@ -1,5 +1,5 @@
 name: automake-wrapper
-version: 11+1
+version: 11+2
 category: sys-devel
 annotations:
   subsets:
