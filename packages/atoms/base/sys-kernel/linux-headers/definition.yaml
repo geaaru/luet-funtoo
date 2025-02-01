@@ -1,5 +1,5 @@
 name: linux-headers
-version: "6.9"
+version: 6.9+1
 category: sys-kernel
 annotations:
   subsets:
