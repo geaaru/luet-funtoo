@@ -1,5 +1,5 @@
 name: XML-Parser
-version: 2.440.0
+version: 2.440.0+1
 category: dev-perl
 requires:
 - name: perl
