@@ -1,5 +1,5 @@
 name: gnupg
-version: 2.3.7+1
+version: 2.3.7+2
 category: app-crypt
 use_flags:
 - -doc
