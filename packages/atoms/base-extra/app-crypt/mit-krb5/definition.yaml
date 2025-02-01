@@ -1,5 +1,5 @@
 name: mit-krb5
-version: 1.21+3
+version: 1.21+4
 category: app-crypt
 use_flags:
 - -amd64
