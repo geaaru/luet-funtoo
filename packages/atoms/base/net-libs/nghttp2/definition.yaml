@@ -1,5 +1,5 @@
 name: nghttp2
-version: 1.62.1
+version: 1.64.0
 category: net-libs
 use_flags:
 - -hpack-tools
@@ -47,4 +47,4 @@ labels:
   kit: core-kit
   original.package.name: net-libs/nghttp2
   original.package.slot: "0"
-  original.package.version: 1.62.1
+  original.package.version: 1.64.0
