@@ -1,5 +1,5 @@
 name: elfutils
-version: 0.187+1
+version: 0.187+2
 category: dev-libs
 use_flags:
 - -elibc_musl
