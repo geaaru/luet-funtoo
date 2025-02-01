@@ -1,5 +1,5 @@
 name: libassuan
-version: 2.5.5+1
+version: 2.5.5+2
 category: dev-libs
 requires:
 - name: libgpg-error
