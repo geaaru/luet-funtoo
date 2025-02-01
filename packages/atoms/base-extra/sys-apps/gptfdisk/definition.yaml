@@ -1,5 +1,5 @@
 name: gptfdisk
-version: 1.0.9
+version: 1.0.9+1
 category: sys-apps
 use_flags:
 - -kernel_linux
