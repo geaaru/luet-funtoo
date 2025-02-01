@@ -1,5 +1,5 @@
 name: yacc
-version: 0+2
+version: 0+3
 category: virtual
 requires:
 - name: bison
