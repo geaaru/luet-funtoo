@@ -1,5 +1,5 @@
 name: cracklib
-version: 2.9.8+1
+version: 2.9.8+2
 category: sys-libs
 use_flags:
 - -python_targets_python3_10
