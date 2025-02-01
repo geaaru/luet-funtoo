@@ -1,5 +1,5 @@
 name: perl-CPAN-Meta-YAML
-version: 0.18.0
+version: 0.18.0+1
 category: virtual
 requires:
 - name: perl
