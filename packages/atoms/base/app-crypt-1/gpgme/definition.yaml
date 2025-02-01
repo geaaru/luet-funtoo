@@ -1,5 +1,5 @@
 name: gpgme
-version: 1.18.0+1
+version: 1.18.0+2
 category: app-crypt-1
 use_flags:
 - -python_targets_python3_10
