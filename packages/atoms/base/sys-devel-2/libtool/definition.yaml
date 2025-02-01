@@ -1,5 +1,5 @@
 name: libtool
-version: 2.4.6+1
+version: 2.4.6+2
 category: sys-devel-2
 requires:
 - name: libltdl
