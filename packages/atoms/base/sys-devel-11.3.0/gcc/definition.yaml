@@ -1,5 +1,5 @@
 name: gcc
-version: 11.3.0+1
+version: 11.3.0
 category: sys-devel-11.3.0
 use_flags:
 - -objc-gc
