@@ -1,5 +1,5 @@
 name: expat
-version: 2.4.9+1
+version: 2.4.9+2
 category: dev-libs
 use_flags:
 - unicode
