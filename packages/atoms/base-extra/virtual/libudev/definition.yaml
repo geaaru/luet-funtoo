@@ -1,5 +1,5 @@
 name: libudev
-version: "232"
+version: 232+1
 category: virtual
 use_flags:
 - -systemd
