@@ -1,5 +1,5 @@
 name: perl-version
-version: 0.992.400
+version: 0.992.400+1
 category: virtual
 requires:
 - name: perl
