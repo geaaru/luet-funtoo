@@ -1,5 +1,5 @@
 name: Digest-HMAC
-version: 1.30.0
+version: 1.30.0+1
 category: dev-perl
 requires:
 - name: perl-Digest-MD5
