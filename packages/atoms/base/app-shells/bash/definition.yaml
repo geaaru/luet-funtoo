@@ -1,5 +1,5 @@
 name: bash
-version: 5.2.37
+version: 5.2.37+1
 category: app-shells
 use_flags:
 - nls
