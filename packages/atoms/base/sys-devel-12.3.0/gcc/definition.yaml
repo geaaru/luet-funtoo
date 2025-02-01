@@ -1,0 +1,49 @@
+name: gcc
+version: 12.3.0
+category: sys-devel-12.3.0
+use_flags:
+- -elibc_glibc
+- -objc-gc
+- -test
+- nls
+requires:
+- name: gettext
+  version: '>=0'
+  category: sys-devel
+- name: zlib
+  version: '>=0'
+  category: sys-libs
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: The GNU Compiler Collection
+license: GPL-3+ LGPL-3+ || ( GPL-3+ libgcc libstdc++ gcc-runtime-library-exception-3.1
+  ) FDL-1.3+
+labels:
+  DEPEND: sys-libs/zlib[static-libs] nls? ( sys-devel/gettext[static-libs] ) virtual/libiconv
+    objc-gc? ( >=dev-libs/boehm-gc-7.6[static-libs] ) >=sys-devel/bison-1.875 >=sys-devel/flex-2.5.4
+    >=sys-devel/binutils-2.36.1_p3 elibc_glibc? ( >=sys-libs/glibc-2.8 ) test? ( dev-util/dejagnu
+    sys-devel/autogen ) >=dev-vcs/git-1.8.2.1[curl]
+  IUSE: +cxx d go +fortran objc objc++ objc-gc test doc nls vanilla multilib openmp
+    altivec pch generic_host jit bootstrap bootstrap-lean bootstrap-profiled bootstrap-lto
+    bootstrap-O3 libssp +ssp +pie +vtv link_now ssp_all +stack_clash_protection sanitize
+    dev_extra_warnings checking_no stage1_checking_no checking_release stage1_checking_release
+    checking_yes stage1_checking_yes checking_all stage1_checking_all checking_assert
+    stage1_checking_assert checking_runtime stage1_checking_runtime checking_misc
+    stage1_checking_misc checking_tree stage1_checking_tree checking_gc stage1_checking_gc
+    checking_rtlflag stage1_checking_rtlflag checking_df stage1_checking_df checking_fold
+    stage1_checking_fold checking_gcac stage1_checking_gcac checking_rtl stage1_checking_rtl
+    checking_extra stage1_checking_extra checking_valgrind stage1_checking_valgrind
+    abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32
+    abi_s390_64
+  RDEPEND: sys-libs/zlib[static-libs] nls? ( sys-devel/gettext[static-libs] ) virtual/libiconv
+    objc-gc? ( >=dev-libs/boehm-gc-7.6[static-libs] )
+  emerge.packages: sys-devel/gcc:12.3.0
+  kit: core-kit
+  original.package.name: sys-devel/gcc
+  original.package.slot: 12.3.0
+  original.package.version: 12.3.0
