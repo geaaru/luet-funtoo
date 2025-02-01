@@ -1,5 +1,5 @@
 name: util-linux
-version: 2.40.2
+version: 2.40.4
 category: sys-apps
 use_flags:
 - -audit
@@ -84,4 +84,4 @@ labels:
   kit: core-kit
   original.package.name: sys-apps/util-linux
   original.package.slot: "0"
-  original.package.version: 2.40.2
+  original.package.version: 2.40.4
