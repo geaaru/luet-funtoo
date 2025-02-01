@@ -1,5 +1,5 @@
 name: binutils-libs
-version: "2.40"
+version: 2.40+1
 category: sys-libs
 requires:
 - name: binutils
