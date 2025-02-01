@@ -1,5 +1,5 @@
 name: python-exec
-version: 2.4.6+1
+version: 2.4.6+2
 category: dev-lang-2
 annotations:
   subsets:
