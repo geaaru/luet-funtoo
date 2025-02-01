@@ -1,5 +1,5 @@
 name: swig
-version: 3.0.12
+version: 3.0.12+1
 category: dev-lang
 use_flags:
 - -ccache
