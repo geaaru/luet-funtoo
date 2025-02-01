@@ -1,5 +1,5 @@
 name: python
-version: 3.9.21
+version: 3.9.21+1
 category: dev-lang-3.9
 use_flags:
 - -bluetooth
