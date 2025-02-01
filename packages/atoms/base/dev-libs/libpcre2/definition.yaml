@@ -1,5 +1,5 @@
 name: libpcre2
-version: 10.35+2
+version: 10.35+3
 category: dev-libs
 use_flags:
 - -libedit
