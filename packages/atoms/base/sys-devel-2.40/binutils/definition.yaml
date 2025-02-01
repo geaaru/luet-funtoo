@@ -1,5 +1,5 @@
 name: binutils
-version: "2.40"
+version: 2.40+1
 category: sys-devel-2.40
 use_flags:
 - -doc
@@ -9,19 +9,19 @@ requires:
 - name: zlib
   version: '>=0'
   category: sys-libs
+conflicts:
+- name: binutils
+  version: <2.40
+  category: sys-devel-2.39
+- name: binutils
+  version: <2.40
+  category: sys-devel-2.36
 provides:
 - name: binutils
   version: "2.40"
   category: sys-devel-2.39
 - name: binutils
   version: "2.40"
-  category: sys-devel-2.36
-conflicts:
-- name: binutils
-  version: "<2.40"
-  category: sys-devel-2.39
-- name: binutils
-  version: "<2.40"
   category: sys-devel-2.36
 annotations:
   subsets:
