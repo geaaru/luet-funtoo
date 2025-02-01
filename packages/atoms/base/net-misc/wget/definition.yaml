@@ -1,5 +1,5 @@
 name: wget
-version: 1.25.0
+version: 1.25.0+1
 category: net-misc
 use_flags:
 - -cookie-check
