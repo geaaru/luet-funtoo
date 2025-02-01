@@ -1,5 +1,5 @@
 name: autoconf
-version: "2.72"
+version: 2.72+1
 category: sys-devel-latest
 requires:
 - name: texinfo
