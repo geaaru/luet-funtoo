@@ -1,5 +1,5 @@
 name: libffi
-version: 3.3+1
+version: 3.3+2
 category: dev-libs
 use_flags:
 - -test
