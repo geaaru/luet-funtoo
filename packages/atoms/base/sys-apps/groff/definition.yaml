@@ -1,5 +1,5 @@
 name: groff
-version: 1.23.0
+version: 1.23.0+1
 category: sys-apps
 use_flags:
 - -X
