@@ -1,5 +1,5 @@
 name: glibc
-version: 2.33+4
+version: 2.33+5
 category: sys-libs-2.2
 use_flags:
 - -audit
