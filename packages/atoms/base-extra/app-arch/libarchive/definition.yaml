@@ -1,5 +1,5 @@
 name: libarchive
-version: 3.7.5
+version: 3.7.7
 category: app-arch
 use_flags:
 - -blake2
@@ -71,4 +71,4 @@ labels:
   kit: core-kit
   original.package.name: app-arch/libarchive
   original.package.slot: "0"
-  original.package.version: 3.7.5
+  original.package.version: 3.7.7
