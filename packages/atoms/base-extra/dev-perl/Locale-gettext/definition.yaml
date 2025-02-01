@@ -1,5 +1,5 @@
 name: Locale-gettext
-version: 1.70.0
+version: 1.70.0+1
 category: dev-perl
 requires:
 - name: perl
