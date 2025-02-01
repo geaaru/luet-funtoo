@@ -1,5 +1,5 @@
 name: setuptools
-version: 70.3.0
+version: 70.3.0+1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
