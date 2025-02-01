@@ -1,5 +1,5 @@
 name: perl
-version: 5.32.0+1
+version: 5.32.0+2
 category: dev-lang
 use_flags:
 - berkdb
