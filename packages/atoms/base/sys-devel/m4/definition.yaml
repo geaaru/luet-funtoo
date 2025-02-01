@@ -1,5 +1,5 @@
 name: m4
-version: 1.4.19+1
+version: 1.4.19+2
 category: sys-devel
 use_flags:
 - nls
