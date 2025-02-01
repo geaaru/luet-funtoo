@@ -1,5 +1,5 @@
 name: nano
-version: "8.1"
+version: "8.3"
 category: app-editors
 use_flags:
 - -static
@@ -38,4 +38,4 @@ labels:
   kit: core-kit
   original.package.name: app-editors/nano
   original.package.slot: "0"
-  original.package.version: "8.1"
+  original.package.version: "8.3"
