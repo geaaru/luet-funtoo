@@ -1,5 +1,5 @@
 name: make
-version: 4.2.1+1
+version: 4.2.1+2
 category: sys-devel
 use_flags:
 - -guile
