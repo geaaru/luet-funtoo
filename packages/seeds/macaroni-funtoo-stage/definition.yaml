@@ -1,5 +1,5 @@
 name: macaroni-funtoo-stage
-version: 0.20240823+2
+version: "0.20250201"
 category: seed
 hidden: true
 labels:
