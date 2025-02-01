@@ -1,5 +1,5 @@
 name: perl-JSON-PP
-version: 4.40.0
+version: 4.40.0+1
 category: virtual
 requires:
 - name: perl
