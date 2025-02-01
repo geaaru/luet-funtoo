@@ -1,5 +1,5 @@
 name: perl-Digest-SHA
-version: 6.20.0
+version: 6.20.0+1
 category: virtual
 requires:
 - name: perl
