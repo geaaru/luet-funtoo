@@ -1,5 +1,5 @@
 name: hwids
-version: "20210613"
+version: 20210613+1
 category: sys-apps
 use_flags:
 - udev
