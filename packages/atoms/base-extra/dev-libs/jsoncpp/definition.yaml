@@ -1,5 +1,5 @@
 name: jsoncpp
-version: 1.9.5
+version: 1.9.6
 category: dev-libs
 use_flags:
 - -doc
@@ -15,11 +15,11 @@ uri:
 - https://github.com/open-source-parsers/jsoncpp
 license: '|| ( public-domain MIT )'
 labels:
-  BDEPEND: '|| ( dev-lang/python:3.10 dev-lang/python:3.8 dev-lang/python:3.9 dev-lang/python:3.7
+  BDEPEND: '|| ( dev-lang/python:3.8 dev-lang/python:3.9 dev-lang/python:3.7 dev-lang/python:3.10
     ) doc? ( app-doc/doxygen ) >=dev-util/meson-0.48.2 >=dev-util/ninja-1.7.2'
   IUSE: doc test
   emerge.packages: dev-libs/jsoncpp
   kit: core-kit
   original.package.name: dev-libs/jsoncpp
   original.package.slot: "0"
-  original.package.version: 1.9.5
+  original.package.version: 1.9.6
