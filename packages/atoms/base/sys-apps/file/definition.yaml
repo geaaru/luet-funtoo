@@ -1,5 +1,5 @@
 name: file
-version: "5.46"
+version: 5.46+1
 category: sys-apps
 use_flags:
 - -lzma
