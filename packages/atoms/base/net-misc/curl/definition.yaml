@@ -1,5 +1,5 @@
 name: curl
-version: 8.11.1
+version: 8.11.1+1
 category: net-misc
 use_flags:
 - -adns
