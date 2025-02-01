@@ -1,5 +1,5 @@
 name: ego
-version: 2.8.8_pre20240817
+version: 2.8.8_pre20240817+1
 category: app-admin
 use_flags:
 - -python_single_target_python3_10
