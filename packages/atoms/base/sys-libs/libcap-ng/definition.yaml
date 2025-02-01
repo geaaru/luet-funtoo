@@ -1,5 +1,5 @@
 name: libcap-ng
-version: 0.7.9+1
+version: 0.7.9+2
 category: sys-libs
 use_flags:
 - -python_targets_python2_7
