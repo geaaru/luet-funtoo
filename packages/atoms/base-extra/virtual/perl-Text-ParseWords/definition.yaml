@@ -1,5 +1,5 @@
 name: perl-Text-ParseWords
-version: 3.300.0
+version: 3.300.0+1
 category: virtual
 requires:
 - name: perl
