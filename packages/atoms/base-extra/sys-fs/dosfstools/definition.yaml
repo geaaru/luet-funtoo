@@ -1,5 +1,5 @@
 name: dosfstools
-version: "4.1"
+version: 4.1+1
 category: sys-fs
 use_flags:
 - -test
