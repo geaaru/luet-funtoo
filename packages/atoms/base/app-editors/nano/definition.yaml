@@ -1,5 +1,5 @@
 name: nano
-version: "8.3"
+version: 8.3+1
 category: app-editors
 use_flags:
 - -static
