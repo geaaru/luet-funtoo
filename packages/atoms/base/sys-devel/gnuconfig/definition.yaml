@@ -1,5 +1,5 @@
 name: gnuconfig
-version: 20180101+1
+version: 20180101+2
 category: sys-devel
 annotations:
   subsets:
