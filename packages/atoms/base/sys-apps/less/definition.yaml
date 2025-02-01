@@ -1,5 +1,5 @@
 name: less
-version: "668"
+version: 668+1
 category: sys-apps
 use_flags:
 - pcre
