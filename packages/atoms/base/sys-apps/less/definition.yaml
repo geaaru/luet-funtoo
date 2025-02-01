@@ -1,5 +1,5 @@
 name: less
-version: "661"
+version: "668"
 category: sys-apps
 use_flags:
 - pcre
@@ -37,4 +37,4 @@ labels:
   kit: core-kit
   original.package.name: sys-apps/less
   original.package.slot: "0"
-  original.package.version: "661"
+  original.package.version: "668"
