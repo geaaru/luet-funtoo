@@ -1,5 +1,5 @@
 name: flex
-version: 2.6.4
+version: 2.6.4+1
 category: sys-devel
 use_flags:
 - -test
