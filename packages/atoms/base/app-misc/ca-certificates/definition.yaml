@@ -1,5 +1,5 @@
 name: ca-certificates
-version: "20240203"
+version: "20241223"
 category: app-misc
 requires:
 - name: debianutils
@@ -23,4 +23,4 @@ labels:
   kit: core-kit
   original.package.name: app-misc/ca-certificates
   original.package.slot: "0"
-  original.package.version: "20240203"
+  original.package.version: "20241223"
