@@ -1,5 +1,5 @@
 name: perl-Module-Metadata
-version: 1.0.37
+version: 1.0.37+1
 category: virtual
 requires:
 - name: perl
