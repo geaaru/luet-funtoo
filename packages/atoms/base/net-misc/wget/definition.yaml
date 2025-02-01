@@ -1,5 +1,5 @@
 name: wget
-version: 1.24.5
+version: 1.25.0
 category: net-misc
 use_flags:
 - -cookie-check
@@ -55,4 +55,4 @@ labels:
   kit: core-kit
   original.package.name: net-misc/wget
   original.package.slot: "0"
-  original.package.version: 1.24.5
+  original.package.version: 1.25.0
