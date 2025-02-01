@@ -1,5 +1,5 @@
 name: audit
-version: 4.0.1
+version: 4.0.2
 category: sys-process
 use_flags:
 - -ldap
@@ -54,4 +54,4 @@ labels:
   kit: security-kit
   original.package.name: sys-process/audit
   original.package.slot: "0"
-  original.package.version: 4.0.1
+  original.package.version: 4.0.2
