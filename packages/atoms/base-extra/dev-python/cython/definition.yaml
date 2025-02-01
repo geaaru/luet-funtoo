@@ -1,5 +1,5 @@
 name: cython
-version: 3.0.10+1
+version: 3.0.11
 category: dev-python
 use_flags:
 - -python_targets_python2_7
@@ -42,4 +42,4 @@ labels:
   kit: geaaru-kit
   original.package.name: dev-python/cython
   original.package.slot: "0"
-  original.package.version: 3.0.10
+  original.package.version: 3.0.11
