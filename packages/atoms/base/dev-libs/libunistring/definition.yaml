@@ -1,5 +1,5 @@
 name: libunistring
-version: 0.9.10+1
+version: 0.9.10+2
 category: dev-libs
 annotations:
   subsets:
