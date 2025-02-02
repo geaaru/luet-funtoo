@@ -1,5 +1,5 @@
 name: importlib_metadata
-version: 6.7.0
+version: 6.7.0+1
 category: dev-python
 use_flags:
 - -doc
