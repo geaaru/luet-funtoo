@@ -1,5 +1,5 @@
 layer:
-  name: funtoo-base
+  name: mark-base
   category: seed
 packages:
   - app-admin/ego:0
