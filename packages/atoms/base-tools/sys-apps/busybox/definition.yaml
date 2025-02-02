@@ -1,5 +1,5 @@
 name: busybox
-version: 1.36.0
+version: 1.37.0
 category: sys-apps
 use_flags:
 - -mdev
@@ -32,4 +32,4 @@ labels:
   kit: core-kit
   original.package.name: sys-apps/busybox
   original.package.slot: "0"
-  original.package.version: 1.36.0
+  original.package.version: 1.37.0
