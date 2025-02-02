@@ -1,5 +1,5 @@
 name: flit_core
-version: 3.10.1
+version: 3.10.1+1
 category: dev-python
 use_flags:
 - -python_targets_python3_10
