@@ -1,5 +1,5 @@
 name: rust-bin
-version: 1.84.0
+version: 1.84.0+1
 category: dev-lang-stable
 use_flags:
 - -prefix
