@@ -1,5 +1,5 @@
 name: alabaster
-version: 0.7.16+2
+version: 0.7.16+3
 category: dev-python
 use_flags:
 - -python_targets_python2_7
