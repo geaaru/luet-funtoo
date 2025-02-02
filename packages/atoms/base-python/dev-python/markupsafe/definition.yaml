@@ -1,5 +1,5 @@
 name: markupsafe
-version: 3.0.2
+version: 3.0.2+1
 category: dev-python
 use_flags:
 - -python_targets_python2_7
