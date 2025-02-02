@@ -1,5 +1,5 @@
 name: usbutils
-version: "018"
+version: 018+1
 category: sys-apps
 use_flags:
 - -python_single_target_python3_10
