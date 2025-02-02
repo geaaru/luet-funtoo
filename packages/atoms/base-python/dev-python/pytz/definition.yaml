@@ -1,5 +1,5 @@
 name: pytz
-version: "2024.2"
+version: 2024.2+1
 category: dev-python
 use_flags:
 - -python_targets_python2_7
