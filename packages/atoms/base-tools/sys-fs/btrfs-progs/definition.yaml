@@ -1,5 +1,5 @@
 name: btrfs-progs
-version: "6.10"
+version: "6.12"
 category: sys-fs
 use_flags:
 - -doc
@@ -69,4 +69,4 @@ labels:
   kit: core-kit
   original.package.name: sys-fs/btrfs-progs
   original.package.slot: "0"
-  original.package.version: "6.10"
+  original.package.version: "6.12"
