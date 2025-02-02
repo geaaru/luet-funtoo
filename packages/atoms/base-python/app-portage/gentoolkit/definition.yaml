@@ -1,5 +1,5 @@
 name: gentoolkit
-version: 0.5.0
+version: 0.5.0+1
 category: app-portage
 use_flags:
 - -python_targets_python3_10
