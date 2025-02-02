@@ -1,5 +1,5 @@
 name: python-enum34
-version: "2"
+version: 2+1
 category: virtual
 use_flags:
 - -python_targets_pypy3
