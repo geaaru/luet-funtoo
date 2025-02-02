@@ -1,5 +1,5 @@
 name: idna
-version: "3.10"
+version: 3.10+1
 category: dev-python
 use_flags:
 - -python_targets_python2_7
