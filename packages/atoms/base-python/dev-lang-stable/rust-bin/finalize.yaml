@@ -4,7 +4,5 @@ shell:
 install:
 - source /etc/profile && eval 'macaronictl env-update || true'
 uninstall:
-- >-
-  eval 'rm -vf /etc/env.d/50rust-bin-{{ ( index .Values.labels "original.package.version" ) }} || true' &&
-  eval 'rm -vf /etc/env.d/rust/provider-rust-bin-{{ ( index .Values.labels "original.package.version" ) }} || true' &&
-  source /etc/profile && eval 'macaronictl env-update || true'
+- eval 'rm -vf /etc/env.d/50rust-bin-{{ ( index .Values.labels "original.package.version"
+  ) }} || true' && source /etc/profile && eval 'macaronictl env-update || true'
