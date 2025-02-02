@@ -1,5 +1,5 @@
 name: man-db
-version: 2.12.1
+version: 2.13.0
 category: sys-apps
 use_flags:
 - -selinux
@@ -49,4 +49,4 @@ labels:
   kit: core-kit
   original.package.name: sys-apps/man-db
   original.package.slot: "0"
-  original.package.version: 2.12.1
+  original.package.version: 2.13.0
