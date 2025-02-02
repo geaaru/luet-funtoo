@@ -1,5 +1,5 @@
 name: net-tools
-version: 1.60+1
+version: "2.10"
 category: sys-apps
 use_flags:
 - -selinux
@@ -16,12 +16,13 @@ uri:
 - http://net-tools.sourceforge.net/
 license: GPL-2
 labels:
-  DEPEND: selinux? ( sys-libs/libselinux ) selinux? ( virtual/pkgconfig ) app-arch/xz-utils
+  BDEPEND: selinux? ( virtual/pkgconfig ) app-arch/xz-utils
+  DEPEND: selinux? ( sys-libs/libselinux )
   IUSE: +arp +hostname ipv6 nis nls plipconfig selinux slattach static
   RDEPEND: selinux? ( sys-libs/libselinux ) hostname? ( !sys-apps/coreutils[hostname]
-    ) !<sys-apps/openrc-0.9.9.3
+    ) nis? ( !net-nds/yp-tools )
   emerge.packages: sys-apps/net-tools
   kit: core-kit
   original.package.name: sys-apps/net-tools
   original.package.slot: "0"
-  original.package.version: 1.60_p20180626073013
+  original.package.version: "2.10"
