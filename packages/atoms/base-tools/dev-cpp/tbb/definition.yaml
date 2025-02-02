@@ -1,5 +1,5 @@
 name: tbb
-version: 2021.13.0
+version: 2022.0.0
 category: dev-cpp
 use_flags:
 - -hwloc
@@ -23,7 +23,7 @@ labels:
   RDEPEND: hwloc? ( || ( =sys-apps/hwloc-1.11* =sys-apps/hwloc-2.0* =sys-apps/hwloc-2.4*
     ) ) valgrind? ( dev-util/valgrind )
   emerge.packages: dev-cpp/tbb
-  kit: dev-kit
+  kit: geaaru-kit
   original.package.name: dev-cpp/tbb
   original.package.slot: "0"
-  original.package.version: 2021.13.0
+  original.package.version: 2022.0.0
