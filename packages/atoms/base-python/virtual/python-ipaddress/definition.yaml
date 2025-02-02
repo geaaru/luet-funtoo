@@ -1,5 +1,5 @@
 name: python-ipaddress
-version: "1.0"
+version: 1.0+1
 category: virtual
 use_flags:
 - -python_targets_pypy3
