@@ -1,5 +1,5 @@
 name: PySocks
-version: 1.7.1
+version: 1.7.1+1
 category: dev-python
 use_flags:
 - -python_targets_pypy3
