@@ -1,5 +1,5 @@
 name: rsync
-version: 3.3.0+1
+version: 3.4.1
 category: net-misc
 use_flags:
 - -kernel_linux
@@ -53,4 +53,4 @@ labels:
   kit: core-kit
   original.package.name: net-misc/rsync
   original.package.slot: "0"
-  original.package.version: 3.3.0-r1
+  original.package.version: 3.4.1
