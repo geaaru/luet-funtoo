@@ -1,5 +1,5 @@
 name: pyparsing
-version: 2.4.7
+version: 2.4.7+1
 category: dev-python
 use_flags:
 - -python_targets_python2_7
