@@ -1,5 +1,5 @@
 name: iproute2
-version: 6.10.0
+version: 6.13.0
 category: sys-apps
 use_flags:
 - -atm
@@ -56,4 +56,4 @@ labels:
   kit: core-kit
   original.package.name: sys-apps/iproute2
   original.package.slot: "0"
-  original.package.version: 6.10.0
+  original.package.version: 6.13.0
