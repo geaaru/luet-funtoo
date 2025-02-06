@@ -1,5 +1,5 @@
 name: gentoo-bashcomp
-version: 20190211+1
+version: 20190211+2
 category: app-shells
 annotations:
   subsets:
