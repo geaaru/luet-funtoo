@@ -1,5 +1,5 @@
 name: bash-completion
-version: "2.9"
+version: 2.9+1
 category: app-shells
 use_flags:
 - -test
