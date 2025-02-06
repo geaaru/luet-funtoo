@@ -1,5 +1,5 @@
 name: libbpf
-version: "0.3"
+version: 0.3+1
 category: dev-libs
 requires:
 - name: libelf
