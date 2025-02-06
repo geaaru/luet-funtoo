@@ -1,5 +1,5 @@
 name: procs
-version: 0.14.5
+version: 0.14.9
 category: sys-process
 annotations:
   subsets:
@@ -13,10 +13,10 @@ uri:
 - https://github.com/dalance/procs
 license: Apache-2.0 BSD BSD-2 CC0-1.0 MIT ZLIB
 labels:
-  BDEPEND: '>=virtual/rust-1.37.0'
+  BDEPEND: virtual/rust >=virtual/rust-1.37.0
   IUSE: debug
   emerge.packages: sys-process/procs
   kit: core-kit
   original.package.name: sys-process/procs
   original.package.slot: "0"
-  original.package.version: 0.14.5
+  original.package.version: 0.14.9
