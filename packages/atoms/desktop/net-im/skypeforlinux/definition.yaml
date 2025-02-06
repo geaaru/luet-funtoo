@@ -19,7 +19,7 @@ requires:
   category: media-libs
 - name: gcc
   version: '>=0'
-  category: sys-devel-11.3.0
+  category: sys-devel-12.3.0
 - name: ttf-fonts
   version: '>=0'
   category: virtual

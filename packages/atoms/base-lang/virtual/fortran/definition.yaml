@@ -4,7 +4,7 @@ category: virtual
 requires:
 - name: gcc
   version: '>=0'
-  category: sys-devel-11.3.0
+  category: sys-devel-12.3.0
 annotations:
   subsets:
     rules:

@@ -139,7 +139,7 @@ requires:
   category: sci-mathematics
 - name: gcc
   version: '>=0'
-  category: sys-devel-11.3.0
+  category: sys-devel-12.3.0
 - name: glibc
   version: '>=0'
   category: sys-libs-2.2
