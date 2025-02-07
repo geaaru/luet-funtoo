@@ -1,5 +1,5 @@
 name: libdrm
-version: 2.4.118
+version: 2.4.123
 category: x11-libs
 use_flags:
 - -elibc_FreeBSD
@@ -36,4 +36,4 @@ labels:
   kit: core-gl-kit
   original.package.name: x11-libs/libdrm
   original.package.slot: "0"
-  original.package.version: 2.4.118
+  original.package.version: 2.4.123
