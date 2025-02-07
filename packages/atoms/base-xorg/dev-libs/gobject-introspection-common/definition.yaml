@@ -1,5 +1,5 @@
 name: gobject-introspection-common
-version: 1.70.0
+version: 1.72.0
 category: dev-libs
 annotations:
   subsets:
@@ -14,9 +14,9 @@ uri:
 license: HPND
 labels:
   BDEPEND: app-arch/xz-utils
-  RDEPEND: '!<dev-libs/gobject-introspection-1.70.0'
+  RDEPEND: '!<dev-libs/gobject-introspection-1.72.0'
   emerge.packages: dev-libs/gobject-introspection-common
   kit: gnome-kit
   original.package.name: dev-libs/gobject-introspection-common
   original.package.slot: "0"
-  original.package.version: 1.70.0
+  original.package.version: 1.72.0
