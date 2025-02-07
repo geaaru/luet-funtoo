@@ -1,5 +1,5 @@
 name: libjpeg-turbo
-version: 3.0.3
+version: 3.1.0
 category: media-libs
 use_flags:
 - -java
@@ -35,4 +35,4 @@ labels:
   kit: media-kit
   original.package.name: media-libs/libjpeg-turbo
   original.package.slot: "0"
-  original.package.version: 3.0.3
+  original.package.version: 3.1.0
