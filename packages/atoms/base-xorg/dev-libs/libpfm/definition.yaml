@@ -1,0 +1,21 @@
+name: libpfm
+version: 4.10.1
+category: dev-libs
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Hardware-based performance monitoring interface for Linux
+uri:
+- http://perfmon2.sourceforge.net
+license: GPL-2 MIT
+labels:
+  IUSE: static-libs
+  emerge.packages: dev-libs/libpfm
+  kit: dev-kit
+  original.package.name: dev-libs/libpfm
+  original.package.slot: "0"
+  original.package.version: 4.10.1
