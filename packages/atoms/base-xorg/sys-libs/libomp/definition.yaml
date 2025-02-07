@@ -1,5 +1,5 @@
 name: libomp
-version: 13.0.0
+version: 16.0.0
 category: sys-libs
 use_flags:
 - -cuda
@@ -28,22 +28,20 @@ uri:
 license: Apache-2.0-with-LLVM-exceptions || ( UoI-NCSA MIT )
 labels:
   BDEPEND: dev-lang/perl offload? ( llvm_targets_AMDGPU? ( sys-devel/clang ) llvm_targets_NVPTX?
-    ( sys-devel/clang ) virtual/pkgconfig ) test? ( || ( ( dev-lang/python:3.10 dev-python/lit[python_targets_python3_10(-),python_single_target_python3_10(+)]
-    ) ( dev-lang/python:3.8 dev-python/lit[python_targets_python3_8(-),python_single_target_python3_8(+)]
+    ( sys-devel/clang ) virtual/pkgconfig ) test? ( || ( ( dev-lang/python:3.8 dev-python/lit[python_targets_python3_8(-),python_single_target_python3_8(+)]
     ) ( dev-lang/python:3.9 dev-python/lit[python_targets_python3_9(-),python_single_target_python3_9(+)]
     ) ( dev-lang/python:3.7 dev-python/lit[python_targets_python3_7(-),python_single_target_python3_7(+)]
+    ) ( dev-lang/python:3.10 dev-python/lit[python_targets_python3_10(-),python_single_target_python3_10(+)]
     ) ) sys-devel/clang ) dev-util/ninja dev-util/cmake
   DEPEND: hwloc? ( sys-apps/hwloc:0=[-mgorny(-)] ) offload? ( virtual/libelf:=[-mgorny(-)]
-    dev-libs/libffi:=[-mgorny(-)] ~sys-devel/llvm-13.0.0[-mgorny(-)] cuda? ( dev-util/nvidia-cuda-toolkit:=
-    ) ) !!sys-devel/llvm:0
+    dev-libs/libffi:=[-mgorny(-)] ~sys-devel/llvm-16.0.0[-mgorny(-)] ) !!sys-devel/llvm:0
   IUSE: cuda debug hwloc kernel_linux offload ompt test llvm_targets_AMDGPU llvm_targets_NVPTX
     abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32
     abi_s390_64 kernel_linux
   RDEPEND: hwloc? ( sys-apps/hwloc:0=[-mgorny(-)] ) offload? ( virtual/libelf:=[-mgorny(-)]
-    dev-libs/libffi:=[-mgorny(-)] ~sys-devel/llvm-13.0.0[-mgorny(-)] cuda? ( dev-util/nvidia-cuda-toolkit:=
-    ) )
+    dev-libs/libffi:=[-mgorny(-)] ~sys-devel/llvm-16.0.0[-mgorny(-)] )
   emerge.packages: sys-libs/libomp
   kit: llvm-kit
   original.package.name: sys-libs/libomp
   original.package.slot: "0"
-  original.package.version: 13.0.0
+  original.package.version: 16.0.0
