@@ -1,15 +1,15 @@
 name: llvm
-version: 16.0.0
+version: 16.0.0+1
 category: sys-devel-16
 use_flags:
 - -doc
+- -gold
+- -kernel_Darwin
+- -xar
 - exegesis
-- gold
-- kernel_Darwin
 - libedit
 - libffi
 - ncurses
-- xar
 - xml
 - z3
 - zstd

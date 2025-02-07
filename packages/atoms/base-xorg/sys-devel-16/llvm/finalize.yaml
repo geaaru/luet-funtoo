@@ -1,0 +1,14 @@
+shell:
+- /bin/bash
+- -c
+install:
+- |
+  export EROOT=${EROOT:-/} ; \
+  mkdir -p ${EROOT}etc/ld.so.conf.d || true ; \
+  echo "
+  /usr/lib/llvm/16/lib
+  /usr/lib/llvm/16/lib64
+  " > ${EROOT}etc/ld.so.conf.d/06-llvm16.conf
+- eval 'macaronictl env-update || true'
+uninstall:
+- export EROOT=${EROOT:-/} ; rm -f ${EROOT}etc/ld.so.conf.d/06-llvm16.conf
