@@ -24,6 +24,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: libcxxabi
+- name: z3
   version: '>=0'
-  category: sys-libs
+  category: sci-mathematics
