@@ -1,0 +1,57 @@
+name: z3
+version: 4.8.5
+category: sci-mathematics
+use_flags:
+- -doc
+- -java
+- -python_single_target_python3_10
+- -python_single_target_python3_7
+- -python_single_target_python3_8
+- gmp
+- python_single_target_python2_7
+- python_single_target_python3_9
+requires:
+- name: python
+  version: '>=0'
+  category: dev-lang-3.9
+- name: python-exec
+  version: '>=0'
+  category: dev-lang-2
+- name: gmp
+  version: '>=0'
+  category: dev-libs
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: An efficient theorem prover
+uri:
+- https://github.com/Z3Prover/z3/
+license: MIT
+labels:
+  DEPEND: python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10]
+    ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
+    ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9]
+    ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8]
+    ) python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7]
+    ) gmp? ( dev-libs/gmp:0=[-mgorny(-)] ) doc? ( app-doc/doxygen ) java? ( >=virtual/jdk-1.8
+    ) sys-devel/make >=dev-util/cmake-3.9.6
+  IUSE: doc examples gmp isabelle java openmp python abi_x86_32 abi_x86_64 abi_x86_x32
+    abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 python_single_target_python3_10
+    python_single_target_python3_7 python_single_target_python3_9 python_single_target_python3_8
+    python_single_target_python2_7 python_targets_python3_10 python_targets_python3_7
+    python_targets_python3_9 python_targets_python3_8 python_targets_python2_7
+  RDEPEND: python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10]
+    ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7]
+    ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9]
+    ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8]
+    ) python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7]
+    ) gmp? ( dev-libs/gmp:0=[-mgorny(-)] )
+  emerge.packages: sci-mathematics/z3
+  kit: science-kit
+  original.package.name: sci-mathematics/z3
+  original.package.slot: "0"
+  original.package.version: 4.8.5
