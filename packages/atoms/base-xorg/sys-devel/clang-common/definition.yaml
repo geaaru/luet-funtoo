@@ -1,5 +1,5 @@
 name: clang-common
-version: 13.0.0
+version: 16.0.0
 category: sys-devel
 annotations:
   subsets:
@@ -17,4 +17,4 @@ labels:
   kit: llvm-kit
   original.package.name: sys-devel/clang-common
   original.package.slot: "0"
-  original.package.version: 13.0.0
+  original.package.version: 16.0.0
