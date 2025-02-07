@@ -1,0 +1,29 @@
+prelude:
+- |-
+  export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
+  export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \
+  eval 'mkdir -p /var/cache/portage/distfiles || true' && \
+  chown portage:portage -R /var/cache/portage/ && \
+  {{- if .Values.use_flags }}
+  USE="{{ join " " .Values.use_flags }}" emerge {{ ( index .Values.labels "emerge.packages" ) }} -pv -t && \
+  {{- else }}
+  emerge -j ${JOBS} {{ ( index .Values.labels "emerge.packages" ) }} -pv -t && \
+  {{- end }}
+  {{- if .Values.use_flags }}
+  USE="{{ join " " .Values.use_flags }}" emerge -j ${JOBS} --nodeps {{ ( index .Values.labels "emerge.packages" ) }}
+  {{- else }}
+  emerge -j ${JOBS} --nodeps {{ ( index .Values.labels "emerge.packages" ) }}
+  {{- end }}
+- export LUET_PORTAGE_CACHE_PACKAGES="/var/cache/portage/packages" && export LUET_PORTAGE_IGNORE_TAR_WARNING=1
+  && export LUET_PORTAGE_PKGMETA=1 && export LUET_PORTAGE_PKGFILES=1 && eval 'rm -rf
+  /pkgdir/ || true' && mkdir -p /pkgdir/{{ .Values.name }} && luet-portage --dir /pkgdir/{{
+  .Values.name }} {{ ( index .Values.labels "emerge.packages" ) }} && eval 'rm -v
+  /var/cache/distfiles/* ${LUET_PORTAGE_CACHE_PACKAGES}/* || true'
+package_dir: /pkgdir/{{ .Values.name }}
+excludes:
+- ^/var/cache/portage/
+- ^/var/git/
+requires:
+- name: libcxxabi
+  version: '>=0'
+  category: sys-libs
