@@ -23,3 +23,7 @@ package_dir: /pkgdir/{{ .Values.name }}
 excludes:
 - ^/var/cache/portage/
 - ^/var/git/
+requires:
+- name: libedit
+  version: '>=0'
+  category: dev-libs

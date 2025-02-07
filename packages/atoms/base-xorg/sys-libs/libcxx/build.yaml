@@ -24,6 +24,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: z3
+- name: libpfm
   version: '>=0'
-  category: sci-mathematics
+  category: dev-libs

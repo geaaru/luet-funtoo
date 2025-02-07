@@ -24,9 +24,6 @@ excludes:
 - ^/var/cache/portage/
 - ^/var/git/
 requires:
-- name: libpfm
-  version: '>=0'
-  category: dev-libs
 - name: libcxx
   version: '>=0'
   category: sys-libs
