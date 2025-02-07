@@ -1,0 +1,34 @@
+name: lld
+version: 16.0.0
+category: sys-devel-16
+use_flags:
+- -test
+requires:
+- name: llvm
+  version: '>=0'
+  category: sys-devel-16
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: The LLVM linker (link editor)
+uri:
+- https://llvm.org/
+license: Apache-2.0-with-LLVM-exceptions UoI-NCSA
+labels:
+  BDEPEND: test? ( >=dev-util/cmake-3.16 || ( ( dev-lang/python:3.8 ~dev-python/lit-16.0.0[python_targets_python3_8(-),python_single_target_python3_8(+)]
+    ) ( dev-lang/python:3.9 ~dev-python/lit-16.0.0[python_targets_python3_9(-),python_single_target_python3_9(+)]
+    ) ( dev-lang/python:3.7 ~dev-python/lit-16.0.0[python_targets_python3_7(-),python_single_target_python3_7(+)]
+    ) ( dev-lang/python:3.10 ~dev-python/lit-16.0.0[python_targets_python3_10(-),python_single_target_python3_10(+)]
+    ) ) ) dev-util/ninja dev-util/cmake
+  DEPEND: ~sys-devel/llvm-16.0.0 sys-libs/zlib:= !!sys-devel/llvm:0
+  IUSE: debug test test
+  RDEPEND: ~sys-devel/llvm-16.0.0 sys-libs/zlib:=
+  emerge.packages: sys-devel/lld:16
+  kit: llvm-kit
+  original.package.name: sys-devel/lld
+  original.package.slot: "16"
+  original.package.version: 16.0.0
