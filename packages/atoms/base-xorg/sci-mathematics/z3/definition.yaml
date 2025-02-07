@@ -1,14 +1,14 @@
 name: z3
-version: 4.8.5
+version: 4.8.5+1
 category: sci-mathematics
 use_flags:
 - -doc
 - -java
+- -python_single_target_python2_7
 - -python_single_target_python3_10
 - -python_single_target_python3_7
 - -python_single_target_python3_8
 - gmp
-- python_single_target_python2_7
 - python_single_target_python3_9
 requires:
 - name: python
