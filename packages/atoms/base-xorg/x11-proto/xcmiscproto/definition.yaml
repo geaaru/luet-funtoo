@@ -1,5 +1,5 @@
 name: xcmiscproto
-version: 1.2.2
+version: 1.2.2+1
 category: x11-proto
 annotations:
   subsets:
