@@ -1,5 +1,5 @@
 name: xproxymngproto
-version: 1.0.3
+version: 1.0.3+1
 category: x11-proto
 annotations:
   subsets:
