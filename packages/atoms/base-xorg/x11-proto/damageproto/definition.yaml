@@ -1,5 +1,5 @@
 name: damageproto
-version: 1.2.1
+version: 1.2.1+1
 category: x11-proto
 annotations:
   subsets:
