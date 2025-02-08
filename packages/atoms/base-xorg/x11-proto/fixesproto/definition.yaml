@@ -1,5 +1,5 @@
 name: fixesproto
-version: "6.1"
+version: 6.1+1
 category: x11-proto
 annotations:
   subsets:
