@@ -1,5 +1,5 @@
 name: resourceproto
-version: 1.2.0
+version: 1.2.0+1
 category: x11-proto
 annotations:
   subsets:
