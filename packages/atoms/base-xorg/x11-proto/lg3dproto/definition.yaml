@@ -1,5 +1,5 @@
 name: lg3dproto
-version: "5.0"
+version: 5.0+1
 category: x11-proto
 annotations:
   subsets:
