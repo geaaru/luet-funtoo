@@ -1,5 +1,5 @@
 name: xcalibrateproto
-version: 0.1.0
+version: 0.1.0+1
 category: x11-proto
 annotations:
   subsets:
