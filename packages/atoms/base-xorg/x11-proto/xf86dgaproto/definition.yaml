@@ -1,5 +1,5 @@
 name: xf86dgaproto
-version: "2.1"
+version: 2.1+1
 category: x11-proto
 annotations:
   subsets:
