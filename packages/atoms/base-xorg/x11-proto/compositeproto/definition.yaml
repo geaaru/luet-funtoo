@@ -1,5 +1,5 @@
 name: compositeproto
-version: 0.4.2
+version: 0.4.2+1
 category: x11-proto
 annotations:
   subsets:
