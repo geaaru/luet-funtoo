@@ -1,5 +1,5 @@
 name: xextproto
-version: 7.3.0
+version: 7.3.0+1
 category: x11-proto
 annotations:
   subsets:
