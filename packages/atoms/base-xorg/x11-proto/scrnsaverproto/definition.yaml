@@ -1,5 +1,5 @@
 name: scrnsaverproto
-version: 1.2.3
+version: 1.2.3+1
 category: x11-proto
 annotations:
   subsets:
