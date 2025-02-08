@@ -1,5 +1,5 @@
 name: xorg-proto
-version: "2024.1"
+version: 2024.1+1
 category: x11-base
 annotations:
   subsets:
