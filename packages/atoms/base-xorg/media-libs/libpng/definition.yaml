@@ -1,5 +1,5 @@
 name: libpng
-version: 1.6.37+2
+version: 1.6.37+3
 category: media-libs
 use_flags:
 - apng
