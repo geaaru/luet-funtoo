@@ -1,5 +1,5 @@
 name: inputproto
-version: 2.3.99.2
+version: 2.3.99.2+1
 category: x11-proto
 annotations:
   subsets:
