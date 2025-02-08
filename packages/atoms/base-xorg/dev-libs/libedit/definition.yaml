@@ -1,5 +1,5 @@
 name: libedit
-version: 20170329.3.1
+version: 20170329.3.1+1
 category: dev-libs
 requires:
 - name: ncurses
