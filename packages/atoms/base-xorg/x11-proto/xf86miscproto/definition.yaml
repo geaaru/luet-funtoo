@@ -1,5 +1,5 @@
 name: xf86miscproto
-version: 0.9.3
+version: 0.9.3+1
 category: x11-proto
 annotations:
   subsets:
