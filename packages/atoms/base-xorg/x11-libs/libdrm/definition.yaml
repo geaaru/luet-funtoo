@@ -1,5 +1,5 @@
 name: libdrm
-version: 2.4.123
+version: 2.4.123+1
 category: x11-libs
 use_flags:
 - -elibc_FreeBSD
