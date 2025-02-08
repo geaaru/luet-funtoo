@@ -1,5 +1,5 @@
 name: kbproto
-version: 1.0.7
+version: 1.0.7+1
 category: x11-proto
 annotations:
   subsets:
