@@ -1,5 +1,5 @@
 name: xwaylandproto
-version: "1.0"
+version: 1.0+1
 category: x11-proto
 annotations:
   subsets:
