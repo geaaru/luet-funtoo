@@ -1,5 +1,5 @@
 name: windowswmproto
-version: 1.0.4
+version: 1.0.4+1
 category: x11-proto
 annotations:
   subsets:
