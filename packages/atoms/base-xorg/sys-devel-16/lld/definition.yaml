@@ -1,5 +1,5 @@
 name: lld
-version: 16.0.0+1
+version: 16.0.0
 category: sys-devel-16
 use_flags:
 - -test
